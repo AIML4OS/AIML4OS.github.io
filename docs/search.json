@@ -1,0 +1,128 @@
+[
+  {
+    "objectID": "wp_landing_page.html",
+    "href": "wp_landing_page.html",
+    "title": "This is a landing page for the workpackage",
+    "section": "",
+    "text": "Here are some high-level details about the workpackage, and links to specific topics within it.\n\n\n\n\n\n\n\n\n\n\nLast updated: r Sys.Date()"
+  },
+  {
+    "objectID": "wp_landing_page.html#topic-3",
+    "href": "wp_landing_page.html#topic-3",
+    "title": "This is a landing page for the workpackage",
+    "section": "",
+    "text": "Last updated: r Sys.Date()"
+  },
+  {
+    "objectID": "LICENSE.html",
+    "href": "LICENSE.html",
+    "title": "AIML4OS",
+    "section": "",
+    "text": "License\nCode is available under the terms of the MIT License\nCopyright 2022 https://rspatialdata.github.io/\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+  },
+  {
+    "objectID": "deliv_tasks.html#tasks",
+    "href": "deliv_tasks.html#tasks",
+    "title": "Deliverables and Tasks",
+    "section": "Tasks",
+    "text": "Tasks"
+  },
+  {
+    "objectID": "generic_topic_3.html",
+    "href": "generic_topic_3.html",
+    "title": "Topic 3 in Workpackage X",
+    "section": "",
+    "text": "This will tell you all about the topic."
+  },
+  {
+    "objectID": "generic_topic_3.html#introduction",
+    "href": "generic_topic_3.html#introduction",
+    "title": "Topic 3 in Workpackage X",
+    "section": "",
+    "text": "This will tell you all about the topic."
+  },
+  {
+    "objectID": "generic_topic_3.html#some-code",
+    "href": "generic_topic_3.html#some-code",
+    "title": "Topic 3 in Workpackage X",
+    "section": "Some code",
+    "text": "Some code\nNow things are getting serious.\n\nhist(mtcars$mpg)"
+  },
+  {
+    "objectID": "generic_topic_1.html",
+    "href": "generic_topic_1.html",
+    "title": "Topic 1 in Workpackage X",
+    "section": "",
+    "text": "This will tell you all about the topic."
+  },
+  {
+    "objectID": "generic_topic_1.html#introduction",
+    "href": "generic_topic_1.html#introduction",
+    "title": "Topic 1 in Workpackage X",
+    "section": "",
+    "text": "This will tell you all about the topic."
+  },
+  {
+    "objectID": "generic_topic_1.html#some-r-code",
+    "href": "generic_topic_1.html#some-r-code",
+    "title": "Topic 1 in Workpackage X",
+    "section": "Some R code",
+    "text": "Some R code\nHere is some R code.\n\nhist(mtcars$mpg)"
+  },
+  {
+    "objectID": "generic_topic_1.html#some-python-code",
+    "href": "generic_topic_1.html#some-python-code",
+    "title": "Topic 1 in Workpackage X",
+    "section": "Some python code",
+    "text": "Some python code\nHere is some python code.\n\nimport seaborn as sns\nimport matplotlib.pyplot as plt\n\ntips = sns.load_dataset(\"tips\")\n\nplt.hist(tips[\"total_bill\"] , bins = 20, color = \"skyblue\", edgecolor=\"black\")\nplt.title(\"Histogram of Total Bill\")\nplt.xlabel(\"Total Bill\")\nplt.ylabel(\"Frequency\")\nplt.show()"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "AIML4OS is a one-stop-shop of resources to support the use of AI and ML in the production of official statistics",
+    "section": "",
+    "text": "AI and Machine Learning for Official Statistics (AIML4OS) is an ESSnet project aimed at delivering a comprehensive suite of resources, guidelines, methodologies and use cases for the implementation of AI/ML in Official Statistics. There are 15 funded countries in the consortium. The project is running from April 2024 to March 2028.\n\n\n\n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n\n\n\n\n\n\nLinkedIn\nEurostat CROS\nDeliverable tracker\n\n\n\n\nGrant Agreement number: 101146355 — (AIML4OS — SMP-ESS-2023-AI-ML4OS-IBA)\n\n\n\n\nLast updated: r Sys.Date()"
+  },
+  {
+    "objectID": "index.html#links",
+    "href": "index.html#links",
+    "title": "AIML4OS is a one-stop-shop of resources to support the use of AI and ML in the production of official statistics",
+    "section": "",
+    "text": "LinkedIn\nEurostat CROS\nDeliverable tracker\n\n\n\n\nGrant Agreement number: 101146355 — (AIML4OS — SMP-ESS-2023-AI-ML4OS-IBA)\n\n\n\n\nLast updated: r Sys.Date()"
+  },
+  {
+    "objectID": "generic_topic_2.html",
+    "href": "generic_topic_2.html",
+    "title": "Topic 2 in Workpackage X",
+    "section": "",
+    "text": "This will tell you all about the topic."
+  },
+  {
+    "objectID": "generic_topic_2.html#introduction",
+    "href": "generic_topic_2.html#introduction",
+    "title": "Topic 2 in Workpackage X",
+    "section": "",
+    "text": "This will tell you all about the topic."
+  },
+  {
+    "objectID": "generic_topic_2.html#some-code",
+    "href": "generic_topic_2.html#some-code",
+    "title": "Topic 2 in Workpackage X",
+    "section": "Some code",
+    "text": "Some code\nNow things are getting serious.\n\nhist(mtcars$mpg)"
+  },
+  {
+    "objectID": "news.html",
+    "href": "news.html",
+    "title": "Project News",
+    "section": "",
+    "text": "Our first newsletter, highlighting the project launch, upcoming datalab presentation, and planned participation at NTTS 2025.\n\n\nOur second newsletter, with info on three in-person meetings that took place, as well as more details on individual workpackages.\n\n\nOur third newsletter was released after the first year of the project. It looked at plans across all of the workpackages, as well as an update following NTTS 2025.\n\n\nNewsletter number four reports on an in-person meeting of WP12, more details on WP10, as well as a template for training materials."
+  },
+  {
+    "objectID": "consortium.html",
+    "href": "consortium.html",
+    "title": "Consortium",
+    "section": "",
+    "text": "Information about the consortium, the countries in it, and all of the members.\n\n\n\nMembers of the AIML4OS consortium at the project launch in Wiesbaden, April 2024"
+  }
+]

@@ -1,0 +1,68 @@
+project: 
+  type: website
+  output-dir: docs
+
+website: 
+  title: "AIML4OS"
+  navbar: 
+    logo: images/aiml_logo.png
+    title: false
+    left:
+    - text: "Home"
+      href: index.qmd
+    - text: "Workpackages"
+      menu:
+        - text: "Coordination"
+          href: wp_landing_page.qmd
+        - text: "Communication"
+          href: wp_landing_page.qmd
+        - text: "AI/ML Lab"
+          href: wp_landing_page.qmd
+        - text: "Ecosystem Monitoring"
+          href: wp_landing_page.qmd
+        - text: "Standards, Methodology, Implementation"
+          href: wp_landing_page.qmd
+        - text: "Knowledge Repository"
+          href: wp_landing_page.qmd
+        - text: "Earth Observation Data"
+          href: wp_landing_page.qmd
+        - text: "Editing"
+          href: wp_landing_page.qmd
+        - text: "Imputation"
+          href: wp_landing_page.qmd
+        - text: "Text to Code"
+          href: wp_landing_page.qmd
+        - text: "Supply Chain Networks"
+          href: wp_landing_page.qmd
+        - text: "LLMs"
+          href: wp_landing_page.qmd 
+        - text: "Synthetic Data"
+          href: wp_landing_page.qmd 
+    - text: "News"
+      href: news.qmd
+    - text: "Deliverables & Tasks"
+      href: deliv_tasks.qmd
+    - text: "Consortium"
+      href: consortium.qmd
+    tools:
+      - icon: linkedin
+        href: https://www.linkedin.com/company/essnet-aiml4os
+        text: AIML4OS on LinkedIn
+      - icon: github
+        href: https://github.com/aiml4os
+        text: AIML4OS GitHub
+  page-footer: 
+    center: 
+      - icon: github
+        href: https://github.com/aiml4os
+      - icon: linkedin 
+        href: https://www.linkedin.com/company/essnet-aiml4os
+
+format: 
+  html:
+    css: styles.css
+    toc: false
+    
+
+
+  

@@ -1,0 +1,13 @@
+---
+title: "Consortium"
+output:
+  html_document:
+    css: "styles.css"
+---
+
+Information about the consortium, the countries in it, and all of the members. 
+
+
+![Members of the AIML4OS consortium at the project launch in Wiesbaden, April 2024](images/launch_photo.jpg)
+
+<br>

@@ -1,0 +1,26 @@
+---
+title: "Topic 2 in Workpackage X"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    number_sections: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE)
+```
+
+## Introduction
+
+This will tell you all about the topic.
+
+## Some code
+
+Now things are getting serious.
+
+```{r}
+
+hist(mtcars$mpg)
+
+```

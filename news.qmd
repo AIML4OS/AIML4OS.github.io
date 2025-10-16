@@ -1,0 +1,36 @@
+---
+title: "Project News"
+output:
+  html_document:
+    css: "styles.css"
+---
+
+<br>
+
+```{=html}
+<style>
+.tight-headings {
+  <!-- background-color: #e6f2ff; -->
+  padding: 1em;
+}
+
+.tight-headings h3 {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  padding: 0 !important;
+  <!-- outline: 1px dotted red; -->
+}
+</style>
+```
+
+::: tight-headings
+### [Our first newsletter](https://cros.ec.europa.eu/system/files/2025-03/1.NEWSLETTER%20AIML4OS.pdf), highlighting the project launch, upcoming datalab presentation, and planned participation at NTTS 2025.
+
+### [Our second newsletter](https://cros.ec.europa.eu/system/files/2024-12/2.NEWSLETTER%20AIML4OS.pdf), with info on three in-person meetings that took place, as well as more details on individual workpackages.
+
+### [Our third newsletter](https://cros.ec.europa.eu/system/files/2025-05/3.NEWSLETTER%20AIML4OS.pdf) was released after the first year of the project. It looked at plans across all of the workpackages, as well as an update following NTTS 2025.
+
+### [Newsletter number four](https://cros.ec.europa.eu/system/files/2025-05/3.NEWSLETTER%20AIML4OS.pdf) reports on an in-person meeting of WP12, more details on WP10, as well as a template for training materials.
+:::
+
+<br>

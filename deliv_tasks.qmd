@@ -1,0 +1,40 @@
+---
+title: "Deliverables and Tasks"
+output:
+  html_document:
+    css: "styles.css"
+---
+
+## Deliverables
+
+```{r , echo=F  }
+
+deliv <- readRDS('deliv_tasks_resources/deliv_data.rds')
+names(deliv) <- c('Description', 'Organisation', 'Workpackage', 'ID' , 'Title' , 'Due Date')
+deliv$Workpackage <- as.character(deliv$Workpackage )
+deliv$Workpackage <- factor(deliv$Workpackage, levels = as.character(1:13))
+deliv$Organisation <- factor(deliv$Organisation)
+
+DT::datatable(deliv , 
+              filter = 'top',
+              rownames = F,
+              options = list(pageLength = 5))
+```
+
+## Tasks
+
+```{r , echo=F  }
+
+tasks <- readRDS('deliv_tasks_resources/task_data.rds')
+names(tasks) <- c('Workpackage', 'ID' , 'Start Date' , 'End Date', 'Description')
+tasks <- tasks[ , c('Description','Workpackage', 'ID' , 'Start Date' , 'End Date')]
+tasks$Workpackage <- as.character(tasks$Workpackage)
+tasks$Workpackage <- factor(tasks$Workpackage, levels = as.character(1:13))
+
+DT::datatable(tasks , 
+              filter = 'top',
+              rownames = F,
+              options = list(pageLength = 5))
+```
+
+<br>

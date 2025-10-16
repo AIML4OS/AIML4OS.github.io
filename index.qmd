@@ -1,0 +1,44 @@
+---
+pagetitle: "AI/ML for Official Statistics"
+---
+
+# **AIML<span style="color: #FFC000">4</span>OS** is a one-stop-shop of resources to support the use of AI and ML in the production of official statistics
+
+**AI and Machine Learning for Official Statistics (AIML4OS)** is an ESSnet project aimed at delivering a comprehensive suite of resources, guidelines, methodologies and use cases for the implementation of AI/ML in Official Statistics. There are 15 funded countries in the consortium. The project is running from April 2024 to March 2028.
+
+<br>
+
+```{=html}
+
+<div class="icon-grid">
+  <a href="wp_landing_page.qmd"><img src="images/wp1.jpg"></a>
+  <a href="wp_landing_page.qmd"><img src="images/wp2.jpg"></a>
+  <a href="wp_landing_page.qmd"><img src="images/wp3.jpg"></a>
+  <a href="wp_landing_page.qmd"><img src="images/wp4.jpg"></a>
+  <a href="wp_landing_page.qmd"><img src="images/wp5.jpg"></a>
+  <a href="wp_landing_page.qmd"><img src="images/wp6.jpg"></a>
+  <a href="wp_landing_page.qmd"><img src="images/wp7.jpg"></a>
+  <a href="wp_landing_page.qmd"><img src="images/wp8.jpg"></a>
+  <a href="wp_landing_page.qmd"><img src="images/wp9.jpg"></a>
+  <a href="wp_landing_page.qmd"><img src="images/wp10.jpg"></a>
+  <a href="wp_landing_page.qmd"><img src="images/wp11.jpg"></a>
+  <a href="wp_landing_page.qmd"><img src="images/wp12.jpg"></a>
+  <a href="wp_landing_page.qmd"><img src="images/wp13.jpg"></a>
+</div>
+
+```
+
+<br>
+
+## Links
+
+- [LinkedIn](https://www.linkedin.com/company/essnet-aiml4os/)
+- [Eurostat CROS](https://cros.ec.europa.eu/dashboard/aiml4os)
+- [Deliverable tracker](https://aiml4os.shinyapps.io/project_tracker)
+
+![Grant Agreement number: 101146355 — (AIML4OS — SMP-ESS-2023-AI-ML4OS-IBA)](images/eurostat_funding.png){style="max-width: 100%; height: auto;"}
+
+
+---
+
+<p style ="color:grey; font-size: 13px;">Last updated: `r Sys.Date()`</p>

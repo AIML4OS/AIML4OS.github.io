@@ -1,0 +1,50 @@
+---
+title: "Topic 1 in Workpackage X"
+# output:
+#   html_document:
+#     toc: true
+#     toc_float: true
+#     number_sections: false
+format: 
+  html:
+    toc: true
+    toc-float: true
+    number-sections: false
+
+---
+
+## Introduction
+
+This will tell you all about the topic.
+
+
+## Some R code
+
+Here is some R code.
+
+```{r}
+
+hist(mtcars$mpg)
+
+```
+
+
+
+## Some python code
+
+Here is some python code.
+
+```{python}
+
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+tips = sns.load_dataset("tips")
+
+plt.hist(tips["total_bill"] , bins = 20, color = "skyblue", edgecolor="black")
+plt.title("Histogram of Total Bill")
+plt.xlabel("Total Bill")
+plt.ylabel("Frequency")
+plt.show()
+
+```
