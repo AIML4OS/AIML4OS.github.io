@@ -49,6 +49,20 @@
     "text": "Some code\nNow things are getting serious.\n\nhist(mtcars$mpg)"
   },
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "AIML4OS is a one-stop-shop of resources to support the use of AI and ML in the production of official statistics",
+    "section": "",
+    "text": "AI and Machine Learning for Official Statistics (AIML4OS) is an ESSnet project aimed at delivering a comprehensive suite of resources, guidelines, methodologies and use cases for the implementation of AI/ML in Official Statistics. There are 15 funded countries in the consortium. The project is running from April 2024 to March 2028.\n\n\n\n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n\n\n\n\n\n\nLinkedIn\nEurostat CROS\nDeliverable tracker\n\n\n\n\nGrant Agreement number: 101146355 — (AIML4OS — SMP-ESS-2023-AI-ML4OS-IBA)\n\n\n\n Last updated: October 16, 2025"
+  },
+  {
+    "objectID": "index.html#links",
+    "href": "index.html#links",
+    "title": "AIML4OS is a one-stop-shop of resources to support the use of AI and ML in the production of official statistics",
+    "section": "",
+    "text": "LinkedIn\nEurostat CROS\nDeliverable tracker\n\n\n\n\nGrant Agreement number: 101146355 — (AIML4OS — SMP-ESS-2023-AI-ML4OS-IBA)\n\n\n\n Last updated: October 16, 2025"
+  },
+  {
     "objectID": "generic_topic_1.html",
     "href": "generic_topic_1.html",
     "title": "Topic 1 in Workpackage X",
@@ -77,18 +91,18 @@
     "text": "Some python code\nHere is some python code.\n\nimport seaborn as sns\nimport matplotlib.pyplot as plt\n\ntips = sns.load_dataset(\"tips\")\n\nplt.hist(tips[\"total_bill\"] , bins = 20, color = \"skyblue\", edgecolor=\"black\")\nplt.title(\"Histogram of Total Bill\")\nplt.xlabel(\"Total Bill\")\nplt.ylabel(\"Frequency\")\nplt.show()"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "AIML4OS is a one-stop-shop of resources to support the use of AI and ML in the production of official statistics",
+    "objectID": "text_to_code.html",
+    "href": "text_to_code.html",
+    "title": "AIML4OS",
     "section": "",
-    "text": "AI and Machine Learning for Official Statistics (AIML4OS) is an ESSnet project aimed at delivering a comprehensive suite of resources, guidelines, methodologies and use cases for the implementation of AI/ML in Official Statistics. There are 15 funded countries in the consortium. The project is running from April 2024 to March 2028.\n\n\n\n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n\n\n\n\n\n\nLinkedIn\nEurostat CROS\nDeliverable tracker\n\n\n\n\nGrant Agreement number: 101146355 — (AIML4OS — SMP-ESS-2023-AI-ML4OS-IBA)\n\n\n\n Last updated: October 16, 2025"
+    "text": "WP10 aims to enhance text classification techniques using advanced machine learning methods and address challenges associated with training data and model deployment. The project is structured into 3 key tasks: a literature review and project overview, methodological investigations and implementation, and the final dissemination of the results. The literature review provides the foundation for future developments. To manage the various points of view of the methodological investigations in text classification, it was chosen to organize the team into 5 different dedicated clusters:\n\nCluster 1, tackling data gaps by generating synthetic training material in multiple languages;\nCluster 2, enhancing natural language understanding using RAG LLM and Transformer models;\nCluster 3, incorporating hierarchical structures into classification models;\nCluster 4, ensuring robust deployment and maintenance of classification models through quality assurance measures;\nCluster 5, adapting to evolving classification system revisions,particularly in the NACE framework.\n\nKey deliverables include a working classification codebase in Python and/or R, as well as a comprehensive report documenting methodologies and recommendations.\n\n\n\n Last updated: October 16, 2025"
   },
   {
-    "objectID": "index.html#links",
-    "href": "index.html#links",
-    "title": "AIML4OS is a one-stop-shop of resources to support the use of AI and ML in the production of official statistics",
+    "objectID": "text_to_code.html#from-text-to-code---experiences-and-potential-of-the-use-of-aiml-for-classifying-and-coding",
+    "href": "text_to_code.html#from-text-to-code---experiences-and-potential-of-the-use-of-aiml-for-classifying-and-coding",
+    "title": "AIML4OS",
     "section": "",
-    "text": "LinkedIn\nEurostat CROS\nDeliverable tracker\n\n\n\n\nGrant Agreement number: 101146355 — (AIML4OS — SMP-ESS-2023-AI-ML4OS-IBA)\n\n\n\n Last updated: October 16, 2025"
+    "text": "WP10 aims to enhance text classification techniques using advanced machine learning methods and address challenges associated with training data and model deployment. The project is structured into 3 key tasks: a literature review and project overview, methodological investigations and implementation, and the final dissemination of the results. The literature review provides the foundation for future developments. To manage the various points of view of the methodological investigations in text classification, it was chosen to organize the team into 5 different dedicated clusters:\n\nCluster 1, tackling data gaps by generating synthetic training material in multiple languages;\nCluster 2, enhancing natural language understanding using RAG LLM and Transformer models;\nCluster 3, incorporating hierarchical structures into classification models;\nCluster 4, ensuring robust deployment and maintenance of classification models through quality assurance measures;\nCluster 5, adapting to evolving classification system revisions,particularly in the NACE framework.\n\nKey deliverables include a working classification codebase in Python and/or R, as well as a comprehensive report documenting methodologies and recommendations.\n\n\n\n Last updated: October 16, 2025"
   },
   {
     "objectID": "generic_topic_2.html",

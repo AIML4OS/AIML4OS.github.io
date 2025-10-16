@@ -1,0 +1,27 @@
+---
+pagetitle: "Text to code"
+date-modified: last-modified
+---
+
+## From text to code - Experiences and potential of the use of AI/ML for classifying and coding
+
+WP10 aims to enhance text classification techniques using advanced machine learning methods and address challenges associated with training data and model deployment. The project is structured into 3 key tasks: a literature review and project overview, methodological investigations and implementation, and the final dissemination of the results. The literature review provides the foundation for future developments. To manage the various points of view of the methodological investigations in text classification, it was chosen to organize the team into 5 different dedicated clusters: 
+
+- Cluster 1, tackling data gaps by generating synthetic training material in multiple languages; 
+- Cluster 2, enhancing natural language understanding using RAG LLM and Transformer models; 
+- Cluster 3, incorporating hierarchical structures into classification models; 
+- Cluster 4, ensuring robust deployment and maintenance of classification models through quality assurance measures; 
+- Cluster 5, adapting to evolving classification system revisions,particularly in the NACE framework.
+
+Key deliverables include a working classification codebase in Python and/or R, as well as a comprehensive report documenting methodologies and recommendations.
+
+
+
+### [Tutorial on text classification](https://aiml4os.github.io/WP10_tutorial_text_classification/.html)
+
+
+---
+
+<span style ="color:grey; font-size: 13px;">
+  Last updated: {{< meta date-modified >}}
+</span>
