@@ -41,6 +41,6 @@ pagetitle: "AI/ML for Official Statistics"
 
 ---
 
-<p style ="color:grey; font-size: 13px;">
+<span style ="color:grey; font-size: 13px;">
   Last updated: `r Sys.Date()`
-</p>
+</span>
