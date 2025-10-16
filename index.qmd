@@ -42,5 +42,5 @@ pagetitle: "AI/ML for Official Statistics"
 ---
 
 <span style ="color:grey; font-size: 13px;">
-  Last updated: `r Sys.Date()`
+  Last updated: {{< inline >}}`r Sys.Date()`{{< /inline >}}
 </span>
