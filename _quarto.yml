@@ -32,7 +32,7 @@ website:
         - text: "Imputation"
           href: wp_landing_page.qmd
         - text: "Text to Code"
-          href: wp_landing_page.qmd
+          href: text_to_code.qmd
         - text: "Supply Chain Networks"
           href: wp_landing_page.qmd
         - text: "LLMs"

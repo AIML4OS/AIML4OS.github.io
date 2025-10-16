@@ -21,7 +21,7 @@ date-modified: last-modified
   <a href="wp_landing_page.qmd"><img src="images/wp7.jpg"></a>
   <a href="wp_landing_page.qmd"><img src="images/wp8.jpg"></a>
   <a href="wp_landing_page.qmd"><img src="images/wp9.jpg"></a>
-  <a href="wp_landing_page.qmd"><img src="images/wp10.jpg"></a>
+  <a href="text_to_code.qmd"><img src="images/wp10.jpg"></a>
   <a href="wp_landing_page.qmd"><img src="images/wp11.jpg"></a>
   <a href="wp_landing_page.qmd"><img src="images/wp12.jpg"></a>
   <a href="wp_landing_page.qmd"><img src="images/wp13.jpg"></a>
