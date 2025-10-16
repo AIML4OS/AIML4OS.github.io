@@ -4,7 +4,7 @@ project:
 
 website: 
   title: "AIML4OS"
-  favicon: "favicon.png"
+  favicon: images/favicon.png
   navbar: 
     logo: images/aiml_logo.png
     title: false
