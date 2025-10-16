@@ -17,7 +17,7 @@ Key deliverables include a working classification codebase in Python and/or R, a
 
 
 
-### [Tutorial on text classification](https://aiml4os.github.io/WP10_tutorial_text_classification/.html)
+### [Tutorial on text classification](https://aiml4os.github.io/WP10_tutorial_text_classification/)
 
 
 ---
