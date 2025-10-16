@@ -1,5 +1,6 @@
 ---
 pagetitle: "AI/ML for Official Statistics"
+date-modified: last-modified
 ---
 
 # **AIML<span style="color: #FFC000">4</span>OS** is a one-stop-shop of resources to support the use of AI and ML in the production of official statistics
@@ -42,5 +43,5 @@ pagetitle: "AI/ML for Official Statistics"
 ---
 
 <span style ="color:grey; font-size: 13px;">
-  Last updated: {{< inline >}}`r Sys.Date()`{{< /inline >}}
+  Last updated: {{< meta date-modified >}}
 </span>
