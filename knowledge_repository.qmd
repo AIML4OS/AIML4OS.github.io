@@ -1,0 +1,20 @@
+---
+pagetitle: "Knowledge Repository"
+date-modified: last-modified
+---
+
+## Knowledge Repository and Training Materials
+
+Set text 
+
+
+## Resources 
+
+- [Guide to creating resources for SSPCloud users](https://aiml4os.github.io/training-material-starting-pack/)
+
+
+---
+
+<span style ="color:grey; font-size: 13px;">
+  Last updated: {{< meta date-modified >}}
+</span>

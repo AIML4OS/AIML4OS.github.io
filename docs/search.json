@@ -21,46 +21,67 @@
     "text": "License\nCode is available under the terms of the MIT License\nCopyright 2022 https://rspatialdata.github.io/\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
   },
   {
-    "objectID": "deliv_tasks.html#tasks",
-    "href": "deliv_tasks.html#tasks",
-    "title": "Deliverables and Tasks",
-    "section": "Tasks",
-    "text": "Tasks"
+    "objectID": "knowledge_repository.html",
+    "href": "knowledge_repository.html",
+    "title": "AIML4OS",
+    "section": "",
+    "text": "Set text"
   },
   {
-    "objectID": "generic_topic_3.html",
-    "href": "generic_topic_3.html",
-    "title": "Topic 3 in Workpackage X",
+    "objectID": "knowledge_repository.html#knowledge-repository-and-training-materials",
+    "href": "knowledge_repository.html#knowledge-repository-and-training-materials",
+    "title": "AIML4OS",
+    "section": "",
+    "text": "Set text"
+  },
+  {
+    "objectID": "knowledge_repository.html#resources",
+    "href": "knowledge_repository.html#resources",
+    "title": "AIML4OS",
+    "section": "Resources",
+    "text": "Resources\n\nGuide to creating resources for SSPCloud users\n\n\n Last updated: October 17, 2025"
+  },
+  {
+    "objectID": "generic_topic_2.html",
+    "href": "generic_topic_2.html",
+    "title": "Topic 2 in Workpackage X",
     "section": "",
     "text": "This will tell you all about the topic."
   },
   {
-    "objectID": "generic_topic_3.html#introduction",
-    "href": "generic_topic_3.html#introduction",
-    "title": "Topic 3 in Workpackage X",
+    "objectID": "generic_topic_2.html#introduction",
+    "href": "generic_topic_2.html#introduction",
+    "title": "Topic 2 in Workpackage X",
     "section": "",
     "text": "This will tell you all about the topic."
   },
   {
-    "objectID": "generic_topic_3.html#some-code",
-    "href": "generic_topic_3.html#some-code",
-    "title": "Topic 3 in Workpackage X",
+    "objectID": "generic_topic_2.html#some-code",
+    "href": "generic_topic_2.html#some-code",
+    "title": "Topic 2 in Workpackage X",
     "section": "Some code",
     "text": "Some code\nNow things are getting serious.\n\nhist(mtcars$mpg)"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "AIML4OS is a one-stop-shop of resources to support the use of AI and ML in the production of official statistics",
+    "objectID": "text_to_code.html",
+    "href": "text_to_code.html",
+    "title": "AIML4OS",
     "section": "",
-    "text": "AI and Machine Learning for Official Statistics (AIML4OS) is an ESSnet project aimed at delivering a comprehensive suite of resources, guidelines, methodologies and use cases for the implementation of AI/ML in Official Statistics. There are 15 funded countries in the consortium. The project is running from April 2024 to March 2028.\n\n\n\n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n\n\n\n\n\n\nLinkedIn\nEurostat CROS\nDeliverable tracker\n\n\n\n\nGrant Agreement number: 101146355 — (AIML4OS — SMP-ESS-2023-AI-ML4OS-IBA)\n\n\n\n Last updated: October 16, 2025"
+    "text": "WP10 aims to enhance text classification techniques using advanced machine learning methods and address challenges associated with training data and model deployment. The project is structured into 3 key tasks: a literature review and project overview, methodological investigations and implementation, and the final dissemination of the results. The literature review provides the foundation for future developments. To manage the various points of view of the methodological investigations in text classification, it was chosen to organize the team into 5 different dedicated clusters:\n\nCluster 1, tackling data gaps by generating synthetic training material in multiple languages\nCluster 2, enhancing natural language understanding using RAG LLM and Transformer models\nCluster 3, incorporating hierarchical structures into classification models\nCluster 4, ensuring robust deployment and maintenance of classification models through quality assurance measures\nCluster 5, adapting to evolving classification system revisions,particularly in the NACE framework\n\nKey deliverables include a working classification codebase in Python and/or R, as well as a comprehensive report documenting methodologies and recommendations."
   },
   {
-    "objectID": "index.html#links",
-    "href": "index.html#links",
-    "title": "AIML4OS is a one-stop-shop of resources to support the use of AI and ML in the production of official statistics",
+    "objectID": "text_to_code.html#from-text-to-code---experiences-and-potential-of-the-use-of-aiml-for-classifying-and-coding",
+    "href": "text_to_code.html#from-text-to-code---experiences-and-potential-of-the-use-of-aiml-for-classifying-and-coding",
+    "title": "AIML4OS",
     "section": "",
-    "text": "LinkedIn\nEurostat CROS\nDeliverable tracker\n\n\n\n\nGrant Agreement number: 101146355 — (AIML4OS — SMP-ESS-2023-AI-ML4OS-IBA)\n\n\n\n Last updated: October 16, 2025"
+    "text": "WP10 aims to enhance text classification techniques using advanced machine learning methods and address challenges associated with training data and model deployment. The project is structured into 3 key tasks: a literature review and project overview, methodological investigations and implementation, and the final dissemination of the results. The literature review provides the foundation for future developments. To manage the various points of view of the methodological investigations in text classification, it was chosen to organize the team into 5 different dedicated clusters:\n\nCluster 1, tackling data gaps by generating synthetic training material in multiple languages\nCluster 2, enhancing natural language understanding using RAG LLM and Transformer models\nCluster 3, incorporating hierarchical structures into classification models\nCluster 4, ensuring robust deployment and maintenance of classification models through quality assurance measures\nCluster 5, adapting to evolving classification system revisions,particularly in the NACE framework\n\nKey deliverables include a working classification codebase in Python and/or R, as well as a comprehensive report documenting methodologies and recommendations."
+  },
+  {
+    "objectID": "text_to_code.html#resources",
+    "href": "text_to_code.html#resources",
+    "title": "AIML4OS",
+    "section": "Resources",
+    "text": "Resources\n\nTutorial on text classification\n\n\n Last updated: October 17, 2025"
   },
   {
     "objectID": "generic_topic_1.html",
@@ -91,46 +112,46 @@
     "text": "Some python code\nHere is some python code.\n\nimport seaborn as sns\nimport matplotlib.pyplot as plt\n\ntips = sns.load_dataset(\"tips\")\n\nplt.hist(tips[\"total_bill\"] , bins = 20, color = \"skyblue\", edgecolor=\"black\")\nplt.title(\"Histogram of Total Bill\")\nplt.xlabel(\"Total Bill\")\nplt.ylabel(\"Frequency\")\nplt.show()"
   },
   {
-    "objectID": "text_to_code.html",
-    "href": "text_to_code.html",
-    "title": "AIML4OS",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "AIML4OS is a one-stop-shop of resources to support the use of AI and ML in the production of official statistics",
     "section": "",
-    "text": "WP10 aims to enhance text classification techniques using advanced machine learning methods and address challenges associated with training data and model deployment. The project is structured into 3 key tasks: a literature review and project overview, methodological investigations and implementation, and the final dissemination of the results. The literature review provides the foundation for future developments. To manage the various points of view of the methodological investigations in text classification, it was chosen to organize the team into 5 different dedicated clusters:\n\nCluster 1, tackling data gaps by generating synthetic training material in multiple languages\nCluster 2, enhancing natural language understanding using RAG LLM and Transformer models\nCluster 3, incorporating hierarchical structures into classification models\nCluster 4, ensuring robust deployment and maintenance of classification models through quality assurance measures\nCluster 5, adapting to evolving classification system revisions,particularly in the NACE framework\n\nKey deliverables include a working classification codebase in Python and/or R, as well as a comprehensive report documenting methodologies and recommendations."
+    "text": "AI and Machine Learning for Official Statistics (AIML4OS) is an ESSnet project aimed at delivering a comprehensive suite of resources, guidelines, methodologies and use cases for the implementation of AI/ML in Official Statistics. There are 15 funded countries in the consortium. The project is running from April 2024 to March 2028.\n\n\n\n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n\n\n\n\n\n\nLinkedIn\nEurostat CROS\nDeliverable tracker\n\n\n\n\nGrant Agreement number: 101146355 — (AIML4OS — SMP-ESS-2023-AI-ML4OS-IBA)\n\n\n\n Last updated: October 17, 2025"
   },
   {
-    "objectID": "text_to_code.html#from-text-to-code---experiences-and-potential-of-the-use-of-aiml-for-classifying-and-coding",
-    "href": "text_to_code.html#from-text-to-code---experiences-and-potential-of-the-use-of-aiml-for-classifying-and-coding",
-    "title": "AIML4OS",
+    "objectID": "index.html#links",
+    "href": "index.html#links",
+    "title": "AIML4OS is a one-stop-shop of resources to support the use of AI and ML in the production of official statistics",
     "section": "",
-    "text": "WP10 aims to enhance text classification techniques using advanced machine learning methods and address challenges associated with training data and model deployment. The project is structured into 3 key tasks: a literature review and project overview, methodological investigations and implementation, and the final dissemination of the results. The literature review provides the foundation for future developments. To manage the various points of view of the methodological investigations in text classification, it was chosen to organize the team into 5 different dedicated clusters:\n\nCluster 1, tackling data gaps by generating synthetic training material in multiple languages\nCluster 2, enhancing natural language understanding using RAG LLM and Transformer models\nCluster 3, incorporating hierarchical structures into classification models\nCluster 4, ensuring robust deployment and maintenance of classification models through quality assurance measures\nCluster 5, adapting to evolving classification system revisions,particularly in the NACE framework\n\nKey deliverables include a working classification codebase in Python and/or R, as well as a comprehensive report documenting methodologies and recommendations."
+    "text": "LinkedIn\nEurostat CROS\nDeliverable tracker\n\n\n\n\nGrant Agreement number: 101146355 — (AIML4OS — SMP-ESS-2023-AI-ML4OS-IBA)\n\n\n\n Last updated: October 17, 2025"
   },
   {
-    "objectID": "text_to_code.html#resources",
-    "href": "text_to_code.html#resources",
-    "title": "AIML4OS",
-    "section": "Resources",
-    "text": "Resources\n\nTutorial on text classification\n\n\n Last updated: October 17, 2025"
-  },
-  {
-    "objectID": "generic_topic_2.html",
-    "href": "generic_topic_2.html",
-    "title": "Topic 2 in Workpackage X",
+    "objectID": "generic_topic_3.html",
+    "href": "generic_topic_3.html",
+    "title": "Topic 3 in Workpackage X",
     "section": "",
     "text": "This will tell you all about the topic."
   },
   {
-    "objectID": "generic_topic_2.html#introduction",
-    "href": "generic_topic_2.html#introduction",
-    "title": "Topic 2 in Workpackage X",
+    "objectID": "generic_topic_3.html#introduction",
+    "href": "generic_topic_3.html#introduction",
+    "title": "Topic 3 in Workpackage X",
     "section": "",
     "text": "This will tell you all about the topic."
   },
   {
-    "objectID": "generic_topic_2.html#some-code",
-    "href": "generic_topic_2.html#some-code",
-    "title": "Topic 2 in Workpackage X",
+    "objectID": "generic_topic_3.html#some-code",
+    "href": "generic_topic_3.html#some-code",
+    "title": "Topic 3 in Workpackage X",
     "section": "Some code",
     "text": "Some code\nNow things are getting serious.\n\nhist(mtcars$mpg)"
+  },
+  {
+    "objectID": "deliv_tasks.html#tasks",
+    "href": "deliv_tasks.html#tasks",
+    "title": "Deliverables and Tasks",
+    "section": "Tasks",
+    "text": "Tasks"
   },
   {
     "objectID": "news.html",

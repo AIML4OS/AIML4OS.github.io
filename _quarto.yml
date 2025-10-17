@@ -24,7 +24,7 @@ website:
         - text: "Standards, Methodology, Implementation"
           href: wp_landing_page.qmd
         - text: "Knowledge Repository"
-          href: wp_landing_page.qmd
+          href: knowledge_repository.qmd
         - text: "Earth Observation Data"
           href: wp_landing_page.qmd
         - text: "Editing"
