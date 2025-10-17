@@ -1,10 +1,6 @@
 ---
 pagetitle: "Text to code"
 date-modified: last-modified
-format:
-    html:
-      title-block:
-        date-modified: false
 ---
 
 ## From text to code - Experiences and potential of the use of AI/ML for classifying and coding
