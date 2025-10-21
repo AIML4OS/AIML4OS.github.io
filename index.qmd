@@ -35,6 +35,7 @@ date-modified: last-modified
 
 - [LinkedIn](https://www.linkedin.com/company/essnet-aiml4os/)
 - [Eurostat CROS](https://cros.ec.europa.eu/dashboard/aiml4os)
+- [AIML4OS on EU Funding and Tenders Portal](https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/projects-details/43252476/101146355/SMP?order=DESC&pageNumber=1&pageSize=10&sortBy=es_SortDate&keywords=aiml4os)
 - [Deliverable tracker](https://aiml4os.shinyapps.io/project_tracker)
 
 ![Grant Agreement number: 101146355 — (AIML4OS — SMP-ESS-2023-AI-ML4OS-IBA)](images/eurostat_funding.png){style="max-width: 100%; height: auto;"}
