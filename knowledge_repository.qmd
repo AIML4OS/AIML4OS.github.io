@@ -15,6 +15,7 @@ Looking ahead, other tasks involves listing additional training materials, gradu
 
 - [Guide to creating resources for SSPCloud users](https://aiml4os.github.io/training-material-starting-pack/){target="_blank"}
 
+- this is a new link
 
 ---
 
