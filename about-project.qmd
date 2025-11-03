@@ -1,5 +1,5 @@
 ---
-title: "Consortium"
+title: "About the project"
 output:
   html_document:
     css: "styles.css"

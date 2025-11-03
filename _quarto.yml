@@ -44,7 +44,7 @@ website:
     - text: "Deliverables & Tasks"
       href: deliverables-tasks.qmd
     - text: "Consortium"
-      href: consortium.qmd
+      href: about-project.qmd
     tools:
       - icon: linkedin
         href: https://www.linkedin.com/company/essnet-aiml4os
