@@ -3,7 +3,7 @@ pagetitle: "AI/Ml on earth observation data, satellite imagery"
 date-modified: last-modified
 ---
 
-## AI/Ml on earth observation data, satellite imagery
+## AI/ML on earth observation data, satellite imagery
 
 Some text 
 
