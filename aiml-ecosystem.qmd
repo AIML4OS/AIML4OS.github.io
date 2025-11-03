@@ -1,0 +1,20 @@
+---
+pagetitle: "AI/ML state-of-play and ecosystem monitoring"
+date-modified: last-modified
+---
+
+## AI/ML state-of-play and ecosystem monitoring
+
+Some text 
+
+
+
+## Resources 
+
+Links to resources
+
+---
+
+<span style ="color:grey; font-size: 13px;">
+  Last updated: {{< meta date-modified >}}
+</span>

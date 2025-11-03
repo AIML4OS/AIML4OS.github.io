@@ -14,13 +14,13 @@ website:
     - text: "Workpackages"
       menu:
         - text: "Coordination"
-          href: wp_landing_page.qmd
+          href: project-coordination.qmd
         - text: "Communication"
-          href: wp_landing_page.qmd
+          href: community-engagement.qmd
         - text: "AI/ML Lab"
-          href: wp_landing_page.qmd
+          href: aiml-lab.qmd
         - text: "Ecosystem Monitoring"
-          href: wp_landing_page.qmd
+          href: aiml-ecosystem.qmd
         - text: "Standards, Methodology, Implementation"
           href: wp_landing_page.qmd
         - text: "Knowledge Repository"

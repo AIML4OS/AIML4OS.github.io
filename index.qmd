@@ -12,10 +12,10 @@ date-modified: last-modified
 ```{=html}
 
 <div class="icon-grid">
-  <a href="wp_landing_page.qmd"><img src="images/wp1.jpg"></a>
-  <a href="wp_landing_page.qmd"><img src="images/wp2.jpg"></a>
-  <a href="wp_landing_page.qmd"><img src="images/wp3.jpg"></a>
-  <a href="wp_landing_page.qmd"><img src="images/wp4.jpg"></a>
+  <a href="project-coordination.qmd"><img src="images/wp1.jpg"></a>
+  <a href="community-engagement.qmd"><img src="images/wp2.jpg"></a>
+  <a href="aiml-lab.qmd"><img src="images/wp3.jpg"></a>
+  <a href="aiml-ecosystem.qmd"><img src="images/wp4.jpg"></a>
   <a href="wp_landing_page.qmd"><img src="images/wp5.jpg"></a>
   <a href="knowledge-training.qmd"><img src="images/wp6.jpg"></a>
   <a href="wp_landing_page.qmd"><img src="images/wp7.jpg"></a>
