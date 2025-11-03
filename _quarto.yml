@@ -24,7 +24,7 @@ website:
         - text: "Standards, Methodology, Implementation"
           href: wp_landing_page.qmd
         - text: "Knowledge Repository"
-          href: knowledge_repository.qmd
+          href: knowledge-training.qmd
         - text: "Earth Observation Data"
           href: wp_landing_page.qmd
         - text: "Editing"
@@ -32,7 +32,7 @@ website:
         - text: "Imputation"
           href: wp_landing_page.qmd
         - text: "Text to Code"
-          href: text_to_code.qmd
+          href: text-classification.qmd
         - text: "Supply Chain Networks"
           href: wp_landing_page.qmd
         - text: "LLMs"

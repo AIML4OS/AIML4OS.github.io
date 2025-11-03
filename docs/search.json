@@ -1,5 +1,26 @@
 [
   {
+    "objectID": "text-classification.html",
+    "href": "text-classification.html",
+    "title": "AIML4OS",
+    "section": "",
+    "text": "WP10 aims to enhance text classification techniques using advanced machine learning methods and address challenges associated with training data and model deployment. The project is structured into 3 key tasks: a literature review and project overview, methodological investigations and implementation, and the final dissemination of the results. The literature review provides the foundation for future developments. To manage the various points of view of the methodological investigations in text classification, it was chosen to organize the team into 5 different dedicated clusters:\n\nCluster 1, tackling data gaps by generating synthetic training material in multiple languages\nCluster 2, enhancing natural language understanding using RAG LLM and Transformer models\nCluster 3, incorporating hierarchical structures into classification models\nCluster 4, ensuring robust deployment and maintenance of classification models through quality assurance measures\nCluster 5, adapting to evolving classification system revisions,particularly in the NACE framework\n\nKey deliverables include a working classification codebase in Python and/or R, as well as a comprehensive report documenting methodologies and recommendations."
+  },
+  {
+    "objectID": "text-classification.html#from-text-to-code---experiences-and-potential-of-the-use-of-aiml-for-classifying-and-coding",
+    "href": "text-classification.html#from-text-to-code---experiences-and-potential-of-the-use-of-aiml-for-classifying-and-coding",
+    "title": "AIML4OS",
+    "section": "",
+    "text": "WP10 aims to enhance text classification techniques using advanced machine learning methods and address challenges associated with training data and model deployment. The project is structured into 3 key tasks: a literature review and project overview, methodological investigations and implementation, and the final dissemination of the results. The literature review provides the foundation for future developments. To manage the various points of view of the methodological investigations in text classification, it was chosen to organize the team into 5 different dedicated clusters:\n\nCluster 1, tackling data gaps by generating synthetic training material in multiple languages\nCluster 2, enhancing natural language understanding using RAG LLM and Transformer models\nCluster 3, incorporating hierarchical structures into classification models\nCluster 4, ensuring robust deployment and maintenance of classification models through quality assurance measures\nCluster 5, adapting to evolving classification system revisions,particularly in the NACE framework\n\nKey deliverables include a working classification codebase in Python and/or R, as well as a comprehensive report documenting methodologies and recommendations."
+  },
+  {
+    "objectID": "text-classification.html#resources",
+    "href": "text-classification.html#resources",
+    "title": "AIML4OS",
+    "section": "Resources",
+    "text": "Resources\n\nTutorial on text classification\nSlides for workshop on text classification with transformers\nMLOps tutorial\n\n\n Last updated: November 3, 2025"
+  },
+  {
     "objectID": "wp_landing_page.html",
     "href": "wp_landing_page.html",
     "title": "This is a landing page for the workpackage",
@@ -21,67 +42,32 @@
     "text": "License\nCode is available under the terms of the MIT License\nCopyright 2022 https://rspatialdata.github.io/\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
   },
   {
-    "objectID": "knowledge_repository.html",
-    "href": "knowledge_repository.html",
-    "title": "AIML4OS",
-    "section": "",
-    "text": "WP6 is advancing towards creating a comprehensive knowledge repository and an extensive range of training materials. These resources aim to support stakeholders across various sectors, providing valuable educational content and standardized materials for the application of AI/ML techniques in different fields. The initial task involves researching topics to include in the knowledge repository: general ML and AI topics, task-driven use cases, best practices, and specialized techniques related to data handling and big data management. Additionally, SSPCloud will host various “cards” for each topic, making the information easily accessible. The second task is dedicated to compiling an inventory of ready-to-use training materials. Early results show a collection including about 20 files (slides, PDFs, and scripts), 11 online courses hosted by NSIs, and 13 courses and books hosted by other institutions. These materials primarily focus on introducing data science and ML concepts, Python and R programming, and best practices for ML workflows.\nLooking ahead, other tasks involves listing additional training materials, gradual transfer of data to the repository and training sessions."
+    "objectID": "deliv_tasks.html#tasks",
+    "href": "deliv_tasks.html#tasks",
+    "title": "Deliverables and Tasks",
+    "section": "Tasks",
+    "text": "Tasks"
   },
   {
-    "objectID": "knowledge_repository.html#knowledge-repository-and-training-materials",
-    "href": "knowledge_repository.html#knowledge-repository-and-training-materials",
-    "title": "AIML4OS",
-    "section": "",
-    "text": "WP6 is advancing towards creating a comprehensive knowledge repository and an extensive range of training materials. These resources aim to support stakeholders across various sectors, providing valuable educational content and standardized materials for the application of AI/ML techniques in different fields. The initial task involves researching topics to include in the knowledge repository: general ML and AI topics, task-driven use cases, best practices, and specialized techniques related to data handling and big data management. Additionally, SSPCloud will host various “cards” for each topic, making the information easily accessible. The second task is dedicated to compiling an inventory of ready-to-use training materials. Early results show a collection including about 20 files (slides, PDFs, and scripts), 11 online courses hosted by NSIs, and 13 courses and books hosted by other institutions. These materials primarily focus on introducing data science and ML concepts, Python and R programming, and best practices for ML workflows.\nLooking ahead, other tasks involves listing additional training materials, gradual transfer of data to the repository and training sessions."
-  },
-  {
-    "objectID": "knowledge_repository.html#resources",
-    "href": "knowledge_repository.html#resources",
-    "title": "AIML4OS",
-    "section": "Resources",
-    "text": "Resources\n\nGuide to creating resources for SSPCloud users\n\n\n Last updated: October 28, 2025"
-  },
-  {
-    "objectID": "generic_topic_2.html",
-    "href": "generic_topic_2.html",
-    "title": "Topic 2 in Workpackage X",
+    "objectID": "generic_topic_3.html",
+    "href": "generic_topic_3.html",
+    "title": "Topic 3 in Workpackage X",
     "section": "",
     "text": "This will tell you all about the topic."
   },
   {
-    "objectID": "generic_topic_2.html#introduction",
-    "href": "generic_topic_2.html#introduction",
-    "title": "Topic 2 in Workpackage X",
+    "objectID": "generic_topic_3.html#introduction",
+    "href": "generic_topic_3.html#introduction",
+    "title": "Topic 3 in Workpackage X",
     "section": "",
     "text": "This will tell you all about the topic."
   },
   {
-    "objectID": "generic_topic_2.html#some-code",
-    "href": "generic_topic_2.html#some-code",
-    "title": "Topic 2 in Workpackage X",
+    "objectID": "generic_topic_3.html#some-code",
+    "href": "generic_topic_3.html#some-code",
+    "title": "Topic 3 in Workpackage X",
     "section": "Some code",
     "text": "Some code\nNow things are getting serious.\n\nhist(mtcars$mpg)"
-  },
-  {
-    "objectID": "text_to_code.html",
-    "href": "text_to_code.html",
-    "title": "AIML4OS",
-    "section": "",
-    "text": "WP10 aims to enhance text classification techniques using advanced machine learning methods and address challenges associated with training data and model deployment. The project is structured into 3 key tasks: a literature review and project overview, methodological investigations and implementation, and the final dissemination of the results. The literature review provides the foundation for future developments. To manage the various points of view of the methodological investigations in text classification, it was chosen to organize the team into 5 different dedicated clusters:\n\nCluster 1, tackling data gaps by generating synthetic training material in multiple languages\nCluster 2, enhancing natural language understanding using RAG LLM and Transformer models\nCluster 3, incorporating hierarchical structures into classification models\nCluster 4, ensuring robust deployment and maintenance of classification models through quality assurance measures\nCluster 5, adapting to evolving classification system revisions,particularly in the NACE framework\n\nKey deliverables include a working classification codebase in Python and/or R, as well as a comprehensive report documenting methodologies and recommendations."
-  },
-  {
-    "objectID": "text_to_code.html#from-text-to-code---experiences-and-potential-of-the-use-of-aiml-for-classifying-and-coding",
-    "href": "text_to_code.html#from-text-to-code---experiences-and-potential-of-the-use-of-aiml-for-classifying-and-coding",
-    "title": "AIML4OS",
-    "section": "",
-    "text": "WP10 aims to enhance text classification techniques using advanced machine learning methods and address challenges associated with training data and model deployment. The project is structured into 3 key tasks: a literature review and project overview, methodological investigations and implementation, and the final dissemination of the results. The literature review provides the foundation for future developments. To manage the various points of view of the methodological investigations in text classification, it was chosen to organize the team into 5 different dedicated clusters:\n\nCluster 1, tackling data gaps by generating synthetic training material in multiple languages\nCluster 2, enhancing natural language understanding using RAG LLM and Transformer models\nCluster 3, incorporating hierarchical structures into classification models\nCluster 4, ensuring robust deployment and maintenance of classification models through quality assurance measures\nCluster 5, adapting to evolving classification system revisions,particularly in the NACE framework\n\nKey deliverables include a working classification codebase in Python and/or R, as well as a comprehensive report documenting methodologies and recommendations."
-  },
-  {
-    "objectID": "text_to_code.html#resources",
-    "href": "text_to_code.html#resources",
-    "title": "AIML4OS",
-    "section": "Resources",
-    "text": "Resources\n\nTutorial on text classification\nSlides for workshop on text classification with transformers\nMLOps tutorial\n\n\n Last updated: October 28, 2025"
   },
   {
     "objectID": "generic_topic_1.html",
@@ -116,42 +102,35 @@
     "href": "index.html",
     "title": "AIML4OS is a one-stop-shop of resources to support the use of AI and ML in the production of official statistics",
     "section": "",
-    "text": "AI and Machine Learning for Official Statistics (AIML4OS) is an ESSnet project aimed at delivering a comprehensive suite of resources, guidelines, methodologies and use cases for the implementation of AI/ML in Official Statistics. There are 15 funded countries in the consortium. The project is running from April 2024 to March 2028.\n\n\n\n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n\n\n\n\n\n\nLinkedIn\nEurostat CROS\nAIML4OS on EU Funding and Tenders Portal\nDeliverable tracker\n\n\n\n\nGrant Agreement number: 101146355 — (AIML4OS — SMP-ESS-2023-AI-ML4OS-IBA)\n\n\n\n Last updated: October 24, 2025"
+    "text": "AI and Machine Learning for Official Statistics (AIML4OS) is an ESSnet project aimed at delivering a comprehensive suite of resources, guidelines, methodologies and use cases for the implementation of AI/ML in Official Statistics. There are 15 funded countries in the consortium. The project is running from April 2024 to March 2028.\n\n\n\n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n\n\n\n\n\n\nLinkedIn\nEurostat CROS\nAIML4OS on EU Funding and Tenders Portal\nDeliverable tracker\n\n\n\n\nGrant Agreement number: 101146355 — (AIML4OS — SMP-ESS-2023-AI-ML4OS-IBA)\n\n\n\n Last updated: November 3, 2025"
   },
   {
     "objectID": "index.html#links",
     "href": "index.html#links",
     "title": "AIML4OS is a one-stop-shop of resources to support the use of AI and ML in the production of official statistics",
     "section": "",
-    "text": "LinkedIn\nEurostat CROS\nAIML4OS on EU Funding and Tenders Portal\nDeliverable tracker\n\n\n\n\nGrant Agreement number: 101146355 — (AIML4OS — SMP-ESS-2023-AI-ML4OS-IBA)\n\n\n\n Last updated: October 24, 2025"
+    "text": "LinkedIn\nEurostat CROS\nAIML4OS on EU Funding and Tenders Portal\nDeliverable tracker\n\n\n\n\nGrant Agreement number: 101146355 — (AIML4OS — SMP-ESS-2023-AI-ML4OS-IBA)\n\n\n\n Last updated: November 3, 2025"
   },
   {
-    "objectID": "generic_topic_3.html",
-    "href": "generic_topic_3.html",
-    "title": "Topic 3 in Workpackage X",
+    "objectID": "generic_topic_2.html",
+    "href": "generic_topic_2.html",
+    "title": "Topic 2 in Workpackage X",
     "section": "",
     "text": "This will tell you all about the topic."
   },
   {
-    "objectID": "generic_topic_3.html#introduction",
-    "href": "generic_topic_3.html#introduction",
-    "title": "Topic 3 in Workpackage X",
+    "objectID": "generic_topic_2.html#introduction",
+    "href": "generic_topic_2.html#introduction",
+    "title": "Topic 2 in Workpackage X",
     "section": "",
     "text": "This will tell you all about the topic."
   },
   {
-    "objectID": "generic_topic_3.html#some-code",
-    "href": "generic_topic_3.html#some-code",
-    "title": "Topic 3 in Workpackage X",
+    "objectID": "generic_topic_2.html#some-code",
+    "href": "generic_topic_2.html#some-code",
+    "title": "Topic 2 in Workpackage X",
     "section": "Some code",
     "text": "Some code\nNow things are getting serious.\n\nhist(mtcars$mpg)"
-  },
-  {
-    "objectID": "deliv_tasks.html#tasks",
-    "href": "deliv_tasks.html#tasks",
-    "title": "Deliverables and Tasks",
-    "section": "Tasks",
-    "text": "Tasks"
   },
   {
     "objectID": "news.html",
@@ -166,5 +145,26 @@
     "title": "Consortium",
     "section": "",
     "text": "Information about the consortium, the countries in it, and all of the members.\n\n\n\nMembers of the AIML4OS consortium at the project launch in Wiesbaden, April 2024"
+  },
+  {
+    "objectID": "knowledge-training.html",
+    "href": "knowledge-training.html",
+    "title": "AIML4OS",
+    "section": "",
+    "text": "WP6 is advancing towards creating a comprehensive knowledge repository and an extensive range of training materials. These resources aim to support stakeholders across various sectors, providing valuable educational content and standardized materials for the application of AI/ML techniques in different fields. The initial task involves researching topics to include in the knowledge repository: general ML and AI topics, task-driven use cases, best practices, and specialized techniques related to data handling and big data management. Additionally, SSPCloud will host various “cards” for each topic, making the information easily accessible. The second task is dedicated to compiling an inventory of ready-to-use training materials. Early results show a collection including about 20 files (slides, PDFs, and scripts), 11 online courses hosted by NSIs, and 13 courses and books hosted by other institutions. These materials primarily focus on introducing data science and ML concepts, Python and R programming, and best practices for ML workflows.\nLooking ahead, other tasks involves listing additional training materials, gradual transfer of data to the repository and training sessions."
+  },
+  {
+    "objectID": "knowledge-training.html#knowledge-repository-and-training-materials",
+    "href": "knowledge-training.html#knowledge-repository-and-training-materials",
+    "title": "AIML4OS",
+    "section": "",
+    "text": "WP6 is advancing towards creating a comprehensive knowledge repository and an extensive range of training materials. These resources aim to support stakeholders across various sectors, providing valuable educational content and standardized materials for the application of AI/ML techniques in different fields. The initial task involves researching topics to include in the knowledge repository: general ML and AI topics, task-driven use cases, best practices, and specialized techniques related to data handling and big data management. Additionally, SSPCloud will host various “cards” for each topic, making the information easily accessible. The second task is dedicated to compiling an inventory of ready-to-use training materials. Early results show a collection including about 20 files (slides, PDFs, and scripts), 11 online courses hosted by NSIs, and 13 courses and books hosted by other institutions. These materials primarily focus on introducing data science and ML concepts, Python and R programming, and best practices for ML workflows.\nLooking ahead, other tasks involves listing additional training materials, gradual transfer of data to the repository and training sessions."
+  },
+  {
+    "objectID": "knowledge-training.html#resources",
+    "href": "knowledge-training.html#resources",
+    "title": "AIML4OS",
+    "section": "Resources",
+    "text": "Resources\n\nGuide to creating resources for SSPCloud users\n\n\n Last updated: November 3, 2025"
   }
 ]
