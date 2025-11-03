@@ -43,7 +43,7 @@ website:
       href: news.qmd
     - text: "Deliverables & Tasks"
       href: deliverables-tasks.qmd
-    - text: "Consortium"
+    - text: "About project"
       href: about-project.qmd
     tools:
       - icon: linkedin
