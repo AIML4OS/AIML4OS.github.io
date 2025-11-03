@@ -1,0 +1,20 @@
+---
+pagetitle: "Statistical editing"
+date-modified: last-modified
+---
+
+## Statistical editing
+
+Some text 
+
+
+
+## Resources 
+
+Links to resources
+
+---
+
+<span style ="color:grey; font-size: 13px;">
+  Last updated: {{< meta date-modified >}}
+</span>

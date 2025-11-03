@@ -1,0 +1,20 @@
+---
+pagetitle: "Statistical imputation"
+date-modified: last-modified
+---
+
+## Statistical imputation
+
+Some text 
+
+
+
+## Resources 
+
+Links to resources
+
+---
+
+<span style ="color:grey; font-size: 13px;">
+  Last updated: {{< meta date-modified >}}
+</span>

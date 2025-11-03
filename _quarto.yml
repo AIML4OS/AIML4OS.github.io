@@ -22,27 +22,27 @@ website:
         - text: "Ecosystem Monitoring"
           href: aiml-ecosystem.qmd
         - text: "Standards, Methodology, Implementation"
-          href: wp_landing_page.qmd
+          href: methodological-standards.qmd
         - text: "Knowledge Repository"
           href: knowledge-training.qmd
         - text: "Earth Observation Data"
-          href: wp_landing_page.qmd
+          href: earth-observation.qmd
         - text: "Editing"
-          href: wp_landing_page.qmd
+          href: statistical-editing.qmd
         - text: "Imputation"
-          href: wp_landing_page.qmd
+          href: statistical-imputation.qmd
         - text: "Text to Code"
           href: text-classification.qmd
         - text: "Supply Chain Networks"
-          href: wp_landing_page.qmd
+          href: supply-chain-estimation.qmd
         - text: "LLMs"
-          href: wp_landing_page.qmd 
+          href: large-language-models.qmd 
         - text: "Synthetic Data"
-          href: wp_landing_page.qmd 
+          href: synthetic-data.qmd 
     - text: "News"
       href: news.qmd
     - text: "Deliverables & Tasks"
-      href: deliv_tasks.qmd
+      href: deliverables-tasks.qmd
     - text: "Consortium"
       href: consortium.qmd
     tools:

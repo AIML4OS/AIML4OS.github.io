@@ -1,0 +1,20 @@
+---
+pagetitle: "Supply chain networks"
+date-modified: last-modified
+---
+
+## Supply chain networks
+
+Some text 
+
+
+
+## Resources 
+
+Links to resources
+
+---
+
+<span style ="color:grey; font-size: 13px;">
+  Last updated: {{< meta date-modified >}}
+</span>

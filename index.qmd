@@ -16,15 +16,15 @@ date-modified: last-modified
   <a href="community-engagement.qmd"><img src="images/wp2.jpg"></a>
   <a href="aiml-lab.qmd"><img src="images/wp3.jpg"></a>
   <a href="aiml-ecosystem.qmd"><img src="images/wp4.jpg"></a>
-  <a href="wp_landing_page.qmd"><img src="images/wp5.jpg"></a>
+  <a href="methodological-standards.qmd"><img src="images/wp5.jpg"></a>
   <a href="knowledge-training.qmd"><img src="images/wp6.jpg"></a>
-  <a href="wp_landing_page.qmd"><img src="images/wp7.jpg"></a>
-  <a href="wp_landing_page.qmd"><img src="images/wp8.jpg"></a>
-  <a href="wp_landing_page.qmd"><img src="images/wp9.jpg"></a>
+  <a href="earth-observation.qmd"><img src="images/wp7.jpg"></a>
+  <a href="statistical-editing.qmd"><img src="images/wp8.jpg"></a>
+  <a href="statistical-imputation.qmd"><img src="images/wp9.jpg"></a>
   <a href="text-classification.qmd"><img src="images/wp10.jpg"></a>
-  <a href="wp_landing_page.qmd"><img src="images/wp11.jpg"></a>
-  <a href="wp_landing_page.qmd"><img src="images/wp12.jpg"></a>
-  <a href="wp_landing_page.qmd"><img src="images/wp13.jpg"></a>
+  <a href="supply-chain-estimation.qmd"><img src="images/wp11.jpg"></a>
+  <a href="large-language-models.qmd"><img src="images/wp12.jpg"></a>
+  <a href="synthetic-data.qmd"><img src="images/wp13.jpg"></a>
 </div>
 
 ```
