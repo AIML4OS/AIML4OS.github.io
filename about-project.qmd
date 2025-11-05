@@ -5,10 +5,29 @@ output:
     css: "styles.css"
 ---
 
-**AI and Machine Learning for Official Statistics (AIML4OS)** is major project aimed at supporting National Statistics Institutes in the use of AI and Machine Learning for the production of official statistics. The project, which includes 15 countries across Europe, will run for four years from April 2024 to March 2028. The overarching goal of the project is to provide a comprehensive set of resources that can be used by staff across the European Statistical System (ESS) to implement AI and machine learning in their organisations. These resources will include guidelines, implementation frameworks, working use cases, sample code and information on technical resources. 
+**AI and Machine Learning for Official Statistics (AIML4OS)** is major project aimed at supporting National Statistics Institutes in the use of AI and Machine Learning for the production of official statistics. The project, which includes 15 countries across Europe, will run for four years from April 2024 to March 2028. The overarching goal of the project is to provide a comprehensive set of resources that can be used by staff across the European Statistical System (ESS) to implement AI and machine learning in their organisations. These resources will include guidelines, implementation frameworks, working use cases, sample code and information on technical resources.
 
-The project is developed through 13 Work Packages (WPs), six of these are 'Supporting Workpackages', which have operational functions and deliver cross-cutting goals for the project. The remaining seven are 'Use Case Workpackages' which explore specific themes within AI/ML that are believed will offer huge opportunities for statistical production in the coming years. 
+The project is developed through 13 Work Packages (WPs), six of these are 'Supporting Workpackages', which have operational functions and deliver cross-cutting goals for the project. The remaining seven are 'Use Case Workpackages' which explore specific themes within AI/ML that are believed will offer huge opportunities for statistical production in the coming years.
 
+### Countries involved in AIML4OS
+
+| Abbreviation | Name | Country |
+|----------------|--------------------------------|------------------------|
+| CSO | Central Statistics Office | Ireland |
+| DST | Danmarks Statistik | Denmark |
+| INSEE | Institut National De La Statistique Et Des Etudes Economiques | France |
+| INE (PT) | Instituto Nacional de Estatística (Portugal) | Portugal |
+| CBS | Centraal Bureau voor de Statistiek | Netherlands |
+| STATEC | Institut National de laSstatistique et des Études Économiques | Luxembourg |
+| GUS | Glowny Urzad Statystyczny | Poland |
+| DESTATIS | Statistisches Bundesamt | Germany |
+| SCB | Statistiska Centralbyran | Sweden |
+| SURS | Statisticni urad Republike Slovenije | Slovenia |
+| SSB | Statistisk Sentralbyraa | Norway |
+| ISTAT | Istituto Nazionale di Statistica | Italy |
+| STAT | Bundesanstalt Statistik Oesterreich | Austria |
+| INE (ES) | Instituto Nacional de Estadística | Spain |
+| CYSTAT | Statistical Service of Cyprus | Cyprus |
 
 ![Members of the AIML4OS consortium at the project launch in Wiesbaden, April 2024](images/launch_photo.jpg)
 
