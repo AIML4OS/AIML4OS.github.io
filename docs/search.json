@@ -25,7 +25,7 @@
     "href": "about-project.html",
     "title": "About the project",
     "section": "",
-    "text": "AI and Machine Learning for Official Statistics (AIML4OS) is major project aimed at supporting National Statistics Institutes in the use of AI and Machine Learning for the production of official statistics. The project, which includes 15 countries across Europe, will run for four years from April 2024 to March 2028. The overarching goal of the project is to provide a comprehensive set of resources that can be used by staff across the European Statistical System (ESS) to implement AI and machine learning in their organisations. These resources will include guidelines, implementation frameworks, working use cases, sample code and information on technical resources.\nThe project is developed through 13 Work Packages (WPs), six of these are ‘Supporting Workpackages’, which have operational functions and deliver cross-cutting goals for the project. The remaining seven are ‘Use Case Workpackages’ which explore specific themes within AI/ML that are believed will offer huge opportunities for statistical production in the coming years.\n\nCountries involved in AIML4OS\n\n\n\n\n\n\n\n\nAbbreviation\nName\nCountry\n\n\n\n\nCSO\nCentral Statistics Office\nIreland\n\n\nDST\nDanmarks Statistik\nDenmark\n\n\nINSEE\nInstitut National De La Statistique Et Des Etudes Economiques\nFrance\n\n\nINE (PT)\nInstituto Nacional de Estatística (Portugal)\nPortugal\n\n\nCBS\nCentraal Bureau voor de Statistiek\nNetherlands\n\n\nSTATEC\nInstitut National de laSstatistique et des Études Économiques\nLuxembourg\n\n\nGUS\nGlowny Urzad Statystyczny\nPoland\n\n\nDESTATIS\nStatistisches Bundesamt\nGermany\n\n\nSCB\nStatistiska Centralbyran\nSweden\n\n\nSURS\nStatisticni urad Republike Slovenije\nSlovenia\n\n\nSSB\nStatistisk Sentralbyraa\nNorway\n\n\nISTAT\nIstituto Nazionale di Statistica\nItaly\n\n\nSTAT\nBundesanstalt Statistik Oesterreich\nAustria\n\n\nINE (ES)\nInstituto Nacional de Estadística\nSpain\n\n\nCYSTAT\nStatistical Service of Cyprus\nCyprus\n\n\n\n\n\n\nMembers of the AIML4OS consortium at the project launch in Wiesbaden, April 2024"
+    "text": "AI and Machine Learning for Official Statistics (AIML4OS) is major project aimed at supporting National Statistics Institutes in the use of AI and Machine Learning for the production of official statistics. The project, which includes 15 countries across Europe, will run for four years from April 2024 to March 2028. The overarching goal of the project is to provide a comprehensive set of resources that can be used by staff across the European Statistical System (ESS) to implement AI and machine learning in their organisations. These resources will include guidelines, implementation frameworks, working use cases, sample code and information on technical resources.\nThe project is developed through 13 Work Packages (WPs), six of these are ‘Supporting Workpackages’, which have operational functions and deliver cross-cutting goals for the project. The remaining seven are ‘Use Case Workpackages’ which explore specific themes within AI/ML that are believed will offer huge opportunities for statistical production in the coming years.\n\n\n\nMembers of the AIML4OS consortium at the project launch in Wiesbaden, April 2024\n\n\n\nCountries involved in AIML4OS\n\n\n\n\n\n\n\n\nAbbreviation\nOrganisation\nCountry\n\n\n\n\nCSO\nCentral Statistics Office\nIreland\n\n\nDST\nDanmarks Statistik\nDenmark\n\n\nINSEE\nInstitut National De La Statistique Et Des Etudes Economiques\nFrance\n\n\nINE (PT)\nInstituto Nacional de Estatística (Portugal)\nPortugal\n\n\nCBS\nCentraal Bureau voor de Statistiek\nNetherlands\n\n\nSTATEC\nInstitut National de laSstatistique et des Études Économiques\nLuxembourg\n\n\nGUS\nGlowny Urzad Statystyczny\nPoland\n\n\nDESTATIS\nStatistisches Bundesamt\nGermany\n\n\nSCB\nStatistiska Centralbyran\nSweden\n\n\nSURS\nStatisticni urad Republike Slovenije\nSlovenia\n\n\nSSB\nStatistisk Sentralbyraa\nNorway\n\n\nISTAT\nIstituto Nazionale di Statistica\nItaly\n\n\nSTAT\nBundesanstalt Statistik Oesterreich\nAustria\n\n\nINE (ES)\nInstituto Nacional de Estadística\nSpain\n\n\nCYSTAT\nStatistical Service of Cyprus\nCyprus"
   },
   {
     "objectID": "community-engagement.html",
@@ -70,221 +70,25 @@
     "text": "Resources\n\nGuide to creating resources for SSPCloud users\n\n\n Last updated: November 3, 2025"
   },
   {
-    "objectID": "LICENSE.html",
-    "href": "LICENSE.html",
-    "title": "AIML4OS",
-    "section": "",
-    "text": "License\nCode is available under the terms of the MIT License\nCopyright 2022 https://rspatialdata.github.io/\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
-  },
-  {
-    "objectID": "news.html",
-    "href": "news.html",
-    "title": "Project News",
-    "section": "",
-    "text": "Our first newsletter, highlighting the project launch, upcoming datalab presentation, and planned participation at NTTS 2025.\n\n\nOur second newsletter, with info on three in-person meetings that took place, as well as more details on individual workpackages.\n\n\nOur third newsletter was released after the first year of the project. It looked at plans across all of the workpackages, as well as an update following NTTS 2025.\n\n\nNewsletter number four reports on an in-person meeting of WP12, more details on WP10, as well as a template for training materials."
-  },
-  {
-    "objectID": "earth-observation.html",
-    "href": "earth-observation.html",
+    "objectID": "synthetic-data.html",
+    "href": "synthetic-data.html",
     "title": "AIML4OS",
     "section": "",
     "text": "Some text"
   },
   {
-    "objectID": "earth-observation.html#aiml-on-earth-observation-data-satellite-imagery",
-    "href": "earth-observation.html#aiml-on-earth-observation-data-satellite-imagery",
+    "objectID": "synthetic-data.html#synthetic-data",
+    "href": "synthetic-data.html#synthetic-data",
     "title": "AIML4OS",
     "section": "",
     "text": "Some text"
   },
   {
-    "objectID": "earth-observation.html#resources",
-    "href": "earth-observation.html#resources",
+    "objectID": "synthetic-data.html#resources",
+    "href": "synthetic-data.html#resources",
     "title": "AIML4OS",
     "section": "Resources",
     "text": "Resources\nLinks to resources\n\n Last updated: November 3, 2025"
-  },
-  {
-    "objectID": "generic_topic_2.html",
-    "href": "generic_topic_2.html",
-    "title": "Topic 2 in Workpackage X",
-    "section": "",
-    "text": "This will tell you all about the topic."
-  },
-  {
-    "objectID": "generic_topic_2.html#introduction",
-    "href": "generic_topic_2.html#introduction",
-    "title": "Topic 2 in Workpackage X",
-    "section": "",
-    "text": "This will tell you all about the topic."
-  },
-  {
-    "objectID": "generic_topic_2.html#some-code",
-    "href": "generic_topic_2.html#some-code",
-    "title": "Topic 2 in Workpackage X",
-    "section": "Some code",
-    "text": "Some code\nNow things are getting serious.\n\nhist(mtcars$mpg)"
-  },
-  {
-    "objectID": "project-coordination.html",
-    "href": "project-coordination.html",
-    "title": "AIML4OS",
-    "section": "",
-    "text": "Some text"
-  },
-  {
-    "objectID": "project-coordination.html#project-management-and-coordination",
-    "href": "project-coordination.html#project-management-and-coordination",
-    "title": "AIML4OS",
-    "section": "",
-    "text": "Some text"
-  },
-  {
-    "objectID": "project-coordination.html#resources",
-    "href": "project-coordination.html#resources",
-    "title": "AIML4OS",
-    "section": "Resources",
-    "text": "Resources\nLinks to resources\n\n Last updated: November 3, 2025"
-  },
-  {
-    "objectID": "large-language-models.html",
-    "href": "large-language-models.html",
-    "title": "AIML4OS",
-    "section": "",
-    "text": "Some text"
-  },
-  {
-    "objectID": "large-language-models.html#large-language-models",
-    "href": "large-language-models.html#large-language-models",
-    "title": "AIML4OS",
-    "section": "",
-    "text": "Some text"
-  },
-  {
-    "objectID": "large-language-models.html#resources",
-    "href": "large-language-models.html#resources",
-    "title": "AIML4OS",
-    "section": "Resources",
-    "text": "Resources\nLinks to resources\n\n Last updated: November 3, 2025"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "AIML4OS is a one-stop-shop of resources to support the use of AI and ML in the production of official statistics",
-    "section": "",
-    "text": "AI and Machine Learning for Official Statistics (AIML4OS) is an ESSnet project aimed at delivering a comprehensive suite of resources, guidelines, methodologies and use cases for the implementation of AI/ML in Official Statistics. There are 15 funded countries in the consortium. The project is running from April 2024 to March 2028.\n\n\n\n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n\n\n\n\n\n\nLinkedIn\nEurostat CROS\nAIML4OS on EU Funding and Tenders Portal\nDeliverable tracker\n\n\n\n\nGrant Agreement number: 101146355 — (AIML4OS — SMP-ESS-2023-AI-ML4OS-IBA)\n\n\n\n Last updated: November 3, 2025"
-  },
-  {
-    "objectID": "index.html#links",
-    "href": "index.html#links",
-    "title": "AIML4OS is a one-stop-shop of resources to support the use of AI and ML in the production of official statistics",
-    "section": "",
-    "text": "LinkedIn\nEurostat CROS\nAIML4OS on EU Funding and Tenders Portal\nDeliverable tracker\n\n\n\n\nGrant Agreement number: 101146355 — (AIML4OS — SMP-ESS-2023-AI-ML4OS-IBA)\n\n\n\n Last updated: November 3, 2025"
-  },
-  {
-    "objectID": "deliverables-tasks.html#tasks",
-    "href": "deliverables-tasks.html#tasks",
-    "title": "Deliverables and Tasks",
-    "section": "Tasks",
-    "text": "Tasks"
-  },
-  {
-    "objectID": "generic_topic_1.html",
-    "href": "generic_topic_1.html",
-    "title": "Topic 1 in Workpackage X",
-    "section": "",
-    "text": "This will tell you all about the topic."
-  },
-  {
-    "objectID": "generic_topic_1.html#introduction",
-    "href": "generic_topic_1.html#introduction",
-    "title": "Topic 1 in Workpackage X",
-    "section": "",
-    "text": "This will tell you all about the topic."
-  },
-  {
-    "objectID": "generic_topic_1.html#some-r-code",
-    "href": "generic_topic_1.html#some-r-code",
-    "title": "Topic 1 in Workpackage X",
-    "section": "Some R code",
-    "text": "Some R code\nHere is some R code.\n\nhist(mtcars$mpg)"
-  },
-  {
-    "objectID": "generic_topic_1.html#some-python-code",
-    "href": "generic_topic_1.html#some-python-code",
-    "title": "Topic 1 in Workpackage X",
-    "section": "Some python code",
-    "text": "Some python code\nHere is some python code.\n\nimport seaborn as sns\nimport matplotlib.pyplot as plt\n\ntips = sns.load_dataset(\"tips\")\n\nplt.hist(tips[\"total_bill\"] , bins = 20, color = \"skyblue\", edgecolor=\"black\")\nplt.title(\"Histogram of Total Bill\")\nplt.xlabel(\"Total Bill\")\nplt.ylabel(\"Frequency\")\nplt.show()"
-  },
-  {
-    "objectID": "supply-chain-estimation.html",
-    "href": "supply-chain-estimation.html",
-    "title": "AIML4OS",
-    "section": "",
-    "text": "Some text"
-  },
-  {
-    "objectID": "supply-chain-estimation.html#supply-chain-networks",
-    "href": "supply-chain-estimation.html#supply-chain-networks",
-    "title": "AIML4OS",
-    "section": "",
-    "text": "Some text"
-  },
-  {
-    "objectID": "supply-chain-estimation.html#resources",
-    "href": "supply-chain-estimation.html#resources",
-    "title": "AIML4OS",
-    "section": "Resources",
-    "text": "Resources\nLinks to resources\n\n Last updated: November 3, 2025"
-  },
-  {
-    "objectID": "generic_topic_3.html",
-    "href": "generic_topic_3.html",
-    "title": "Topic 3 in Workpackage X",
-    "section": "",
-    "text": "This will tell you all about the topic."
-  },
-  {
-    "objectID": "generic_topic_3.html#introduction",
-    "href": "generic_topic_3.html#introduction",
-    "title": "Topic 3 in Workpackage X",
-    "section": "",
-    "text": "This will tell you all about the topic."
-  },
-  {
-    "objectID": "generic_topic_3.html#some-code",
-    "href": "generic_topic_3.html#some-code",
-    "title": "Topic 3 in Workpackage X",
-    "section": "Some code",
-    "text": "Some code\nNow things are getting serious.\n\nhist(mtcars$mpg)"
-  },
-  {
-    "objectID": "aiml-ecosystem.html",
-    "href": "aiml-ecosystem.html",
-    "title": "AIML4OS",
-    "section": "",
-    "text": "Some text"
-  },
-  {
-    "objectID": "aiml-ecosystem.html#aiml-state-of-play-and-ecosystem-monitoring",
-    "href": "aiml-ecosystem.html#aiml-state-of-play-and-ecosystem-monitoring",
-    "title": "AIML4OS",
-    "section": "",
-    "text": "Some text"
-  },
-  {
-    "objectID": "aiml-ecosystem.html#resources",
-    "href": "aiml-ecosystem.html#resources",
-    "title": "AIML4OS",
-    "section": "Resources",
-    "text": "Resources\nLinks to resources\n\n Last updated: November 3, 2025"
-  },
-  {
-    "objectID": "deliv_tasks.html#tasks",
-    "href": "deliv_tasks.html#tasks",
-    "title": "Deliverables and Tasks",
-    "section": "Tasks",
-    "text": "Tasks"
   },
   {
     "objectID": "aiml-lab.html",
@@ -308,39 +112,151 @@
     "text": "Resources\nLinks to resources\n\n Last updated: November 3, 2025"
   },
   {
-    "objectID": "synthetic-data.html",
-    "href": "synthetic-data.html",
+    "objectID": "deliv_tasks.html#tasks",
+    "href": "deliv_tasks.html#tasks",
+    "title": "Deliverables and Tasks",
+    "section": "Tasks",
+    "text": "Tasks"
+  },
+  {
+    "objectID": "project-coordination.html",
+    "href": "project-coordination.html",
     "title": "AIML4OS",
     "section": "",
     "text": "Some text"
   },
   {
-    "objectID": "synthetic-data.html#synthetic-data",
-    "href": "synthetic-data.html#synthetic-data",
+    "objectID": "project-coordination.html#project-management-and-coordination",
+    "href": "project-coordination.html#project-management-and-coordination",
     "title": "AIML4OS",
     "section": "",
     "text": "Some text"
   },
   {
-    "objectID": "synthetic-data.html#resources",
-    "href": "synthetic-data.html#resources",
+    "objectID": "project-coordination.html#resources",
+    "href": "project-coordination.html#resources",
     "title": "AIML4OS",
     "section": "Resources",
     "text": "Resources\nLinks to resources\n\n Last updated: November 3, 2025"
   },
   {
-    "objectID": "wp_landing_page.html",
-    "href": "wp_landing_page.html",
-    "title": "This is a landing page for the workpackage",
+    "objectID": "supply-chain-estimation.html",
+    "href": "supply-chain-estimation.html",
+    "title": "AIML4OS",
     "section": "",
-    "text": "Here are some high-level details about the workpackage, and links to specific topics within it.\n\n\n\n\n\n\n\n\n\n\nLast updated: r Sys.Date()"
+    "text": "Some text"
   },
   {
-    "objectID": "wp_landing_page.html#topic-3",
-    "href": "wp_landing_page.html#topic-3",
-    "title": "This is a landing page for the workpackage",
+    "objectID": "supply-chain-estimation.html#supply-chain-networks",
+    "href": "supply-chain-estimation.html#supply-chain-networks",
+    "title": "AIML4OS",
     "section": "",
-    "text": "Last updated: r Sys.Date()"
+    "text": "Some text"
+  },
+  {
+    "objectID": "supply-chain-estimation.html#resources",
+    "href": "supply-chain-estimation.html#resources",
+    "title": "AIML4OS",
+    "section": "Resources",
+    "text": "Resources\nLinks to resources\n\n Last updated: November 3, 2025"
+  },
+  {
+    "objectID": "deliverables-tasks.html#tasks",
+    "href": "deliverables-tasks.html#tasks",
+    "title": "Deliverables and Tasks",
+    "section": "Tasks",
+    "text": "Tasks"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "AIML4OS is a one-stop-shop of resources to support the use of AI and ML in the production of official statistics",
+    "section": "",
+    "text": "AI and Machine Learning for Official Statistics (AIML4OS) is an ESSnet project aimed at delivering a comprehensive suite of resources, guidelines, methodologies and use cases for the implementation of AI/ML in Official Statistics. There are 15 funded countries in the consortium. The project is running from April 2024 to March 2028.\n\n\n\n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n\n\n\n\n\n\nLinkedIn\nEurostat CROS\nAIML4OS on EU Funding and Tenders Portal\nDeliverable tracker\n\n\n\n\nGrant Agreement number: 101146355 — (AIML4OS — SMP-ESS-2023-AI-ML4OS-IBA)\n\n\n\n Last updated: November 5, 2025"
+  },
+  {
+    "objectID": "index.html#links",
+    "href": "index.html#links",
+    "title": "AIML4OS is a one-stop-shop of resources to support the use of AI and ML in the production of official statistics",
+    "section": "",
+    "text": "LinkedIn\nEurostat CROS\nAIML4OS on EU Funding and Tenders Portal\nDeliverable tracker\n\n\n\n\nGrant Agreement number: 101146355 — (AIML4OS — SMP-ESS-2023-AI-ML4OS-IBA)\n\n\n\n Last updated: November 5, 2025"
+  },
+  {
+    "objectID": "large-language-models.html",
+    "href": "large-language-models.html",
+    "title": "AIML4OS",
+    "section": "",
+    "text": "Some text"
+  },
+  {
+    "objectID": "large-language-models.html#large-language-models",
+    "href": "large-language-models.html#large-language-models",
+    "title": "AIML4OS",
+    "section": "",
+    "text": "Some text"
+  },
+  {
+    "objectID": "large-language-models.html#resources",
+    "href": "large-language-models.html#resources",
+    "title": "AIML4OS",
+    "section": "Resources",
+    "text": "Resources\nLinks to resources\n\n Last updated: November 3, 2025"
+  },
+  {
+    "objectID": "aiml-ecosystem.html",
+    "href": "aiml-ecosystem.html",
+    "title": "AIML4OS",
+    "section": "",
+    "text": "Some text"
+  },
+  {
+    "objectID": "aiml-ecosystem.html#aiml-state-of-play-and-ecosystem-monitoring",
+    "href": "aiml-ecosystem.html#aiml-state-of-play-and-ecosystem-monitoring",
+    "title": "AIML4OS",
+    "section": "",
+    "text": "Some text"
+  },
+  {
+    "objectID": "aiml-ecosystem.html#resources",
+    "href": "aiml-ecosystem.html#resources",
+    "title": "AIML4OS",
+    "section": "Resources",
+    "text": "Resources\nLinks to resources\n\n Last updated: November 5, 2025"
+  },
+  {
+    "objectID": "earth-observation.html",
+    "href": "earth-observation.html",
+    "title": "AIML4OS",
+    "section": "",
+    "text": "Some text"
+  },
+  {
+    "objectID": "earth-observation.html#aiml-on-earth-observation-data-satellite-imagery",
+    "href": "earth-observation.html#aiml-on-earth-observation-data-satellite-imagery",
+    "title": "AIML4OS",
+    "section": "",
+    "text": "Some text"
+  },
+  {
+    "objectID": "earth-observation.html#resources",
+    "href": "earth-observation.html#resources",
+    "title": "AIML4OS",
+    "section": "Resources",
+    "text": "Resources\nLinks to resources\n\n Last updated: November 5, 2025"
+  },
+  {
+    "objectID": "news.html",
+    "href": "news.html",
+    "title": "Project News",
+    "section": "",
+    "text": "Our first newsletter, highlighting the project launch, upcoming datalab presentation, and planned participation at NTTS 2025.\n\n\nOur second newsletter, with info on three in-person meetings that took place, as well as more details on individual workpackages.\n\n\nOur third newsletter was released after the first year of the project. It looked at plans across all of the workpackages, as well as an update following NTTS 2025.\n\n\nNewsletter number four reports on an in-person meeting of WP12, more details on WP10, as well as a template for training materials."
+  },
+  {
+    "objectID": "LICENSE.html",
+    "href": "LICENSE.html",
+    "title": "AIML4OS",
+    "section": "",
+    "text": "License\nCode is available under the terms of the MIT License\nCopyright 2022 https://rspatialdata.github.io/\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
   },
   {
     "objectID": "text-classification.html",

@@ -9,9 +9,12 @@ output:
 
 The project is developed through 13 Work Packages (WPs), six of these are 'Supporting Workpackages', which have operational functions and deliver cross-cutting goals for the project. The remaining seven are 'Use Case Workpackages' which explore specific themes within AI/ML that are believed will offer huge opportunities for statistical production in the coming years.
 
+![Members of the AIML4OS consortium at the project launch in Wiesbaden, April 2024](images/launch_photo.jpg)
+
+
 ### Countries involved in AIML4OS
 
-| Abbreviation | Name | Country |
+| Abbreviation | Organisation | Country |
 |----------------|--------------------------------|------------------------|
 | CSO | Central Statistics Office | Ireland |
 | DST | Danmarks Statistik | Denmark |
@@ -29,6 +32,5 @@ The project is developed through 13 Work Packages (WPs), six of these are 'Suppo
 | INE (ES) | Instituto Nacional de Estadística | Spain |
 | CYSTAT | Statistical Service of Cyprus | Cyprus |
 
-![Members of the AIML4OS consortium at the project launch in Wiesbaden, April 2024](images/launch_photo.jpg)
 
 <br>
