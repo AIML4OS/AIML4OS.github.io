@@ -5,6 +5,8 @@ output:
     css: "styles.css"
 ---
 
+There are 39 deliverables and 55 tasks in our project plan. Here you can examine all of these broken down by date and by the responsible workpackage. Published reports from deliverables can be found on the [AIML4OS page on the EU Funding and Tenders Portal](https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/projects-details/43252476/101146355/SMP?order=DESC&pageNumber=1&pageSize=10&sortBy=es_SortDate&keywords=aiml4os){target="_blank"}.
+
 ## Deliverables
 
 ```{r , echo=F  }
