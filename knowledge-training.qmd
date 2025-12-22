@@ -14,6 +14,9 @@ Looking ahead, other tasks involves listing additional training materials, gradu
 ## Resources 
 
 - [Guide to creating resources for SSPCloud users](https://aiml4os.github.io/training-material-starting-pack/){target="_blank"}
+- [Guide for course creators in setting up effective courses that efficiently help participants learn new skills](https://github.com/AIML4OS/training-material-starting-pack/blob/main/course_guide.md){target="_blank"}
+- [Template for training material in Quatro for R users](https://aiml4os.github.io/AIML4OS-template-quarto-r/){target="_blank"}
+- [Template for training material in Quatro for Python users](https://aiml4os.github.io/AIML4OS-template-quarto-python/index.html){target="_blank"}
 
 ---
 
