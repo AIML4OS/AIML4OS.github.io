@@ -9,6 +9,7 @@ output:
     df_print: paged
 ---
   
+The following links lead to external trainings, tutorials, projects, documents, and papers related to topics covered by Working Packages of AIML4OS project 
 
 ### Earth Observation 
 
@@ -24,6 +25,7 @@ output:
 - <a href="https://www.fao.org/statistics/events/detail-events/en/c/1631683/" target="_blank">FAO Webinar Series: Earth observation data for agricultural statistics</a>
 - <a href="https://eo4society.esa.int/training-education/" target="_blank">ESA - EO science for society</a>
 - <a href="https://eo4society.esa.int/resources/12th-esa-training-eo-2022/" target="_blank">12th ESA Training Course on Earth Observation 2022</a>
+- <a href="https://space4climate.com/" target="_blank"> Space4Climate (UK Agency) </a> activities enable a seamless supply chain of climate data from space assets; helping to identify end user requirements and facilitate trusted climate services development to meet these, promoting global economic and societal benefit.
 
 
 #### EO resources without links
@@ -35,7 +37,7 @@ output:
 - Advanced Earth observation (2024)
 - Usage of the Copernicus data space ecosystem for earth observation data for official statistics (2025)
 - Educational materials from the 12th ESA Training Course on Earth Observation 2022 held in Riga, Latvia, from 27 June – 01 July 2022.
-- Space4Climate, UK Space Agency
+
 
 ---
 
@@ -57,25 +59,18 @@ output:
 - <a href="https://unece.org/sites/default/files/2024-02/Data%20editing%20of%20ADSaMM%20group%202023.pdf" target="_blank">UNECE - Organisational aspects of implementing ML based data editing in statistical production</a>
 - <a href="https://statswiki.unece.org/spaces/ML/pages/290358735/WP1+-+Theme+2+Edit+and+Imputation+Report" target="_blank">UNECE – HLG-MOS Machine Learning Project Edit and Imputation Theme Report</a>
 
----
-
-### Materials listed from Statistics Poland
-
-- Introduction to Machine Learning:	What is ML? Differences between ML and statistical learning. Datasets and formats. ML tasks. Groups of ML algorithms.
-- Decision Trees:	Basic notions. Decison Trees Algorithms: ID3, C4.5 and CART. Visualisation and interpretation of decision tree.
-- Decision Trees:	Packages: rpart, rpart.plot. Using and tuning rpart function. Model assesment with functions: rsq.rpart, plotcp, printcp. Prediction with decision tree.
-- k-Nearest Neighbors (k-NN) Method: 	Introduction to k-NN - It operates by measuring the distance (similarity) between objects and has one main hyperparameter, k, representing the number of neighbors to consider. Steps of the k-NN Algorithm. Classification and Regression Example – A case involving age and credit amount is presented, where an unknown borrower is classified as either a loan defaulter or not using Euclidean distance. The effect of changing k on the classification outcome is also illustrated. Effect of k on Model Results. Evaluation of Model Accuracy. Advantages and Disadvantages.
 
 ---
 
 ### Other resources
-
 
 - Text classification for Ecoicop classification
 - machine learning introductory lecture Statistics Norway
 - Handbook of Statistical Data Editing and Imputation
 - The Elements of Statistical Learning: Data Mining, Inference, and Prediction.  Springer Series in Statistics
 - Machine Learning Refined: Foundations, Algorithms, and Applications. Cambridge University Press
+
+---
 
 #### Papers and publications
 
@@ -130,6 +125,7 @@ These are from the United States Geological Survey, and are not associated with 
 
 - <a href="https://waterdata.usgs.gov/blog/quarto-template-demo/" target="_blank">Duplicating Quarto elements with code templates to reduce copy and paste errors</a>
 - <a href="https://waterdata.usgs.gov/blog/tidycensus-viz/" target="_blank">Charting 'tidycensus' data with R</a>
+
 
 
 
