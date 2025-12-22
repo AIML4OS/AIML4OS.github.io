@@ -39,6 +39,8 @@ website:
           href: large-language-models.qmd 
         - text: "Synthetic Data"
           href: synthetic-data.qmd 
+    - text: "Useful links"
+      href: wp6_resources.rmd    
     - text: "News"
       href: news.qmd
     - text: "Deliverables & Tasks"
