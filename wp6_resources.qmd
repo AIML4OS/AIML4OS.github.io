@@ -1,13 +1,28 @@
 ---
 title: "Useful links"
-author: "AIML4OS Workpackage 6, Brendan O'Dowd"
-date: "`r Sys.Date()`"
 output:
-  md_document:
-    variant: gfm
   html_document:
-    df_print: paged
+    css: "styles.css"
 ---
+
+<br>
+
+```{=html}
+<style>
+.tight-headings {
+  <!-- background-color: #e6f2ff; -->
+  padding: 1em;
+}
+
+.tight-headings h4 {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  padding: 0 !important;
+  <!-- outline: 1px dotted red; -->
+}
+</style>
+```
+
   
 The following links lead to external trainings, tutorials, projects, documents, and papers related to topics covered by Working Packages of AIML4OS project 
 
@@ -125,6 +140,7 @@ These are from the United States Geological Survey, and are not associated with 
 
 - <a href="https://waterdata.usgs.gov/blog/quarto-template-demo/" target="_blank">Duplicating Quarto elements with code templates to reduce copy and paste errors</a>
 - <a href="https://waterdata.usgs.gov/blog/tidycensus-viz/" target="_blank">Charting 'tidycensus' data with R</a>
+
 
 
 
