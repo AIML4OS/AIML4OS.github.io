@@ -67,175 +67,21 @@
     "href": "knowledge-training.html#resources",
     "title": "AIML4OS",
     "section": "Resources",
-    "text": "Resources\n\nGuide to creating resources for SSPCloud users\n\n\n Last updated: November 3, 2025"
+    "text": "Resources\n\nGuide to creating resources for SSPCloud users\nGuide for course creators in setting up effective courses that efficiently help participants learn new skills\nTemplate for training material in Quatro for R users\nTemplate for training material in Quatro for Python users\n\n\n Last updated: January 12, 2026"
   },
   {
-    "objectID": "synthetic-data.html",
-    "href": "synthetic-data.html",
+    "objectID": "LICENSE.html",
+    "href": "LICENSE.html",
     "title": "AIML4OS",
     "section": "",
-    "text": "Some text"
+    "text": "License\nCode is available under the terms of the MIT License\nCopyright 2022 https://rspatialdata.github.io/\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
   },
   {
-    "objectID": "synthetic-data.html#synthetic-data",
-    "href": "synthetic-data.html#synthetic-data",
-    "title": "AIML4OS",
+    "objectID": "news.html",
+    "href": "news.html",
+    "title": "Project News",
     "section": "",
-    "text": "Some text"
-  },
-  {
-    "objectID": "synthetic-data.html#resources",
-    "href": "synthetic-data.html#resources",
-    "title": "AIML4OS",
-    "section": "Resources",
-    "text": "Resources\nLinks to resources\n\n Last updated: November 3, 2025"
-  },
-  {
-    "objectID": "aiml-lab.html",
-    "href": "aiml-lab.html",
-    "title": "AIML4OS",
-    "section": "",
-    "text": "Some text"
-  },
-  {
-    "objectID": "aiml-lab.html#aiml-lab-technical-infrastructure-and-organisational-setup",
-    "href": "aiml-lab.html#aiml-lab-technical-infrastructure-and-organisational-setup",
-    "title": "AIML4OS",
-    "section": "",
-    "text": "Some text"
-  },
-  {
-    "objectID": "aiml-lab.html#resources",
-    "href": "aiml-lab.html#resources",
-    "title": "AIML4OS",
-    "section": "Resources",
-    "text": "Resources\nLinks to resources\n\n Last updated: November 3, 2025"
-  },
-  {
-    "objectID": "deliv_tasks.html#tasks",
-    "href": "deliv_tasks.html#tasks",
-    "title": "Deliverables and Tasks",
-    "section": "Tasks",
-    "text": "Tasks"
-  },
-  {
-    "objectID": "project-coordination.html",
-    "href": "project-coordination.html",
-    "title": "AIML4OS",
-    "section": "",
-    "text": "Some text"
-  },
-  {
-    "objectID": "project-coordination.html#project-management-and-coordination",
-    "href": "project-coordination.html#project-management-and-coordination",
-    "title": "AIML4OS",
-    "section": "",
-    "text": "Some text"
-  },
-  {
-    "objectID": "project-coordination.html#resources",
-    "href": "project-coordination.html#resources",
-    "title": "AIML4OS",
-    "section": "Resources",
-    "text": "Resources\nLinks to resources\n\n Last updated: November 3, 2025"
-  },
-  {
-    "objectID": "supply-chain-estimation.html",
-    "href": "supply-chain-estimation.html",
-    "title": "AIML4OS",
-    "section": "",
-    "text": "Some text"
-  },
-  {
-    "objectID": "supply-chain-estimation.html#supply-chain-networks",
-    "href": "supply-chain-estimation.html#supply-chain-networks",
-    "title": "AIML4OS",
-    "section": "",
-    "text": "Some text"
-  },
-  {
-    "objectID": "supply-chain-estimation.html#resources",
-    "href": "supply-chain-estimation.html#resources",
-    "title": "AIML4OS",
-    "section": "Resources",
-    "text": "Resources\nLinks to resources\n\n Last updated: November 3, 2025"
-  },
-  {
-    "objectID": "deliverables-tasks.html",
-    "href": "deliverables-tasks.html",
-    "title": "Deliverables and Tasks",
-    "section": "",
-    "text": "There are 39 deliverables and 55 tasks in our project plan. Here you can examine all of these broken down by date and by the responsible workpackage. Published reports from deliverables can be found on the AIML4OS page on the EU Funding and Tenders Portal."
-  },
-  {
-    "objectID": "deliverables-tasks.html#deliverables",
-    "href": "deliverables-tasks.html#deliverables",
-    "title": "Deliverables and Tasks",
-    "section": "Deliverables",
-    "text": "Deliverables"
-  },
-  {
-    "objectID": "deliverables-tasks.html#tasks",
-    "href": "deliverables-tasks.html#tasks",
-    "title": "Deliverables and Tasks",
-    "section": "Tasks",
-    "text": "Tasks"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "AIML4OS is a one-stop-shop of resources to support the use of AI and ML in the production of official statistics",
-    "section": "",
-    "text": "AI and Machine Learning for Official Statistics (AIML4OS) is an ESSnet project aimed at delivering a comprehensive suite of resources, guidelines, methodologies and use cases for the implementation of AI/ML in Official Statistics. There are 15 funded countries in the consortium. The project is running from April 2024 to March 2028.\n\n\n\n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n\n\n\n\n\n\nLinkedIn\nEurostat CROS\nAIML4OS on EU Funding and Tenders Portal\nDeliverable tracker\n\n\n\n\nGrant Agreement number: 101146355 — (AIML4OS — SMP-ESS-2023-AI-ML4OS-IBA)\n\n\n\n Last updated: November 11, 2025"
-  },
-  {
-    "objectID": "index.html#links",
-    "href": "index.html#links",
-    "title": "AIML4OS is a one-stop-shop of resources to support the use of AI and ML in the production of official statistics",
-    "section": "",
-    "text": "LinkedIn\nEurostat CROS\nAIML4OS on EU Funding and Tenders Portal\nDeliverable tracker\n\n\n\n\nGrant Agreement number: 101146355 — (AIML4OS — SMP-ESS-2023-AI-ML4OS-IBA)\n\n\n\n Last updated: November 11, 2025"
-  },
-  {
-    "objectID": "large-language-models.html",
-    "href": "large-language-models.html",
-    "title": "AIML4OS",
-    "section": "",
-    "text": "Some text"
-  },
-  {
-    "objectID": "large-language-models.html#large-language-models",
-    "href": "large-language-models.html#large-language-models",
-    "title": "AIML4OS",
-    "section": "",
-    "text": "Some text"
-  },
-  {
-    "objectID": "large-language-models.html#resources",
-    "href": "large-language-models.html#resources",
-    "title": "AIML4OS",
-    "section": "Resources",
-    "text": "Resources\nLinks to resources\n\n Last updated: November 3, 2025"
-  },
-  {
-    "objectID": "aiml-ecosystem.html",
-    "href": "aiml-ecosystem.html",
-    "title": "AIML4OS",
-    "section": "",
-    "text": "Some text"
-  },
-  {
-    "objectID": "aiml-ecosystem.html#aiml-state-of-play-and-ecosystem-monitoring",
-    "href": "aiml-ecosystem.html#aiml-state-of-play-and-ecosystem-monitoring",
-    "title": "AIML4OS",
-    "section": "",
-    "text": "Some text"
-  },
-  {
-    "objectID": "aiml-ecosystem.html#resources",
-    "href": "aiml-ecosystem.html#resources",
-    "title": "AIML4OS",
-    "section": "Resources",
-    "text": "Resources\nLinks to resources\n\n Last updated: November 11, 2025"
+    "text": "Our first newsletter, highlighting the project launch, upcoming datalab presentation, and planned participation at NTTS 2025.\n\n\nOur second newsletter, with info on three in-person meetings that took place, as well as more details on individual workpackages.\n\n\nOur third newsletter was released after the first year of the project. It looked at plans across all of the workpackages, as well as an update following NTTS 2025.\n\n\nNewsletter number four reports on an in-person meeting of WP12, more details on WP10, as well as a template for training materials.\n\n\nOur fifth newsletter has details on a deliverable on citizen-in-the-loop, news on text classification, and progress on reconstruction of supply-chain networks."
   },
   {
     "objectID": "earth-observation.html",
@@ -259,18 +105,179 @@
     "text": "Resources\nLinks to resources\n\n Last updated: November 5, 2025"
   },
   {
-    "objectID": "news.html",
-    "href": "news.html",
-    "title": "Project News",
-    "section": "",
-    "text": "Our first newsletter, highlighting the project launch, upcoming datalab presentation, and planned participation at NTTS 2025.\n\n\nOur second newsletter, with info on three in-person meetings that took place, as well as more details on individual workpackages.\n\n\nOur third newsletter was released after the first year of the project. It looked at plans across all of the workpackages, as well as an update following NTTS 2025.\n\n\nNewsletter number four reports on an in-person meeting of WP12, more details on WP10, as well as a template for training materials.\n\n\nOur fifth newsletter has details on a deliverable on citizen-in-the-loop, news on text classification, and progress on reconstruction of supply-chain networks."
-  },
-  {
-    "objectID": "LICENSE.html",
-    "href": "LICENSE.html",
+    "objectID": "aiml-ecosystem.html",
+    "href": "aiml-ecosystem.html",
     "title": "AIML4OS",
     "section": "",
-    "text": "License\nCode is available under the terms of the MIT License\nCopyright 2022 https://rspatialdata.github.io/\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+    "text": "Some text"
+  },
+  {
+    "objectID": "aiml-ecosystem.html#aiml-state-of-play-and-ecosystem-monitoring",
+    "href": "aiml-ecosystem.html#aiml-state-of-play-and-ecosystem-monitoring",
+    "title": "AIML4OS",
+    "section": "",
+    "text": "Some text"
+  },
+  {
+    "objectID": "aiml-ecosystem.html#resources",
+    "href": "aiml-ecosystem.html#resources",
+    "title": "AIML4OS",
+    "section": "Resources",
+    "text": "Resources\nLinks to resources\n\n Last updated: November 11, 2025"
+  },
+  {
+    "objectID": "large-language-models.html",
+    "href": "large-language-models.html",
+    "title": "AIML4OS",
+    "section": "",
+    "text": "Some text"
+  },
+  {
+    "objectID": "large-language-models.html#large-language-models",
+    "href": "large-language-models.html#large-language-models",
+    "title": "AIML4OS",
+    "section": "",
+    "text": "Some text"
+  },
+  {
+    "objectID": "large-language-models.html#resources",
+    "href": "large-language-models.html#resources",
+    "title": "AIML4OS",
+    "section": "Resources",
+    "text": "Resources\nLinks to resources\n\n Last updated: November 3, 2025"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "AIML4OS is a one-stop-shop of resources to support the use of AI and ML in the production of official statistics",
+    "section": "",
+    "text": "AI and Machine Learning for Official Statistics (AIML4OS) is an ESSnet project aimed at delivering a comprehensive suite of resources, guidelines, methodologies and use cases for the implementation of AI/ML in Official Statistics. There are 15 funded countries in the consortium. The project is running from April 2024 to March 2028.\n\n\n\n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n\n\n\n\n\n\nLinkedIn\nEurostat CROS\nAIML4OS on EU Funding and Tenders Portal\nDeliverable tracker\n\n\n\n\nGrant Agreement number: 101146355 — (AIML4OS — SMP-ESS-2023-AI-ML4OS-IBA)\n\n\n\n Last updated: January 12, 2026"
+  },
+  {
+    "objectID": "index.html#links",
+    "href": "index.html#links",
+    "title": "AIML4OS is a one-stop-shop of resources to support the use of AI and ML in the production of official statistics",
+    "section": "",
+    "text": "LinkedIn\nEurostat CROS\nAIML4OS on EU Funding and Tenders Portal\nDeliverable tracker\n\n\n\n\nGrant Agreement number: 101146355 — (AIML4OS — SMP-ESS-2023-AI-ML4OS-IBA)\n\n\n\n Last updated: January 12, 2026"
+  },
+  {
+    "objectID": "deliverables-tasks.html",
+    "href": "deliverables-tasks.html",
+    "title": "Deliverables and Tasks",
+    "section": "",
+    "text": "There are 39 deliverables and 55 tasks in our project plan. Here you can examine all of these broken down by date and by the responsible workpackage. Published reports from deliverables can be found on the AIML4OS page on the EU Funding and Tenders Portal."
+  },
+  {
+    "objectID": "deliverables-tasks.html#deliverables",
+    "href": "deliverables-tasks.html#deliverables",
+    "title": "Deliverables and Tasks",
+    "section": "Deliverables",
+    "text": "Deliverables"
+  },
+  {
+    "objectID": "deliverables-tasks.html#tasks",
+    "href": "deliverables-tasks.html#tasks",
+    "title": "Deliverables and Tasks",
+    "section": "Tasks",
+    "text": "Tasks"
+  },
+  {
+    "objectID": "supply-chain-estimation.html",
+    "href": "supply-chain-estimation.html",
+    "title": "AIML4OS",
+    "section": "",
+    "text": "Some text"
+  },
+  {
+    "objectID": "supply-chain-estimation.html#supply-chain-networks",
+    "href": "supply-chain-estimation.html#supply-chain-networks",
+    "title": "AIML4OS",
+    "section": "",
+    "text": "Some text"
+  },
+  {
+    "objectID": "supply-chain-estimation.html#resources",
+    "href": "supply-chain-estimation.html#resources",
+    "title": "AIML4OS",
+    "section": "Resources",
+    "text": "Resources\nLinks to resources\n\n Last updated: November 3, 2025"
+  },
+  {
+    "objectID": "project-coordination.html",
+    "href": "project-coordination.html",
+    "title": "AIML4OS",
+    "section": "",
+    "text": "Some text"
+  },
+  {
+    "objectID": "project-coordination.html#project-management-and-coordination",
+    "href": "project-coordination.html#project-management-and-coordination",
+    "title": "AIML4OS",
+    "section": "",
+    "text": "Some text"
+  },
+  {
+    "objectID": "project-coordination.html#resources",
+    "href": "project-coordination.html#resources",
+    "title": "AIML4OS",
+    "section": "Resources",
+    "text": "Resources\nLinks to resources\n\n Last updated: November 3, 2025"
+  },
+  {
+    "objectID": "deliv_tasks.html#tasks",
+    "href": "deliv_tasks.html#tasks",
+    "title": "Deliverables and Tasks",
+    "section": "Tasks",
+    "text": "Tasks"
+  },
+  {
+    "objectID": "aiml-lab.html",
+    "href": "aiml-lab.html",
+    "title": "AIML4OS",
+    "section": "",
+    "text": "Some text"
+  },
+  {
+    "objectID": "aiml-lab.html#aiml-lab-technical-infrastructure-and-organisational-setup",
+    "href": "aiml-lab.html#aiml-lab-technical-infrastructure-and-organisational-setup",
+    "title": "AIML4OS",
+    "section": "",
+    "text": "Some text"
+  },
+  {
+    "objectID": "aiml-lab.html#resources",
+    "href": "aiml-lab.html#resources",
+    "title": "AIML4OS",
+    "section": "Resources",
+    "text": "Resources\nLinks to resources\n\n Last updated: November 3, 2025"
+  },
+  {
+    "objectID": "synthetic-data.html",
+    "href": "synthetic-data.html",
+    "title": "AIML4OS",
+    "section": "",
+    "text": "Some text"
+  },
+  {
+    "objectID": "synthetic-data.html#synthetic-data",
+    "href": "synthetic-data.html#synthetic-data",
+    "title": "AIML4OS",
+    "section": "",
+    "text": "Some text"
+  },
+  {
+    "objectID": "synthetic-data.html#resources",
+    "href": "synthetic-data.html#resources",
+    "title": "AIML4OS",
+    "section": "Resources",
+    "text": "Resources\nLinks to resources\n\n Last updated: November 3, 2025"
+  },
+  {
+    "objectID": "wp6_resources.html",
+    "href": "wp6_resources.html",
+    "title": "Useful links",
+    "section": "",
+    "text": "The following links lead to external trainings, tutorials, projects, documents, and papers related to topics covered by Working Packages of AIML4OS project\n\nEarth Observation\n\nIntroduction to Machine Learning for Earth Observation\nThe OECD Laboratory for Geospatial Analysis\nESA’s Newcomers Earth Observation Guide | Eurostat CROS\nCopernicus Data Space Ecosystem | Europe’s eyes on Earth\nEUSPA - European Union Agency for the Space Programme (requires login)\nCopernicus MOOC – Learn to harness the power of space data\nBasics of Optical Remote Sensing – EO4GEO\nImage processing and analysis – EO4GEO\nFAO Webinar Series: Earth observation data for agricultural statistics\nESA - EO science for society\n12th ESA Training Course on Earth Observation 2022\n Space4Climate (UK Agency)  activities enable a seamless supply chain of climate data from space assets; helping to identify end user requirements and facilitate trusted climate services development to meet these, promoting global economic and societal benefit.\n\n\nEO resources without links\n\n2021_ EO_Use of satellite data - file missions, file indices 1 and 2\nFrom strategies to practical use of Earth observation data for official statistics (2023)\nStatistical Cartography (2024)\nIntegration of statistics and geospatial information – From geocoding to statistical maps (2024)\nAdvanced Earth observation (2024)\nUsage of the Copernicus data space ecosystem for earth observation data for official statistics (2025)\nEducational materials from the 12th ESA Training Course on Earth Observation 2022 held in Riga, Latvia, from 27 June – 01 July 2022.\n\n\n\n\n\nProgramming\n\nInsee - Best programming practices with Git and R\nLino Galiana from Insee - Data science with Python\nInsee - Introduction to MLOps with MLflow (slides)\nInsee - Putting data science projects into production\nInsee - Introduction to ensemble algorithms\nPython Data Science Handbook\nR for Data Science\nStandford Machine Learning Notes\nAn Introduction to Statistical Learning with Applications in R\nUNECE - Machine Learning for Official Statistics\nPuts, Daas - Machine Learning from the Perspective of Official Statistic\nUNECE - A quality framework for statistical algorithms\nA review of ensemble learning and data augmentation models for class imbalanced problems: Combination, implementation and evaluation\nUNECE - Organisational aspects of implementing ML based data editing in statistical production\nUNECE – HLG-MOS Machine Learning Project Edit and Imputation Theme Report\n\n\n\n\nOther resources\n\nText classification for Ecoicop classification\nmachine learning introductory lecture Statistics Norway\nHandbook of Statistical Data Editing and Imputation\nThe Elements of Statistical Learning: Data Mining, Inference, and Prediction. Springer Series in Statistics\nMachine Learning Refined: Foundations, Algorithms, and Applications. Cambridge University Press\n\n\n\nPapers and publications\n\nFoundations and Advances of Machine Learning in Official Statistics. Florian Dumpert, Springer (2025)\nRobust quasi-randomization-based estimation with ensemble learning for missing data. Scandinavian Journal of Statistics\nA review of ensemble learning and data augmentation models for class imbalanced problems: Combination, implementation and evaluation. Expert Systems with Applications\nProbability machines: consistent probability estimation using nonparametric learning machines.. Methods Inf Med.\nSplitting on categorical predictors in random forests.. PeerJ.\nA Score Function to Prioritize Editing in Household Survey Data: A Machine Learning Approach. Journal of Official Statistics\nLet the data speak: Machine learning methods for data editing and imputation. UNECE / Work Session on Statistical Data Editing\nMachine Learning tool for editing in the Italian Register of the Public Administration, a proposal. UNECE HLG-MOS Machine Learning Project\nData cleaning and machine learning: a systematic literature review. Autom Softw Eng\nMoving towards the standardized process of automatic statistical data editing using machine learning techniques. UNECE Expert Meeting on Statistical Data Editing\nStacking machine-learning models for anomaly detection: comparing AnaCredit to other banking datasets. UNECE Expert Meeting on Statistical Data Editing\nImproving statistical data editing with Machine Learning: first use cases in Statistics Spain (INE). UNECE Expert Meeting on Statistical Data Editing\nAutomatic selective editing approach using machine learning: an application to VAT data. UNECE Expert Meeting on Statistical Data Editing\n\n\n\n\n\nUSGS\nThese are from the United States Geological Survey, and are not associated with AIML4OS. I am just adding them here, since they are not indexed on the USGS website.\n\nBeyond Basic R\n\nThe case for reproducibility\nBeyond Basic R - Introduction and Best Practices\nBeyond Basic R - Version Control with Git\nBeyond Basic R - Mapping\nBeyond Basic R - Plotting with ggplot2 and Multiple Plots in One Figure\nBeyond Basic R - Data Munging\nBeyond Basic R - Data Munging\n\n\n\nReproducible Data Science in R\n\nReproducible Data Science in R: Say the quiet part out loud with assertion tests\nReproducible Data Science in R: Flexible functions using tidy evaluation\nReproducible Data Science in R: Writing better functions\nReproducible Data Science in R: Writing functions that work for you\nReproducible Data Science in R: Iterate, don’t duplicate\n\n\n\nOther topics\n\nDuplicating Quarto elements with code templates to reduce copy and paste errors\nCharting ‘tidycensus’ data with R"
   },
   {
     "objectID": "text-classification.html",
