@@ -114,7 +114,7 @@ The following links lead to external trainings, tutorials, projects, documents, 
 
 ### USGS 
 
-These are from the United States Geological Survey, and are not associated with AIML4OS. I am just adding them here, since they are not indexed on the USGS website. 
+A selection of resources from the United States Geological Survey about use of R.
 
 
 #### Beyond Basic R
