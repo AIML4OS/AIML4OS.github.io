@@ -77,6 +77,29 @@ The following links lead to external trainings, tutorials, projects, documents, 
 
 ---
 
+### Quality
+
+- <a href="https://doi.org/10.1007/s11943-023-00330-0" target="_blank">Van Delden, A., J. Burger, and M. Puts. 2023. ‘‘Ten Propositions on Machine Learning in Official Statistics.’’ AStA Wirtschafts- und Sozialstatistisches Archiv 17 (3): 195–221. DOI: https://doi.org/10.1007/s11943-023-00330-0</a>
+- Kowarik, A., et al (2020). "Deliverable K3: Revised Version of the Quality Guidelines for the Acquisition and Usage of Big Data", Work Package K Methodology and quality, ESSnet Big Data II
+- Reinert, R., et al (2016). "Work Package 1: Checklist for Evaluating the Quality of Input Data", ESSnet KOMUSO
+- <a href="https://journals.sagepub.com/doi/10.3233/SJI-180468" target="_blank">De Waal, T., et al (2019). "Quality measures for multisource statistics." Statistical Journal of the IAOS 35.2</a>
+- <a href="https://cros.ec.europa.eu/book-page/web-intelligence-network-reports" target="_blank"></a>
+- <a href="https://artificialintelligenceact.eu/high-level-summary/" target="_blank">AI Act: High Level Summary</a>
+- <a href="https://unece.org/sites/default/files/2024-10/MWW2024_S5_1_Finland_Piela_P.pdf" target="_blank">Piela R., (2024). "Incorporating AI into Statistical Standards: Enhancing GSBPM with (Generative) AI" UNECE|ModernStats World Workshop, October 2024</a>
+- <a href="https://digital-strategy.ec.europa.eu/en/library/guidelines-scope-obligationsproviders-general-purpose-ai-models-under-ai-act" target="_blank">GPAI models gudelines</a>
+- <a href="https://doi.org/10.1007/s11943-023-00329-7" target="_blank">Saidani, Y., Dumpert, F., Borgs, C., Brand, A., Nickl, A., Rittmann, A., Rohde, J., Salwiczek, C., Storfinger, N., and Straub, S. 2023. "Qualitätsdimensionen maschinellen Lernens in der amtlichen Statistik." AStA Wirtschafts- und Sozialstatistisches Archiv 17: 253–303. DOI: https://doi.org/10.1007/s11943-023-00329-7
+</a>
+- <a href="https://doi.org/10.1007/978-3-032-10004-7_4" target="_blank">Y. Saidani, F. Dumpert, Quality dimensions and quality guidelines for machine learning in official statistics, in Foundations and Advances of Machine Learning in Official Statistics, F.Dumpert, Chap.4 (Springer, Berlin, 2025). DOI: https://doi.org/10.1007/978-3-032-10004-7_4
+</a>
+- <a href="https://unece.org/statistics/publications/machine-learning-official-statistics" target="_blank">United Nations Economic Commission for Europe (UNECE) (2021) Machine learning for official statistics</a>
+- <a href="statswiki.unece.org/download/attachments/120128748/The%20use%20of%20machine%20learning%20in%20official%20statistics.pdf" target="_blank">Yung W, Karkimaa J, Scannapieco M, Barcarolli G, Zardetto D, Sanchez JAR, Braaksma B, Buelens B, Burger J. 2018. The use of machine learning in official statistics. </a>
+- <a href="https://journals.sagepub.com/doi/abs/10.3233/SJI-210875" target="_blank">Yung, W., T. Siu-Ming, B. Buelens, H. Chipman, F. Dumpert, G. Ascari, F. Rocci, J. Burger, and I. Choi. 2022. "A quality framework for statistical algorithms." Statistical Journal of the IAOS 38: 291-308.</a>
+
+
+
+
+---
+
 ### Other resources
 
 - Text classification for Ecoicop classification
