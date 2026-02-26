@@ -1,17 +1,32 @@
 ---
-title: "Template for WP6 training material" # See below for multilingual resource
+title: "AI and Machine Learning for Official Statistics - AIML4OS" # See below for multilingual resource
+
+
+# Commenting this out as I don't think it's needed for the homepage.
+
 include-before-body:
-  - text: <img src="resources/cover/main2.png" style="max-width:900px;width:100%">
-author:
-  - name: Public Statistician 1
-    url: https://github.com/publicstatistician1
-    email: Public.Statistician1@statistics.org
-  - name: Public Statistician 2
-    url: https://github.com/publicstatistician2
-    email: Public.Statistician2@statistics.org
+  - text: |
+      <img src="resources/cover/main2.png" style="max-width:900px;width:100%"><br>
+
+      
+
+
+# include-before-body:
+#   - text: <img src="resources/cover/main2.png" style="max-width:900px;width:100%">
+  
+# author:
+#   - name: Public Statistician 1
+#     url: https://github.com/publicstatistician1
+#     email: Public.Statistician1@statistics.org
+#   - name: Public Statistician 2
+#     url: https://github.com/publicstatistician2
+#     email: Public.Statistician2@statistics.org
 date: "2025-05-16"
 doi: "10.1000/182"  # Optional
 license: "CC-BY 4.0"  # Optional
+
+# Brendan adding this, per instructions
+format: html
 
 # If resources is multilingual, adopt that structure
 # (need to have both title and title-* fields)
@@ -19,8 +34,7 @@ license: "CC-BY 4.0"  # Optional
 # title-en: "Hello SSPCloud"
 # title-fr: "Bonjour SSPCloud"
 
-description: |
-    This template is a fast starting pack for AIML4OS projects that use `R`. For `Python` projects, see [this `Github` repository](https://github.com/InseeFrLab/AIML4OS-template-quarto-python).
+
 
 # If resources is multilingual, adopt that structure
 # (need to have both description and description-* fields)
@@ -89,15 +103,26 @@ suggestedRequirements:
 gsbpm: "5.1" # See complete taxonomy: https://www.unescap.org/sites/default/d8files/event-documents/GSBPM_v5.1_R_for_SBP_8-18Apr2024.pdf
 ---
 
-
-# What is this template?
-
-This template is a Quarto Website customized for the AIML4OS project, designed to be used with {{< fa brands r-project >}}.
-
-# How to use it?
-
-See [this tutorial](https://aiml4os.github.io/training-material-starting-pack/).
+**AI and Machine Learning for Official Statistics (AIML4OS)** is an ESSnet project aimed at delivering a comprehensive suite of resources, guidelines, methodologies and use cases for the implementation of AI/ML in Official Statistics. There are 15 funded countries in the consortium. The project is running from April 2024 to March 2028.
 
 
+# Project Structure
+
+The AIML4OS project is divided into 13 workpackages, 6 of which are 'supporting' workpackages that provide cross-cutting insight and resources, and 7 of which are 'use case' workpackages, which explore a specific domain within AI/ML and its relevance to official statistics. 
+
+### Supporting Workpackages
 
 
+
+### Use Case Workpackages
+
+
+
+# Links 
+
+- [LinkedIn](https://www.linkedin.com/company/essnet-aiml4os/){target="_blank"}
+- [Eurostat CROS](https://cros.ec.europa.eu/dashboard/aiml4os){target="_blank"}
+- [AIML4OS on EU Funding and Tenders Portal](https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/projects-details/43252476/101146355/SMP?order=DESC&pageNumber=1&pageSize=10&sortBy=es_SortDate&keywords=aiml4os){target="_blank"}
+- [Deliverable tracker](https://aiml4os.shinyapps.io/project_tracker){target="_blank"}
+
+![Grant Agreement number: 101146355 — (AIML4OS — SMP-ESS-2023-AI-ML4OS-IBA)](images/eurostat_funding.png){style="max-width: 100%; height: auto;"}
