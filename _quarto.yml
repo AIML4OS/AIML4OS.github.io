@@ -73,6 +73,7 @@ website:
             text: Large Language Models
           - file: chapters/synthetic_data.qmd
             text: Synthetic Data
+
       - file: useful_links.qmd
         text: Useful Links
       - file: news.qmd
