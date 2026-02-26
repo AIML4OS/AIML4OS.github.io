@@ -112,7 +112,7 @@ The AIML4OS project is divided into 13 workpackages, 6 of which are 'supporting'
 
 ### Supporting Workpackages
 
-
+1. [Project Management & Coordination](chapters/coordination.qmd)
 
 ### Use Case Workpackages
 
