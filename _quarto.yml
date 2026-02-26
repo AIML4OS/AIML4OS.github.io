@@ -75,13 +75,13 @@ website:
           - file: chapters/synthetic_data.qmd
             text: Synthetic Data
 
-      - file: useful_links.qmd
+      - file: chapters/useful_links.qmd
         text: Useful Links
-      - file: news.qmd
+      - file: chapters/news.qmd
         text: News
-      - file: deliverables_tasks.qmd
+      - file: chapters/deliverables_tasks.qmd
         text: Deliverables & Tasks
-      - file: about_project.qmd
+      - file: chapters/about_project.qmd
         text: About Project
 
 format:
