@@ -16,6 +16,7 @@ project:
     - chapters/synthetic_data.qmd
     - chapters/useful_links.qmd
     - chapters/news.qmd
+    - chapters/deliverables_tasks.qmd
     - chapters/about_project.qmd
 
 
@@ -78,6 +79,8 @@ website:
         text: Useful Links
       - file: news.qmd
         text: News
+      - file: deliverables_tasks.qmd
+        text: Deliverables & Tasks
       - file: about_project.qmd
         text: About Project
 
