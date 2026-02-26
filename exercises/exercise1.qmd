@@ -1,0 +1,56 @@
+# Introduction to `ggplot2`
+
+## Here is an example on how to import data
+
+```{r}
+#| warning: false
+#| eval: true
+library(readr)
+
+# Load data
+data <- readr::read_delim("/home/onyxia/work/data/DECES_COM_1019.csv", delim = ";")
+
+# Aggregate data
+data2 <- data |>
+  summarise(nb_deaths2019 = sum(DECESD19, na.rm = TRUE))
+
+```
+
+
+## Let's produce a plot
+
+Here is a code snippet to produce a beautiful plot done with `ggplot2`.
+
+```{r}
+#| warning: false
+#| eval: true
+library(dplyr)
+library(readr)
+library(ggplot2)
+
+iris <- iris
+
+ggplot(iris) +
+  geom_point(aes(x = Sepal.Length, y = Petal.Length, color = Species))
+```
+
+And here is the amazing result.
+
+```{r}
+#| warning: false
+#| echo: false
+library(dplyr)
+library(ggplot2)
+
+iris <- iris
+
+ggplot(iris) +
+  geom_point(aes(x = Sepal.Length, y = Petal.Length, color = Species))
+
+```
+
+# Conclusion
+
+Now you know everything on `ggplot2`.
+
+

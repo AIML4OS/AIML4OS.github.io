@@ -1,0 +1,39 @@
+project:
+  type: website
+  execute-dir: project
+  render: # Add HERE new chapters (but not the interactive qmd files)
+    - index.qmd
+    - chapters/chapter1.qmd
+
+website:
+  page-navigation: true
+  title: "Introduction to `ggplot2`"
+  # In the two URLs below:
+  # - replace AIML4OS by the Github account/organization your repository is hosted by;
+  # - replace AIML4OS-template-quarto-r by the name of your repository.
+  # If your repo is on the AIML4OS organization, change only the name of the repo.  
+  site-url: "https://AIML4OS.github.io/AIML4OS-template-quarto-r"
+  repo-url: "https://github.com/AIML4OS/AIML4OS-template-quarto-r"
+  repo-actions: [edit, source, issue]
+  # favicon: images/Template2.png
+  sidebar:
+    logo: resources/profile/main3.png
+    style: "docked"
+    search: true
+    contents: # Add HERE new chapters (but not the interactive qmd files)
+      - href: index.qmd
+        text: Introduction
+      - href: chapters/chapter1.qmd
+        text: Plot with ggplot2
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+    toc: true
+
+filters:
+  - export-metadata.lua
+

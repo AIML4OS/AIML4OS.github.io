@@ -1,0 +1,9 @@
+sspcloud/*
+resources/*
+extensions/*
+images/*
+.github/*
+
+renv/library/*
+data/*
+**/data/*
