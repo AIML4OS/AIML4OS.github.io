@@ -4,6 +4,19 @@ project:
   render: # Add HERE new chapters (but not the interactive qmd files)
     - index.qmd
     - chapters/coordination.qmd
+    - chapters/communication.qmd
+    - chapters/aiml_lab.qmd
+    - chapters/standards_methodology_implementation.qmd
+    - chapters/knowledge_repository.qmd
+    - chapters/earth_observation_data.qmd
+    - chapters/editing.qmd
+    - chapters/imputation.qmd
+    - chapters/supply_chain_networks.qmd
+    - chapters/llms.qmd
+    - chapters/synthetic_data.qmd
+    - chapters/useful_links.qmd
+    - chapters/news.qmd
+    - chapters/about_project.qmd
 
 
 website:
@@ -36,6 +49,36 @@ website:
         contents: 
           - file: chapters/coordination.qmd
             text: Project Management & Coordination
+          - file: chapters/communication.qmd
+            text: Communication
+          - file: chapters/aiml_lab.qmd
+            text: AI/ML Lab
+          - text: Ecosystem Monitoring
+            href: https://aiml4os.github.io/WP4/
+          - file: chapters/standards_methodology_implementation.qmd
+            text: Standards, Methodology & Implementation
+          - file: chapters/knowledge_repository.qmd
+            text: Knowledge Repository
+          - file: chapters/earth_observation_data.qmd
+            text: Earth Observation Data
+          - file: chapters/editing.qmd
+            text: Editing
+          - file: chapters/imputation.qmd
+            text: Imputation
+          - text: Text to Code
+            href: https://aiml4os.github.io/WP10/
+          - file: chapters/supply_chain_networks.qmd
+            text: Supply Chain Networks
+          - file: chapters/llms.qmd
+            text: Large Language Models
+          - file: chapters/synthetic_data.qmd
+            text: Synthetic Data
+      - file: useful_links.qmd
+        text: Useful Links
+      - file: news.qmd
+        text: News
+      - file: about_project.qmd
+        text: About Project
 
 format:
   html:
