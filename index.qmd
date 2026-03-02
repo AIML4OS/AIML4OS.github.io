@@ -134,6 +134,9 @@ The AIML4OS project is divided into 13 workpackages, 6 of which are 'supporting'
 contents: chapters
 type: grid
 filter: list
+image: image
+description: description
+sort: false
 :::
 
 
