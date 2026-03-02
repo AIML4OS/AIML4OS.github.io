@@ -160,7 +160,7 @@ for(i in 1:nrow(wp_df)){
   cat(glue('
   <div class="g-col-12 g-col-md-4 card" style = "margin-bottom:1rem;">
   <a href="{wp_df$link[i]}">
-    <img src="{wp_df$img[i]} style="width:100%; height:auto object-fit:cover;">
+    <img src="{wp_df$img[i]}" style="width:100%; height:auto object-fit:cover;">
   </a>
   <h3><a href="{wp_df$link[i]}">{wp_df$title[i]}</a></h3>
   </div>
