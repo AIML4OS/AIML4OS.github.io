@@ -6,7 +6,6 @@ project:
     - chapters/coordination.qmd
     - chapters/communication.qmd
     - chapters/aiml_lab.qmd
-    - chapters/ecosystem_monitoring.qmd
     - chapters/standards_methodology_implementation.qmd
     - chapters/knowledge_repository.qmd
     - chapters/earth_observation_data.qmd
@@ -55,22 +54,14 @@ website:
             text: Communication
           - file: chapters/aiml_lab.qmd
             text: AI/ML Lab
-          - file: chapters/ecosystem_monitoring.qmd
-            text: Ecosystem Monitoring
           - file: chapters/standards_methodology_implementation.qmd
             text: Standards, Methodology & Implementation
           - file: chapters/knowledge_repository.qmd
             text: Knowledge Repository
           - file: chapters/earth_observation_data.qmd
             text: Earth Observation Data
-          - text: Editing
-            href: https://aiml4os.github.io/WP8/
-            target: _blank
           - file: chapters/imputation.qmd
             text: Imputation
-          - text: Text to Code
-            href: https://aiml4os.github.io/WP10/
-            target: _blank
           - file: chapters/supply_chain_networks.qmd
             text: Supply Chain Networks
           - file: chapters/llms.qmd
