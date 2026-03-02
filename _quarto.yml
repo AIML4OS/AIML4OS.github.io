@@ -56,6 +56,7 @@ website:
             text: AI/ML Lab
           - text: Ecosystem Monitoring
             href: https://aiml4os.github.io/WP4/
+            target: _blank
           - file: chapters/standards_methodology_implementation.qmd
             text: Standards, Methodology & Implementation
           - file: chapters/knowledge_repository.qmd
@@ -64,10 +65,12 @@ website:
             text: Earth Observation Data
           - text: Editing
             href: https://aiml4os.github.io/WP8/
+            target: _blank
           - file: chapters/imputation.qmd
             text: Imputation
           - text: Text to Code
             href: https://aiml4os.github.io/WP10/
+            target: _blank
           - file: chapters/supply_chain_networks.qmd
             text: Supply Chain Networks
           - file: chapters/llms.qmd
