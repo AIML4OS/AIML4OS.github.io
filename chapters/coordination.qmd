@@ -1,6 +1,6 @@
 ---
 title: Project Management & Coordination
-image: resources/thumbnails/wp1.jpg
+image: resources/thumbnails/wp1.png
 description: Project Management & Coordination
 list: true
 fomat: 

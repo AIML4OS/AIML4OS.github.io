@@ -1,6 +1,6 @@
 ---
 title: AI/ML Lab
-image: resources/thumbnails/wp3.jpg
+image: resources/thumbnails/wp3.png
 description: AI/ML Lab
 list: true
 fomat: 

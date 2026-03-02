@@ -12,6 +12,7 @@ listing:
   id: wp-list
   contents: chapters
   type: grid
+  filter-ui: true
   sort: false  
 
 
