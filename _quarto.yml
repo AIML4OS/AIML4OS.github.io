@@ -6,6 +6,7 @@ project:
     - chapters/coordination.qmd
     - chapters/communication.qmd
     - chapters/aiml_lab.qmd
+    - chapters/ecosystem_monitoring.qmd
     - chapters/standards_methodology_implementation.qmd
     - chapters/knowledge_repository.qmd
     - chapters/earth_observation_data.qmd
