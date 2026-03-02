@@ -43,7 +43,7 @@ website:
     # search: true
     contents: # Add HERE new chapters (but not the interactive qmd files)
       - file: index.qmd
-        text: Homepage
+        text: "Homepage"
         
       - section: Workpackages
         expanded: false
