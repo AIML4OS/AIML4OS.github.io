@@ -8,7 +8,14 @@ include-before-body:
   - text: |
       <img src="resources/cover/main2.png" style="max-width:900px;width:100%"><br>
 
-      
+listing:
+  id: wp-list
+  contents: chapters
+  type: grid
+  filter: list
+  image: image
+  description: description
+  sort: false  
 
 
 # include-before-body:
@@ -130,15 +137,8 @@ The AIML4OS project is divided into 13 workpackages, 6 of which are 'supporting'
 13. [Synthetic Data](chapters/synthetic_data.qmd)
 
 
-::: {.listing}
-contents: chapters
-type: grid
-filter: list
-image: image
-description: description
-sort: false
+::: {#wp-list}
 :::
-
 
 # Links 
 
