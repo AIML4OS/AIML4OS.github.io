@@ -21,41 +21,6 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-html { -webkit-text-size-adjust: 100%; }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
@@ -351,73 +316,42 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li><a href="./chapters/llms.html">LLMs</a></li>
 <li><a href="./chapters/synthetic_data.html">Synthetic Data</a></li>
 </ol>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>wp_df <span class="ot">&lt;-</span> tibble<span class="sc">::</span><span class="fu">tribble</span>(</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="sc">~</span>title, <span class="sc">~</span>link,</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  <span class="st">'Project Management &amp; Coordination'</span>, <span class="st">'chapters/coordination.qmd'</span>,</span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  <span class="st">'Communication'</span>, <span class="st">'chapters/communication.qmd'</span>,</span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  <span class="st">'AI/ML Lab'</span>, <span class="st">'chapters/aiml_lab.qmd'</span>,</span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>  <span class="st">'Ecosystem Monitoring'</span>, <span class="st">'https://aiml4os.github.io/WP4/'</span>,</span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>  <span class="st">'Standards, Methodology &amp; Implementation'</span>, <span class="st">'chapters/standards_methodology_implementation.qmd'</span>,</span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>  <span class="st">'Knowledge Repository'</span>, <span class="st">'chapters/knowledge_repository.qmd'</span></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>) <span class="sc">|&gt;</span></span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">mutate</span>(<span class="at">num=</span>dplyr<span class="sc">::</span><span class="fu">row_number</span>(), </span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>         <span class="at">img =</span> <span class="fu">paste0</span>(<span class="st">'resources/thumbnails/wp'</span> , num ,<span class="st">'.png'</span>)) </span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(glue)</span>
-<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">'&lt;div class="grid"&gt;'</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>&lt;div class="grid"&gt;</code></pre>
+<div class="grid">
+<div class="g-col-12 g-col-md-4 card" style="margin-bottom:1rem;">
+<a href="./chapters/coordination.html"> &lt;img src=“resources/thumbnails/wp1.png style=”width:100%; height:auto object-fit:cover;“&gt; </a>
+<h3 class="anchored">
+<a href="./chapters/coordination.html">Project Management &amp; Coordination</a>
+</h3>
 </div>
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span>(i <span class="cf">in</span> <span class="dv">1</span><span class="sc">:</span><span class="fu">nrow</span>(wp_df)){</span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>  </span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">cat</span>(<span class="fu">glue</span>(<span class="st">'</span></span>
-<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="st">  &lt;div class="g-col-12 g-col-md-4 card" style = "margin-bottom:1rem;"&gt;</span></span>
-<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="st">  &lt;a href="{wp_df$link[i]}"&gt;</span></span>
-<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a><span class="st">    &lt;img src="{wp_df$img[i]} style="width:100%; height:auto object-fit:cover;"&gt;</span></span>
-<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a><span class="st">  &lt;/a&gt;</span></span>
-<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a><span class="st">  &lt;h3&gt;&lt;a href="{wp_df$link[i]}"&gt;{wp_df$title[i]}&lt;/a&gt;&lt;/h3&gt;</span></span>
-<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a><span class="st">  &lt;/div&gt;</span></span>
-<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a><span class="st">  '</span>))</span>
-<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>&lt;div class="g-col-12 g-col-md-4 card" style = "margin-bottom:1rem;"&gt;
-&lt;a href="chapters/coordination.qmd"&gt;
-  &lt;img src="resources/thumbnails/wp1.png style="width:100%; height:auto object-fit:cover;"&gt;
-&lt;/a&gt;
-&lt;h3&gt;&lt;a href="chapters/coordination.qmd"&gt;Project Management &amp; Coordination&lt;/a&gt;&lt;/h3&gt;
-&lt;/div&gt;&lt;div class="g-col-12 g-col-md-4 card" style = "margin-bottom:1rem;"&gt;
-&lt;a href="chapters/communication.qmd"&gt;
-  &lt;img src="resources/thumbnails/wp2.png style="width:100%; height:auto object-fit:cover;"&gt;
-&lt;/a&gt;
-&lt;h3&gt;&lt;a href="chapters/communication.qmd"&gt;Communication&lt;/a&gt;&lt;/h3&gt;
-&lt;/div&gt;&lt;div class="g-col-12 g-col-md-4 card" style = "margin-bottom:1rem;"&gt;
-&lt;a href="chapters/aiml_lab.qmd"&gt;
-  &lt;img src="resources/thumbnails/wp3.png style="width:100%; height:auto object-fit:cover;"&gt;
-&lt;/a&gt;
-&lt;h3&gt;&lt;a href="chapters/aiml_lab.qmd"&gt;AI/ML Lab&lt;/a&gt;&lt;/h3&gt;
-&lt;/div&gt;&lt;div class="g-col-12 g-col-md-4 card" style = "margin-bottom:1rem;"&gt;
-&lt;a href="https://aiml4os.github.io/WP4/"&gt;
-  &lt;img src="resources/thumbnails/wp4.png style="width:100%; height:auto object-fit:cover;"&gt;
-&lt;/a&gt;
-&lt;h3&gt;&lt;a href="https://aiml4os.github.io/WP4/"&gt;Ecosystem Monitoring&lt;/a&gt;&lt;/h3&gt;
-&lt;/div&gt;&lt;div class="g-col-12 g-col-md-4 card" style = "margin-bottom:1rem;"&gt;
-&lt;a href="chapters/standards_methodology_implementation.qmd"&gt;
-  &lt;img src="resources/thumbnails/wp5.png style="width:100%; height:auto object-fit:cover;"&gt;
-&lt;/a&gt;
-&lt;h3&gt;&lt;a href="chapters/standards_methodology_implementation.qmd"&gt;Standards, Methodology &amp; Implementation&lt;/a&gt;&lt;/h3&gt;
-&lt;/div&gt;&lt;div class="g-col-12 g-col-md-4 card" style = "margin-bottom:1rem;"&gt;
-&lt;a href="chapters/knowledge_repository.qmd"&gt;
-  &lt;img src="resources/thumbnails/wp6.png style="width:100%; height:auto object-fit:cover;"&gt;
-&lt;/a&gt;
-&lt;h3&gt;&lt;a href="chapters/knowledge_repository.qmd"&gt;Knowledge Repository&lt;/a&gt;&lt;/h3&gt;
-&lt;/div&gt;</code></pre>
+<div class="g-col-12 g-col-md-4 card" style="margin-bottom:1rem;">
+<a href="./chapters/communication.html"> &lt;img src=“resources/thumbnails/wp2.png style=”width:100%; height:auto object-fit:cover;“&gt; </a>
+<h3 class="anchored">
+<a href="./chapters/communication.html">Communication</a>
+</h3>
 </div>
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">'&lt;/div&gt;'</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>&lt;/div&gt;</code></pre>
+<div class="g-col-12 g-col-md-4 card" style="margin-bottom:1rem;">
+<a href="./chapters/aiml_lab.html"> &lt;img src=“resources/thumbnails/wp3.png style=”width:100%; height:auto object-fit:cover;“&gt; </a>
+<h3 class="anchored">
+<a href="./chapters/aiml_lab.html">AI/ML Lab</a>
+</h3>
+</div>
+<div class="g-col-12 g-col-md-4 card" style="margin-bottom:1rem;">
+<a href="https://aiml4os.github.io/WP4/"> &lt;img src=“resources/thumbnails/wp4.png style=”width:100%; height:auto object-fit:cover;“&gt; </a>
+<h3 class="anchored">
+<a href="https://aiml4os.github.io/WP4/">Ecosystem Monitoring</a>
+</h3>
+</div>
+<div class="g-col-12 g-col-md-4 card" style="margin-bottom:1rem;">
+<a href="./chapters/standards_methodology_implementation.html"> &lt;img src=“resources/thumbnails/wp5.png style=”width:100%; height:auto object-fit:cover;“&gt; </a>
+<h3 class="anchored">
+<a href="./chapters/standards_methodology_implementation.html">Standards, Methodology &amp; Implementation</a>
+</h3>
+</div>
+<div class="g-col-12 g-col-md-4 card" style="margin-bottom:1rem;">
+<a href="./chapters/knowledge_repository.html"> &lt;img src=“resources/thumbnails/wp6.png style=”width:100%; height:auto object-fit:cover;“&gt; </a>
+<h3 class="anchored">
+<a href="./chapters/knowledge_repository.html">Knowledge Repository</a>
+</h3>
 </div>
 </div>
 </section>
