@@ -131,6 +131,30 @@ The AIML4OS project is divided into 13 workpackages, 6 of which are 'supporting'
 
 
 
+::: {.grid}
+
+::: {.g-col12 .g-col-md-4}
+::: {.card}
+[![](resources/thumbnails/wp1.png)](chapters/coordination.qmd)
+
+### [Project Management & Coordination](chapters/coordination.qmd)
+
+:::
+:::
+
+::: {.g-col12 .g-col-md-4}
+::: {.card}
+[![](resources/thumbnails/wp2.png)](chapters/communication.qmd)
+
+### [Communication](chapters/communication.qmd)
+
+:::
+:::
+
+
+:::
+
+
 # Links 
 
 - [LinkedIn](https://www.linkedin.com/company/essnet-aiml4os/){target="_blank"}
