@@ -144,9 +144,18 @@ wp_df <- tibble::tribble(
 
 library(glue)
 
-cat('<div class="grid">')
 
 for(i in 1:nrow(wp_df)){
+  
+  if(i==1){
+    cat('<h3>Supporting Workpackages</h3>')
+    cat('<div class="grid">')
+  }
+  if(i==7){
+    cat('</div>')
+    cat('<h3>Use Case Workpackages</h3>')
+    cat('<div class="grid">')
+  }
   
   cat(glue('
   <div class="g-col-12 g-col-md-3 card" style = "margin-bottom:1rem;">
@@ -159,6 +168,32 @@ for(i in 1:nrow(wp_df)){
 }
 
 cat('</div>')
+
+
+
+
+
+for(i in 1:nrow(wp_df)){
+  
+  if(i==1){
+    cat('<h3>Supporting Workpackages</h3>')
+  }
+  if(i==7){
+    cat('<h3>Use Case Workpackages</h3>')
+  }
+  
+  cat(glue('
+  <div class="media-row" style = "display:flex; align-items:center; margin-bottom:1rem;">
+  <a href="{wp_df$link[i]}">
+    <img src="{wp_df$img[i]}" style="width:120px; height:120px; object-fit:cover; margin-right:1rem;">
+  </a>
+    <div>
+    **<a href="{wp_df$link[i]}">{wp_df$title[i]}</a>**
+    </div>
+  </div>
+  '))
+}
+
 ```
 
 # Links 
