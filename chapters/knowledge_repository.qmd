@@ -2,3 +2,7 @@
 # Knowledge Repository
 
 Some text
+
+## Resources
+
+[Link to funathon 1](https://aiml4os.github.io/funathon-project1/){target="_blank"}

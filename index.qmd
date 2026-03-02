@@ -130,7 +130,7 @@ The AIML4OS project is divided into 13 workpackages, 6 of which are 'supporting'
 13. [Synthetic Data](chapters/synthetic_data.qmd)
 
 
-:::{.listing}
+::: {.listing}
 contents: chapters
 type: grid
 filter: list
