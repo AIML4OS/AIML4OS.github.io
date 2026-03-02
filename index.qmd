@@ -136,7 +136,7 @@ for(i in 1:nrow(wp_df)){
   }
   
   cat(glue::glue('
-  <div class="media-row" style = "display:flex; align-items:center; margin-bottom:0.5rem;">
+  <div class="media-row" style = "display:flex; align-items:center; margin-bottom:0rem;">
   <a href="{wp_df$link[i]}">
     <img src="{wp_df$img[i]}" style="width:80px; height:80px; object-fit:cover; margin-right:1rem;">
   </a>
