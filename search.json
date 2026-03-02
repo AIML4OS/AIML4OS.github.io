@@ -97,7 +97,7 @@
     "href": "index.html",
     "title": "AI and Machine Learning for Official Statistics - AIML4OS",
     "section": "",
-    "text": "AI and Machine Learning for Official Statistics (AIML4OS) is an ESSnet project aimed at delivering a comprehensive suite of resources, guidelines, methodologies and use cases for the implementation of AI/ML in Official Statistics. There are 15 funded countries in the consortium. The project is running from April 2024 to March 2028.\n\nProject Structure\nThe AIML4OS project is divided into 13 workpackages, 6 of which are ‘supporting’ workpackages that provide cross-cutting insight and resources, and 7 of which are ‘use case’ workpackages, which explore a specific domain within AI/ML and its relevance to official statistics.\n\nSupporting Workpackages\n\nProject Management & Coordination\nCommunication\nAI/ML Lab\nEcosystem Monitoring\nStandards, Methodology & Implementation\nKnowledge Repository\n\n\n\nUse Case Workpackages\n\nEarth Observation Data\nEditing\nImputation\nText to Code\nSupply Chain Networks\nLLMs\nSynthetic Data\n\n\n\n\nLinks\n\nLinkedIn\nEurostat CROS\nAIML4OS on EU Funding and Tenders Portal\nDeliverable tracker\n\n\n\n\nGrant Agreement number: 101146355 — (AIML4OS — SMP-ESS-2023-AI-ML4OS-IBA)\n\n\n\n\n\n\nReuseCC-BY 4.0",
+    "text": "AI and Machine Learning for Official Statistics (AIML4OS) is an ESSnet project aimed at delivering a comprehensive suite of resources, guidelines, methodologies and use cases for the implementation of AI/ML in Official Statistics. There are 15 funded countries in the consortium. The project is running from April 2024 to March 2028.\n\nProject Structure\nThe AIML4OS project is divided into 13 workpackages, 6 of which are ‘supporting’ workpackages that provide cross-cutting insight and resources, and 7 of which are ‘use case’ workpackages, which explore a specific domain within AI/ML and its relevance to official statistics.\n\nSupporting Workpackages\n\nProject Management & Coordination\nCommunication\nAI/ML Lab\nEcosystem Monitoring\nStandards, Methodology & Implementation\nKnowledge Repository\n\n\n\nUse Case Workpackages\n\nEarth Observation Data\nEditing\nImputation\nText to Code\nSupply Chain Networks\nLLMs\nSynthetic Data\n\n\n\n\n\n\nProject Management & Coordination\n\n\n\n\n\n\n\nCommunication\n\n\n\n\n\n\n\nLinks\n\nLinkedIn\nEurostat CROS\nAIML4OS on EU Funding and Tenders Portal\nDeliverable tracker\n\n\n\n\nGrant Agreement number: 101146355 — (AIML4OS — SMP-ESS-2023-AI-ML4OS-IBA)\n\n\n\n\n\n\nReuseCC-BY 4.0",
     "crumbs": [
       "Homepage"
     ]
@@ -172,7 +172,7 @@
     "href": "chapters/deliverables_tasks.html#tasks",
     "title": "AIML4OS",
     "section": "Tasks",
-    "text": "Tasks\n\n\n                                    Description Workpackage  ID Start Date\n1        Governance and Coordination of AIML40S           1 1.1 2024-04-01\n2         Support, Coordinate the Work Packages           1 1.2 2024-04-01\n3               Management of Financial Aspects           1 1.3 2024-04-01\n4  Coordination and Communication with Eurostat           1 1.4 2024-04-01\n5      Setting up and oversight of review panel           1 1.5 2024-04-01\n6                Initiation and Project Closure           1 1.6 2024-04-01\n    End Date\n1 2028-03-31\n2 2028-03-31\n3 2028-03-31\n4 2028-03-31\n5 2024-12-31\n6 2028-03-31",
+    "text": "Tasks",
     "crumbs": [
       "Deliverables & Tasks"
     ]
