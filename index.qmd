@@ -116,16 +116,16 @@ gsbpm: "5.1" # See complete taxonomy: https://www.unescap.org/sites/default/d8fi
 
 The AIML4OS project is divided into 13 workpackages, 6 of which are 'supporting' workpackages that provide cross-cutting insight and resources, and 7 of which are 'use case' workpackages, which explore a specific domain within AI/ML and its relevance to official statistics. 
 
-### Supporting Workpackages
+<!-- ### Supporting Workpackages -->
 
-1. [Project Management & Coordination](chapters/coordination.qmd)
-2. [Communication](chapters/communication.qmd)
-3. [AI/ML Lab](chapters/aiml_lab.qmd)
-4. [Ecosystem Monitoring](https://aiml4os.github.io/WP4/)
-5. [Standards, Methodology & Implementation](chapters/standards_methodology_implementation.qmd)
-6. [Knowledge Repository](chapters/knowledge_repository.qmd)
+<!-- 1. [Project Management & Coordination](chapters/coordination.qmd) -->
+<!-- 2. [Communication](chapters/communication.qmd) -->
+<!-- 3. [AI/ML Lab](chapters/aiml_lab.qmd) -->
+<!-- 4. [Ecosystem Monitoring](https://aiml4os.github.io/WP4/) -->
+<!-- 5. [Standards, Methodology & Implementation](chapters/standards_methodology_implementation.qmd) -->
+<!-- 6. [Knowledge Repository](chapters/knowledge_repository.qmd) -->
 
-### Use Case Workpackages
+<!-- ### Use Case Workpackages -->
 
 7. [Earth Observation Data](chapters/earth_observation_data.qmd)
 8. [Editing](https://aiml4os.github.io/WP8/)
@@ -145,7 +145,15 @@ wp_df <- tibble::tribble(
   'AI/ML Lab', 'chapters/aiml_lab.qmd',
   'Ecosystem Monitoring', 'https://aiml4os.github.io/WP4/',
   'Standards, Methodology & Implementation', 'chapters/standards_methodology_implementation.qmd',
-  'Knowledge Repository', 'chapters/knowledge_repository.qmd'
+  'Knowledge Repository', 'chapters/knowledge_repository.qmd',
+  
+  'Earth Observation Data','chapters/earth_observation_data.qmd',
+  'Editing', 'https://aiml4os.github.io/WP8/',
+  'Imputation', 'chapters/imputation.qmd',
+  'Text to Code', 'https://aiml4os.github.io/WP10/',
+  'Supply Chain Networks', 'chapters/supply_chain_networks.qmd',
+  'LLMs', 'chapters/llms.qmd',
+  'Synthetic Data', 'chapters/synthetic_data.qmd'
 ) |>
   dplyr::mutate(num=dplyr::row_number(), 
          img = paste0('resources/thumbnails/wp' , num ,'.png')) 
@@ -162,7 +170,7 @@ for(i in 1:nrow(wp_df)){
   <a href="{wp_df$link[i]}">
     <img src="{wp_df$img[i]}" style="width:100%; height:auto object-fit:cover;">
   </a>
-  <h3><a href="{wp_df$link[i]}">{wp_df$title[i]}</a></h3>
+  **<a href="{wp_df$link[i]}">{wp_df$title[i]}</a>**
   </div>
   '))
 }
