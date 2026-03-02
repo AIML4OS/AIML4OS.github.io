@@ -1,5 +1,8 @@
 
 ---
-title: "External Resource"
+title: "Ecosystem Monitoring"
 redirect: https://aiml4os.github.io/WP4/
+format: 
+  html:
+    theme: cosmo
 ---
