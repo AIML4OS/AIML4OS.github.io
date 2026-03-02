@@ -1,0 +1,22 @@
+[
+  {
+    "listing": "/index.html",
+    "items": [
+      "/chapters/coordination.html",
+      "/chapters/communication.html",
+      "/chapters/aiml_lab.html",
+      "/chapters/standards_methodology_implementation.html",
+      "/chapters/knowledge_repository.html",
+      "/chapters/earth_observation_data.html",
+      "/chapters/editing.html",
+      "/chapters/imputation.html",
+      "/chapters/supply_chain_networks.html",
+      "/chapters/llms.html",
+      "/chapters/synthetic_data.html",
+      "/chapters/useful_links.html",
+      "/chapters/news.html",
+      "/chapters/deliverables_tasks.html",
+      "/chapters/about_project.html"
+    ]
+  }
+]
