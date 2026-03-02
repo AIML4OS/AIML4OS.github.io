@@ -53,7 +53,18 @@
     "href": "chapters/knowledge_repository.html",
     "title": "Knowledge Repository",
     "section": "",
-    "text": "Knowledge Repository\nSome text",
+    "text": "Some text\n\n\nLink to funathon 1",
+    "crumbs": [
+      "Workpackages",
+      "Knowledge Repository"
+    ]
+  },
+  {
+    "objectID": "chapters/knowledge_repository.html#resources",
+    "href": "chapters/knowledge_repository.html#resources",
+    "title": "Knowledge Repository",
+    "section": "",
+    "text": "Link to funathon 1",
     "crumbs": [
       "Workpackages",
       "Knowledge Repository"
