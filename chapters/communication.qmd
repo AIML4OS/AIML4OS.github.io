@@ -1,12 +1,4 @@
----
-title: Communication
-image: resources/thumbnails/wp2.png
-description: Communication
-list: true
-fomat: 
-  html:
-    theme: cosmo
----
+
 
 # Communication
 

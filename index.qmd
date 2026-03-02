@@ -8,11 +8,13 @@ include-before-body:
   - text: |
       <img src="resources/cover/main2.png" style="max-width:900px;width:100%"><br>
 
-listing:
-  id: wp-list
-  contents: chapters
-  type: grid
-  sort: false  
+
+# This didn't work out. 
+# listing:
+#   id: wp-list
+#   contents: chapters
+#   type: grid
+#   sort: false  
 
 
 # include-before-body:
@@ -134,8 +136,39 @@ The AIML4OS project is divided into 13 workpackages, 6 of which are 'supporting'
 13. [Synthetic Data](chapters/synthetic_data.qmd)
 
 
-::: {#wp-list}
-:::
+```{r}
+
+wp_df <- tibble::tribble(
+  ~title, ~link,
+  'Project Management & Coordination', 'chapters/coordination.qmd',
+  'Communication', 'chapters/communication.qmd',
+  'AI/ML Lab', 'chapters/aiml_lab.qmd',
+  'Ecosystem Monitoring', 'https://aiml4os.github.io/WP4/',
+  'Standards, Methodology & Implementation', 'chapters/standards_methodology_implementation.qmd',
+  'Knowledge Repository', 'chapters/knowledge_repository.qmd'
+) %>% 
+  dplyr::mutate(num=dplyr::row_number(), 
+         img = paste0('resources/thumbnails/wp' , num ,'.png')) 
+
+
+library(glue)
+
+cat('<div class="grid">')
+
+for(i in 1:nrow(wp_df)){
+  
+  cat(glue('
+  <div class="g-col-12 g-col-md-4 card" style = "margin-bottom:1rem;">
+  <a href="{wp_df$link[i]}">
+    <img src="{wp_df$img[i]} style="width:100%; height:auto object-fit:cover;">
+  </a>
+  <h3><a href="{wp_df$link[i]}">{wp_df$title[i]}</a></h3>
+  </div>
+  '))
+}
+
+cat('</div>')
+```
 
 # Links 
 
