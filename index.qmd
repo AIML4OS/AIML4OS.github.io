@@ -13,6 +13,7 @@ listing:
   contents: chapters
   type: grid
   filter-ui: true
+  image: image
   sort: false  
 
 
