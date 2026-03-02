@@ -49,34 +49,40 @@ website:
         expanded: false
         contents: 
           - file: chapters/coordination.qmd
-            text: Project Management & Coordination
+            text: "Project Management & Coordination"
           - file: chapters/communication.qmd
-            text: Communication
+            text: "Communication"
           - file: chapters/aiml_lab.qmd
-            text: AI/ML Lab
+            text: "AI/ML Lab"
+          - text: "Ecosystem Monitoring"
+            href: https://aiml4os.github.io/WP4/
           - file: chapters/standards_methodology_implementation.qmd
-            text: Standards, Methodology & Implementation
+            text: "Standards, Methodology & Implementation"
           - file: chapters/knowledge_repository.qmd
-            text: Knowledge Repository
+            text: "Knowledge Repository"
           - file: chapters/earth_observation_data.qmd
-            text: Earth Observation Data
+            text: "Earth Observation Data"
+          - text: "Editing"
+            href: https://aiml4os.github.io/WP8/
           - file: chapters/imputation.qmd
-            text: Imputation
+            text: "Imputation"
+          - text: "Text to Code"
+            href: https://aiml4os.github.io/WP10/
           - file: chapters/supply_chain_networks.qmd
-            text: Supply Chain Networks
+            text: "Supply Chain Networks"
           - file: chapters/llms.qmd
-            text: Large Language Models
+            text: "Large Language Models"
           - file: chapters/synthetic_data.qmd
-            text: Synthetic Data
+            text: "Synthetic Data"
 
       - file: chapters/useful_links.qmd
-        text: Useful Links
+        text: "Useful Links"
       - file: chapters/news.qmd
-        text: News
+        text: "News"
       - file: chapters/deliverables_tasks.qmd
-        text: Deliverables & Tasks
+        text: "Deliverables & Tasks"
       - file: chapters/about_project.qmd
-        text: About Project
+        text: "About Project"
 
 format:
   html:
