@@ -71,14 +71,24 @@
     ]
   },
   {
-    "objectID": "chapters/aiml_lab.html",
-    "href": "chapters/aiml_lab.html",
-    "title": "AI/ML Lab",
+    "objectID": "chapters/communication.html",
+    "href": "chapters/communication.html",
+    "title": "Communication",
     "section": "",
-    "text": "AI/ML Lab\nSome text",
+    "text": "Communication\nSome text",
     "crumbs": [
       "Workpackages",
-      "AI/ML Lab"
+      "Communication"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "AI and Machine Learning for Official Statistics - AIML4OS",
+    "section": "",
+    "text": "AI and Machine Learning for Official Statistics (AIML4OS) is an ESSnet project aimed at delivering a comprehensive suite of resources, guidelines, methodologies and use cases for the implementation of AI/ML in Official Statistics. There are 15 funded countries in the consortium. The project is running from April 2024 to March 2028.\n\nProject Structure\nThe AIML4OS project is divided into 13 workpackages, 6 of which are ‘supporting’ workpackages that provide cross-cutting insight and resources, and 7 of which are ‘use case’ workpackages, which explore a specific domain within AI/ML and its relevance to official statistics.\n\nSupporting Workpackages\n\n\n  \n\n\nProject Management & Coordination\n\n\nSupport, coordinate and facilitate the consortium activities\n\n\n\n\n  \n\n\nCommunication\n\n\nSharing ideas and results from the project, and building communities around AI/ML\n\n\n\n\n  \n\n\nAI/ML Lab\n\n\nDeliver a sandpit for AI/ML experimentation and development\n\n\n\n\n  \n\n\nEcosystem Monitoring\n\n\nGather evidence of the current state of AI/ML use, and identify needs\n\n\n\n\n  \n\n\nStandards, Methodology & Implementation\n\n\nDevelop guidelines, achieve standardization, and support practical implementation\n\n\n\n\n  \n\n\nKnowledge Repository\n\n\nSupport integration and maintenance of AI/ML-based solutions through specific training resources\n\n\n\n\nUse Case Workpackages\n\n\n  \n\n\nEarth Observation Data\n\n\nUnlocking potential of earth observation data using AI models\n\n\n\n\n  \n\n\nEditing\n\n\nImproving the quality of official statistics through the use of AI/ML in data editing\n\n\n\n\n  \n\n\nImputation\n\n\nDevelop, test, and implement AI/ML-based solutions for imputation processes\n\n\n\n\n  \n\n\nText to Code\n\n\nExperiences and potential of the use of AI/ML for classifying and coding\n\n\n\n\n  \n\n\nSupply Chain Networks\n\n\nDeveloping model-based approaches for deriving firm-level network datasets\n\n\n\n\n  \n\n\nLLMs\n\n\nExplore and implement LLM technologies to enhance data management, quality control, and process automation\n\n\n\n\n  \n\n\nSynthetic Data\n\n\nGeneration of synthetic data in official statistics: techniques and applications\n\n\n\n\nLinks\n\nLinkedIn\nEurostat CROS\nAIML4OS on EU Funding and Tenders Portal\nDeliverable tracker\n\n\n\n\nGrant Agreement number: 101146355 — (AIML4OS — SMP-ESS-2023-AI-ML4OS-IBA)\n\n\n\n\n\nReuseCC-BY 4.0",
+    "crumbs": [
+      "Homepage"
     ]
   },
   {
@@ -104,24 +114,14 @@
     ]
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "AI and Machine Learning for Official Statistics - AIML4OS",
+    "objectID": "chapters/aiml_lab.html",
+    "href": "chapters/aiml_lab.html",
+    "title": "AI/ML Lab",
     "section": "",
-    "text": "AI and Machine Learning for Official Statistics (AIML4OS) is an ESSnet project aimed at delivering a comprehensive suite of resources, guidelines, methodologies and use cases for the implementation of AI/ML in Official Statistics. There are 15 funded countries in the consortium. The project is running from April 2024 to March 2028.\n\nProject Structure\nThe AIML4OS project is divided into 13 workpackages, 6 of which are ‘supporting’ workpackages that provide cross-cutting insight and resources, and 7 of which are ‘use case’ workpackages, which explore a specific domain within AI/ML and its relevance to official statistics.\n\nSupporting Workpackages\n\n\n  \n\n\nProject Management & Coordination\n\n\nSupport, coordinate and facilitate the consortium activities\n\n\n\n\n  \n\n\nCommunication\n\n\nSharing ideas and results from the project, and building communities around AI/ML\n\n\n\n\n  \n\n\nAI/ML Lab\n\n\nDeliver a sandpit for AI/ML experimentation and development\n\n\n\n\n  \n\n\nEcosystem Monitoring\n\n\nGather evidence of the current state of AI/ML use, and identify needs\n\n\n\n\n  \n\n\nStandards, Methodology & Implementation\n\n\nDevelop guidelines, achieve standardization, and support practical implementation\n\n\n\n\n  \n\n\nKnowledge Repository\n\n\nSupport integration and maintenance of AI/ML-based solutions through specific training resources\n\n\n\n\nUse Case Workpackages\n\n\n  \n\n\nEarth Observation Data\n\n\nUnlocking potential of earth observation data using AI models\n\n\n\n\n  \n\n\nEditing\n\n\nImproving the quality of official statistics through the use of AI/ML in data editing\n\n\n\n\n  \n\n\nImputation\n\n\nDevelop, test, and implement AI/ML-based solutions for imputation processes\n\n\n\n\n  \n\n\nText to Code\n\n\nExperiences and potential of the use of AI/ML for classifying and coding\n\n\n\n\n  \n\n\nSupply Chain Networks\n\n\nDeveloping model-based approaches for deriving firm-level network datasets\n\n\n\n\n  \n\n\nLLMs\n\n\nExplore and implement LLM technologies to enhance data management, quality control, and process automation\n\n\n\n\n  \n\n\nSynthetic Data\n\n\nGeneration of synthetic data in official statistics: techniques and applications\n\n\n\n\nLinks\n\nLinkedIn\nEurostat CROS\nAIML4OS on EU Funding and Tenders Portal\nDeliverable tracker\n\n\n\n\nGrant Agreement number: 101146355 — (AIML4OS — SMP-ESS-2023-AI-ML4OS-IBA)\n\n\n\n\n\nReuseCC-BY 4.0",
-    "crumbs": [
-      "Homepage"
-    ]
-  },
-  {
-    "objectID": "chapters/communication.html",
-    "href": "chapters/communication.html",
-    "title": "Communication",
-    "section": "",
-    "text": "Communication\nSome text",
+    "text": "AI/ML Lab\nSome text",
     "crumbs": [
       "Workpackages",
-      "Communication"
+      "AI/ML Lab"
     ]
   },
   {
