@@ -15,12 +15,12 @@ deliv$Workpackage <- factor(deliv$Workpackage, levels = as.character(1:13))
 deliv$Organisation <- factor(deliv$Organisation)
 
 
-head(deliv)
+# head(deliv)
 
-# DT::datatable(deliv ,
-#               filter = 'top',
-#               rownames = F,
-#               options = list(pageLength = 5))
+DT::datatable(deliv ,
+              filter = 'top',
+              rownames = F,
+              options = list(pageLength = 5))
 ```
 
 ## Tasks
