@@ -1,4 +1,12 @@
-
+---
+title: Project Management & Coordination
+image: resources/thumbnails/wp1.jpg
+description: Project Management & Coordination
+list: true
+fomat: 
+  html:
+    theme: cosmo
+---
 
 # Project Management & Coordination
 
