@@ -54,9 +54,8 @@ website:
             text: Communication
           - file: chapters/aiml_lab.qmd
             text: AI/ML Lab
-          - text: Ecosystem Monitoring
-            href: https://aiml4os.github.io/WP4/
-            target: _blank
+          - file: chapters/ecosystem_monitoring.qmd
+            text: Ecosystem Monitoring
           - file: chapters/standards_methodology_implementation.qmd
             text: Standards, Methodology & Implementation
           - file: chapters/knowledge_repository.qmd
