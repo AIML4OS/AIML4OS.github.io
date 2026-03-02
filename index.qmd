@@ -121,57 +121,7 @@ The AIML4OS project is divided into 13 workpackages, 6 of which are 'supporting'
 
 ```{r, echo=FALSE, results='asis'}
 
-wp_df <- tibble::tribble(
-  ~title, ~link,
-  'Project Management & Coordination', 'chapters/coordination.qmd',
-  'Communication', 'chapters/communication.qmd',
-  'AI/ML Lab', 'chapters/aiml_lab.qmd',
-  'Ecosystem Monitoring', 'https://aiml4os.github.io/WP4/',
-  'Standards, Methodology & Implementation', 'chapters/standards_methodology_implementation.qmd',
-  'Knowledge Repository', 'chapters/knowledge_repository.qmd',
-  
-  'Earth Observation Data','chapters/earth_observation_data.qmd',
-  'Editing', 'https://aiml4os.github.io/WP8/',
-  'Imputation', 'chapters/imputation.qmd',
-  'Text to Code', 'https://aiml4os.github.io/WP10/',
-  'Supply Chain Networks', 'chapters/supply_chain_networks.qmd',
-  'LLMs', 'chapters/llms.qmd',
-  'Synthetic Data', 'chapters/synthetic_data.qmd'
-) |>
-  dplyr::mutate(num=dplyr::row_number(), 
-         img = paste0('resources/thumbnails/wp' , num ,'.png')) 
-
-
-library(glue)
-
-
-for(i in 1:nrow(wp_df)){
-  
-  if(i==1){
-    cat('<h3>Supporting Workpackages</h3>')
-    cat('<div class="grid">')
-  }
-  if(i==7){
-    cat('</div>')
-    cat('<h3>Use Case Workpackages</h3>')
-    cat('<div class="grid">')
-  }
-  
-  cat(glue('
-  <div class="g-col-12 g-col-md-3 card" style = "margin-bottom:1rem;">
-  <a href="{wp_df$link[i]}">
-    <img src="{wp_df$img[i]}" style="width:100%; height:auto object-fit:cover;">
-  </a>
-  **<a href="{wp_df$link[i]}">{wp_df$title[i]}</a>**
-  </div>
-  '))
-}
-
-cat('</div>')
-
-
-
-
+wp_df <- readRDS('resources/rds_files/wp_df.rds') 
 
 for(i in 1:nrow(wp_df)){
   
@@ -182,13 +132,14 @@ for(i in 1:nrow(wp_df)){
     cat('<h3>Use Case Workpackages</h3>')
   }
   
-  cat(glue('
+  cat(glue::glue('
   <div class="media-row" style = "display:flex; align-items:center; margin-bottom:1rem;">
   <a href="{wp_df$link[i]}">
     <img src="{wp_df$img[i]}" style="width:120px; height:120px; object-fit:cover; margin-right:1rem;">
   </a>
     <div>
-    **<a href="{wp_df$link[i]}">{wp_df$title[i]}</a>**
+    <h4><a href="{wp_df$link[i]}">{wp_df$title[i]}</a></h3>
+    <p>{wp_df$desc[i]}</p>
     </div>
   </div>
   '))
