@@ -40,7 +40,7 @@ website:
     # style: "docked"
     collapse-level: 0
     # Setting search to true. False setting didn't seem to improve collapsibility. 
-    search: true
+    # search: true
     contents: # Add HERE new chapters (but not the interactive qmd files)
       - file: index.qmd
         text: Homepage
