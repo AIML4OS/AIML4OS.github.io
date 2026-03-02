@@ -62,8 +62,8 @@ website:
             text: Knowledge Repository
           - file: chapters/earth_observation_data.qmd
             text: Earth Observation Data
-          - file: chapters/editing.qmd
-            text: Editing
+          - text: Editing
+            href: https://aiml4os.github.io/WP8/
           - file: chapters/imputation.qmd
             text: Imputation
           - text: Text to Code

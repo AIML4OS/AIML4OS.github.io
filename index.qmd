@@ -122,7 +122,7 @@ The AIML4OS project is divided into 13 workpackages, 6 of which are 'supporting'
 ### Use Case Workpackages
 
 7. [Earth Observation Data](chapters/earth_observation_data.qmd)
-8. [Editing](chapters/editing.qmd)
+8. [Editing](https://aiml4os.github.io/WP8/)
 9. [Imputation](chapters/imputation.qmd)
 10. [Text to Code](https://aiml4os.github.io/WP10/)
 11. [Supply Chain Networks](chapters/supply_chain_networks.qmd)

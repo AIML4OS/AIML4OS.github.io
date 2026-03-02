@@ -15,11 +15,12 @@ deliv$Workpackage <- factor(deliv$Workpackage, levels = as.character(1:13))
 deliv$Organisation <- factor(deliv$Organisation)
 
 
+head(deliv)
 
-DT::datatable(deliv ,
-              filter = 'top',
-              rownames = F,
-              options = list(pageLength = 5))
+# DT::datatable(deliv ,
+#               filter = 'top',
+#               rownames = F,
+#               options = list(pageLength = 5))
 ```
 
 ## Tasks
@@ -32,10 +33,12 @@ tasks <- tasks[ , c('Description','Workpackage', 'ID' , 'Start Date' , 'End Date
 tasks$Workpackage <- as.character(tasks$Workpackage)
 tasks$Workpackage <- factor(tasks$Workpackage, levels = as.character(1:13))
 
-DT::datatable(tasks , 
-              filter = 'top',
-              rownames = F,
-              options = list(pageLength = 5))
+head(tasks)
+
+# DT::datatable(tasks , 
+#               filter = 'top',
+#               rownames = F,
+#               options = list(pageLength = 5))
 ```
 
 <br>
