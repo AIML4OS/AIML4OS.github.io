@@ -1,5 +1,7 @@
 ---
-fomat: html
+fomat: 
+  html:
+    theme: cosmo
 ---
 
 ## Deliverables
@@ -12,7 +14,9 @@ deliv$Workpackage <- as.character(deliv$Workpackage )
 deliv$Workpackage <- factor(deliv$Workpackage, levels = as.character(1:13))
 deliv$Organisation <- factor(deliv$Organisation)
 
-DT::datatable(deliv , 
+
+
+DT::datatable(deliv ,
               filter = 'top',
               rownames = F,
               options = list(pageLength = 5))
