@@ -146,7 +146,7 @@ wp_df <- tibble::tribble(
   'Ecosystem Monitoring', 'https://aiml4os.github.io/WP4/',
   'Standards, Methodology & Implementation', 'chapters/standards_methodology_implementation.qmd',
   'Knowledge Repository', 'chapters/knowledge_repository.qmd'
-) %>% 
+) |>
   dplyr::mutate(num=dplyr::row_number(), 
          img = paste0('resources/thumbnails/wp' , num ,'.png')) 
 
