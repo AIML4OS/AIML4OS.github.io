@@ -14,10 +14,25 @@ deliv$Workpackage <- as.character(deliv$Workpackage )
 deliv$Workpackage <- factor(deliv$Workpackage, levels = as.character(1:13))
 deliv$Organisation <- factor(deliv$Organisation)
 
+names(deliv)[names(deliv) == 'Workpackage'] <- 'WP'
+names(deliv)[names(deliv) == 'Organisation'] <- 'Org.'
+
 DT::datatable(deliv ,
               filter = 'top',
               rownames = F,
-              options = list(pageLength = 5))
+              options = list(
+                pageLength = 5,
+                autoWidth = TRUE,
+                    responsive = TRUE,
+                    columnDefs = list(
+                      list(width = "35%", targets = 0),
+                      list(width = "10%", targets = 1),
+                      list(width = "10%", targets = 2),
+                      list(width = "10%", targets = 3),
+                      list(width = "20%", targets = 4),
+                      list(width = "15%", targets = 5)
+                    )
+                ))
 ```
 
 ## Tasks
@@ -30,10 +45,23 @@ tasks <- tasks[ , c('Description','Workpackage', 'ID' , 'Start Date' , 'End Date
 tasks$Workpackage <- as.character(tasks$Workpackage)
 tasks$Workpackage <- factor(tasks$Workpackage, levels = as.character(1:13))
 
+names(tasks)[names(tasks) == 'Workpackage'] <- 'WP'
+
 DT::datatable(tasks ,
               filter = 'top',
               rownames = F,
-              options = list(pageLength = 5))
+              options = list(
+                pageLength = 5,
+                autoWidth = TRUE,
+                    responsive = TRUE,
+                    columnDefs = list(
+                      list(width = "50%", targets = 0),
+                      list(width = "10%", targets = 1),
+                      list(width = "10%", targets = 2),
+                      list(width = "15%", targets = 3),
+                      list(width = "15%", targets = 4)
+                    )
+                ))
 ```
 
 <br>
