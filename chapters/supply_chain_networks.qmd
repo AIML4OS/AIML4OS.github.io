@@ -3,4 +3,12 @@
 # Supply Chain Networks
 
 
-Some text 
+In the past decades, supply chains have become crucial in the world economy and in our daily lives.
+
+Disruptions can spread quickly because of network effects and may have severe consequences all over the world. They also play an important role in making economies more sustainable and circular. To allow policy makers, businesses and citizens to gain better grip and understanding of supply chains, firmlevel datasets are more and more important. This is recognized by e.g. the Business Statistics Directors Group and the European Central Bank, that are starting research projects and pilots in this area.
+
+Some countries already have such datasets, based on administrative data collected under national legislation. On the other hand, many countries do not have such rich data sources. However, research has shown important regularities in the structure of user/supplier relationships. This allows for the development of model based approaches for deriving firmlevel network datasets that are ‘fit for purpose’ for a range of important analyses.
+
+This workpackage aims to do just that. The WP team will develop Machine Learning models for deriving supply chain networks and train them on a firmlevel network dataset for Portugal, that will be derived for this purpose using rich administrative  data sources. Also, a method will be developed for adding weights to the links and for linking the networks to the Input/output tables from National accounts. The quality of the models will be checked by applying the models for various countries and compare the results with ‘real’ network datasets. The resulting models should allow all EU National Statistical Institutes to produce firmlevel supply chain networks datasets with a basic quality.
+
+The Workpackage team consists of the NSI’s from Portugal, Poland, Netherlands and Italy and university participation from the Free University of Brussels and Oxford University Statistics who bring in their experience in deriving network datasets from VAT-data and developing ML-models for estimating networks.
