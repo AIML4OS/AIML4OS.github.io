@@ -75,7 +75,7 @@
     "href": "chapters/aiml_lab.html",
     "title": "AI/ML Lab",
     "section": "",
-    "text": "AI/ML Lab\nSome text",
+    "text": "AI/ML Lab\nWork Package 3 provides a data science platform, which allows ESS members to deploy and use state-of-the-art data science services on-demand for prototyping on non-sensitive data.\nThis platform is based on a Kubernetes cluster and provides the users with a wide range of computational resources, such as GPUs. It comes with an extensive catalogue of data science services. The user interface is provided by an open source software, Onyxia, whose development was initiated and carried out throughout by Insee, the French National Statistical Institute. Onyxia’s principles are based on an agnostic vision of data science solutions, leaving room for an easy addition of new software when deemed relevant for the catalogue of services.\nThe platform can be accessed via this link: https://datalab.sspcloud.fr/\nWork Package 3 also provides support for users of the platform and ESS members which wish to deploy Onyxia for their own use.",
     "crumbs": [
       "Workpackages",
       "AI/ML Lab"
