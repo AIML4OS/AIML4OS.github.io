@@ -3,4 +3,9 @@
 # Earth Observation Data
 
 
-Some text 
+Recent work from European member states and other institutes show promising results in predicting land use, land cover, land use change, crop yield, crop typology and greenery in cities based on either earth observation data (like satellite and aerial imagery). Using state of the art methods and tools, various AI/ML models were built.
+The question is whether these kind of developments can be shared, so that more NSI's can benefit from these developments: build once, run anywhere!
+
+The research question we would like to answer in this work package is: can these existing AI/ML models using earth observation data be generalised over space (countries) and time (periods) and under what conditions?
+
+We want to apply those methods on other countries or other timeframes and compare the results. It would demonstrate what methods and tools to-date seem to work well and what methods lack in useful results, what data sources are needed (and on what level they are available), what kind of (pre)processing is needed, what sorts of infrastructure this (pre)processing requires and how to interpret the results. It also demonstrates if (at all) a generalized processing pipeline and infrastructure is possible and what the specifications of such a pipeline would be. If it proves to be feasible, we will develop methodological and implementation guidelines. And as a side-effect, we will have results in terms of (validated) predictions for other countries/timeframes than the original study.
