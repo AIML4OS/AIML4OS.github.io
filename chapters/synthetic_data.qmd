@@ -3,4 +3,12 @@
 # Synthetic Data
 
 
-Some text 
+The main objectives of Work Package 13 are to explore different dimensions of synthetic data production in official statistics. This includes exploring the application of cutting-edge artificial intelligence and machine learning (AI/ML) algorithms to data generation, assessing the effectiveness of synthetic data in protecting sensitive information, and investigating the predominant sources of bias in data generation and strategies to mitigate them.
+
+Our approach is to develop practical use cases that prototype the creation of synthetic datasets using sophisticated AI/ML techniques, such as Generative Adversarial Networks (GANs). These use cases will serve not only to demonstrate the feasibility of generating high-quality synthetic data, but also to provide comprehensive analyses to evaluate the integrity and utility as well as the privacy of the data produced.
+
+We are committed to fostering a collaborative environment where team members with previous experience in synthetic data generation can share their knowledge. This collaborative culture is essential to pooling expertise and ensuring that all team members can contribute meaningfully to our collective goals.
+
+As we conclude our efforts in WP13, we aim to synthesize our findings and provide insights into the practicality and effectiveness of synthetic data in enhancing the privacy and security of statistical outputs. This will be crucial in determining the viability of synthetic data techniques in the broader context of official statistics.
+
+The main results of the WP will be shared through publications and conference presentations to disseminate the knowledge gained and encourage further research and development.
