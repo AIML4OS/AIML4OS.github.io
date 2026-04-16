@@ -75,7 +75,7 @@ website:
           - file: chapters/synthetic_data.qmd
             text: "Synthetic Data"
 
-      - file: chapters/useful_links.qmd
+      - file: chapters/useful_links2.qmd
         text: "Useful Links"
       - file: chapters/news.qmd
         text: "News"
