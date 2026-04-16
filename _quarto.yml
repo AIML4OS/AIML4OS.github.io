@@ -14,7 +14,7 @@ project:
     - chapters/supply_chain_networks.qmd
     - chapters/llms.qmd
     - chapters/synthetic_data.qmd
-    - chapters/useful_links.qmd
+    - chapters/useful_links2.qmd
     - chapters/news.qmd
     - chapters/deliverables_tasks.qmd
     - chapters/about_project.qmd
