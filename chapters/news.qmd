@@ -14,7 +14,13 @@
 
 <br>
 
-
+<div style="width:100%; max-width: 600px;" >
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7452985254119653376?collapsed=1" 
+height="567" 
+width="100%" 
+frameborder="0" allowfullscreen="" title="Embedded post">
+</iframe>
+</div>
 
 <div style="width:100%; max-width: 600px;" >
 <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7445479879292325888?collapsed=1" 
