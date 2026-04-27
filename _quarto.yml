@@ -62,8 +62,8 @@ website:
             text: "Knowledge Repository"
           - file: chapters/earth_observation_data.qmd
             text: "Earth Observation Data"
-          - text: "Editing"
-            href: https://aiml4os.github.io/WP8/
+          - file: chapters/editing.qmd
+            text: "Editing"
           - file: chapters/imputation.qmd
             text: "Imputation"
           - text: "Text to Code"
