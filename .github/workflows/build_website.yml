@@ -32,15 +32,6 @@ jobs:
       # Step 4: Install R dependencies
       - name: Install R dependencies using renv
         uses: r-lib/actions/setup-renv@v2
-        with:
-          packages: |
-            any::stringr
-            any::dplyr
-            any::ggplot2
-            any::tidyr
-            any::readr
-            any::purrr
-            any::tibble
        
       # Step 5: Publish website
       - name: Publish to GitHub Pages (and render)
