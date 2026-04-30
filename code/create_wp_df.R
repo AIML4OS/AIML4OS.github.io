@@ -8,7 +8,7 @@ wp_df <- tibble::tribble(
   'Knowledge Repository', 'chapters/knowledge_repository.qmd','Support integration and maintenance of AI/ML-based solutions through specific training resources',
   
   'Earth Observation Data','chapters/earth_observation_data.qmd','Unlocking potential of earth observation data using AI models',
-  'Editing', 'https://aiml4os.github.io/WP8/','Improving the quality of official statistics through the use of AI/ML in data editing',
+  'Editing', 'https://aiml4os.github.io/editing/','Improving the quality of official statistics through the use of AI/ML in data editing',
   'Imputation', 'chapters/imputation.qmd', 'Develop, test, and implement AI/ML-based solutions for imputation processes',
   'Text to Code', 'https://aiml4os.github.io/WP10/','Experiences and potential of the use of AI/ML for classifying and coding',
   'Supply Chain Networks', 'chapters/supply_chain_networks.qmd', 'Developing model-based approaches for deriving firm-level network datasets',
