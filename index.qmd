@@ -115,6 +115,11 @@ gsbpm: "5.1" # See complete taxonomy: https://www.unescap.org/sites/default/d8fi
 **AI and Machine Learning for Official Statistics (AIML4OS)** is an ESSnet project aimed at delivering a comprehensive suite of resources, guidelines, methodologies and use cases for the implementation of AI/ML in Official Statistics. There are 15 funded countries in the consortium. The project is running from April 2024 to March 2028.
 
 
+# Latest News
+
+- We will be at the European Conference on Quality in Official Statistics (Q2026), which will take place from 3 to 5 June 2026 in Šibenik, Croatia. A full list of AIML4OS presentations at Q2026 will be posted when the schedule becomes available.
+- We have produced a [repository of useful resources](chapters/imputation.qmd) which are related to the topics covered by AIML4OS. 
+
 # Project Structure
 
 The AIML4OS project is divided into 13 workpackages. Six of these are 'supporting' workpackages that provide cross-cutting insight and resources. The remaining seven are 'use case' workpackages, each of which explores a specific domain within AI/ML and its relevance to official statistics. 

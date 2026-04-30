@@ -1,7 +1,7 @@
 
 # Useful Links
 
-The following links lead to external trainings, tutorials, projects, documents, and papers related to topics covered by Working Packages of AIML4OS project
+The following links lead to external training materials, tutorials, projects, documents, and papers related to topics covered by Working Packages of AIML4OS project.
 
 ### Earth Observation
 
