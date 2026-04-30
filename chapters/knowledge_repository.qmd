@@ -9,6 +9,7 @@ We will collaborate closely with the other Work Packages. Training materials wil
 
 ## Resources
 
+- [A repository of useful resources](chapters/imputation.qmd) which are related to the topics covered by AIML4OS. 
 - [Link to funathon 1](https://aiml4os.github.io/funathon-project1/){target="_blank"}
 - [Link to funathon 2](https://aiml4os.github.io/funathon-project2/){target="_blank"}
 - [Link to funathon 3](https://aiml4os.github.io/funathon-project3/){target="_blank"}
