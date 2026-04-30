@@ -5,7 +5,7 @@
 
 ## European Conference on Quality in Official Statistics 2026
 
-We will be at the European Conference on Quality in Official Statistics (Q2026), which will take place from 3 to 5 June 2026 in Šibenik, Croatia. 
+We will be at the [European Conference on Quality in Official Statistics (Q2026)](https://www.q2026.hr/){target="_blank"}, which will take place from 3 to 5 June 2026 in Šibenik, Croatia. 
 
 - We will have a dedicated session on [*Collaborating With Artificial Intelligence and Machine Learning for Quality*](https://www.q2026.hr/programme/conference-programme/session-21/){target="_blank"}, with presentations from Eimear Crowley (WP1, Coordination), Olivier Meslin (WP3, AI/ML Lab), Luis Sanguiao (WP5, and MLUtils), and Remco Paulussen (WP7).
 - Luis Ferreira will be presenting in [Session 3](https://www.q2026.hr/programme/conference-programme/session-3/){target="_blank"} on *Unlocking Legacy Statistics with Large Language Models*, based on work carried out by WP12.
