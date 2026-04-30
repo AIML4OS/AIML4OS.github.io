@@ -33,6 +33,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
+<link href="../chapters/imputation.html" rel="next">
+<link href="../chapters/earth_observation_data.html" rel="prev">
 <link href="../resources/profile/main3.png" rel="icon" type="image/png">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
@@ -45,9 +47,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-92ccca19d14c0bd04edafc1952284584.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-92ccca19d14c0bd04edafc1952284584.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-92ccca19d14c0bd04edafc1952284584.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-4897d45d2f75ed4f519693be625836c5.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-4897d45d2f75ed4f519693be625836c5.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-4897d45d2f75ed4f519693be625836c5.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -89,7 +91,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../chapters/coordination.html">Workpackages</a></li><li class="breadcrumb-item"><a href="../chapters/editing.html">Editing</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -174,7 +176,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="https://aiml4os.github.io/WP8/" class="sidebar-item-text sidebar-link">
+  <a href="../chapters/editing.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Editing</span></a>
   </div>
 </li>
@@ -249,14 +251,14 @@ ul.task-list li input[type="checkbox"] {
 <div class="toc-actions"><ul><li><a href="https://github.com/AIML4OS/AIML4OS.github.io/edit/main/chapters/editing.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/AIML4OS/AIML4OS.github.io/blob/main/chapters/editing.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/AIML4OS/AIML4OS.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../chapters/coordination.html">Workpackages</a></li><li class="breadcrumb-item"><a href="../chapters/editing.html">Editing</a></li></ol></nav></header>
 
 
 
 
 <section id="editing" class="level1">
 <h1>Editing</h1>
-<p>Some text</p>
+<p>WP 8 focuses on enhancing the quality of official statistics through the innovative use of AI/ML in data editing and imputation, with a special emphasis on editing. Data Editing deals with issues that are essential for the quality of official statistics. This involves reliable information for traditional products as well as the production of good training data sets for machine learning. At the same time, machine learning can help to improve data editing. On the one hand, by enabling the use of methods that can recognise erroneous observations as such and, on the other hand, for the specific localisation of the error within an observation. The replacement of incorrect values also touches on the customisation of this work package and establishes the connection to the imputation focus of WP9. The expected outputs of this work package will include methodological investigations and practical implementations, encapsulated in Python and/or R code. A standardised editing pipeline for all datasets and variable types would be of great benefit to official statistics, but seems hardly feasible. Different procedures and approaches must therefore be developed and analysed for different types of datasets, taking into account the fact that data is probably not shareable between different NSI. The interplay between development, testing and standardisation leads to an iterative process that will characterise the work of this work package. At best, this will result in a methodological and implementation framework for editing. This framework will constitue the concrete result of this work package, which will further improve the quality of official statistics. Furthermore, this work package seeks to compile a comprehensive report detailing the methodologies employed, the evaluation of outcomes, and the invaluable lessons learned throughout the process. To achieve these results, the work package is structured into several strategic steps. The first step will be to achieve a literature review and a systematic examination of current experiences and challenges faced by participating countries. Insights gained from this review will guide the selection of specific problems to address, focusing on the techniques, degree of automation, and data handling. Based on the foundational work, different methodological approaches for data editing will be developped and tested (usually in forms of prototypes) in a second phase. The final step involves compiling the findings and methodologies into a detailed report. Additionally, the work package will participate in key dissemination events, such as the UNECE Data Editing Workshops and Expert Meetings in 2024 and 2026. These events, both virtual and physical, will serve as platforms to share the outcomes and insights gained, promoting broader adoption and understanding of the developed methodologies.</p>
 
 
 </section>
@@ -662,6 +664,18 @@ ul.task-list li input[type="checkbox"] {
     }
   });
   </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../chapters/earth_observation_data.html" class="pagination-link" aria-label="Earth Observation Data">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Earth Observation Data</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../chapters/imputation.html" class="pagination-link" aria-label="Imputation">
+        <span class="nav-page-text">Imputation</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
 </div> <!-- /content -->
 
 
