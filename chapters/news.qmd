@@ -2,8 +2,22 @@
 
 # News
 
-We will be at the European Conference on Quality in Official Statistics (Q2026), which will take place from 3 to 5 June 2026 in Šibenik, Croatia. A full list of AIML4OS presentations at Q2026 will be posted here when the schedule becomes available. 
 
+## European Conference on Quality in Official Statistics 2026
+
+We will be at the European Conference on Quality in Official Statistics (Q2026), which will take place from 3 to 5 June 2026 in Šibenik, Croatia. 
+
+- We will have a dedicated session on [*Collaborating With Artificial Intelligence and Machine Learning for Quality*](https://www.q2026.hr/programme/conference-programme/session-21/){target="_blank"}, with presentations from Eimear Crowley (WP1, Coordination), Olivier Meslin (WP3, AI/ML Lab), Luis Sanguiao (WP5, and MLUtils), and Remco Paulussen (WP7).
+- Luis Ferreira will be presenting on [*Unlocking Legacy Statistics with Large Language Models*](https://www.q2026.hr/programme/conference-programme/session-3/){target="_blank"}, based on work carried out by WP12.
+- In the [Speed Talk Session 3](https://www.q2026.hr/programme/conference-programme/speed-talk-session-3/){target="_blank"}, there will be a number of presentations from members of AIML4OS, including Alexander Kowarik, Johannes Gussenbauer, Elena Rosa-Perez and Pedro Sousa
+- In [Session 8](https://www.q2026.hr/programme/conference-programme/session-8/){target="_blank"}, Sónia Quaresma will present on the work of the Ecosystem Monitoring workpackage (WP4), with a talk titled *No one is without knowledge except he who asks no questions*. Klaudia Peszat will also present in this session with a talk on *The usefulness of good old ML models in real estate statistics*. 
+- In Session 13, Nina Niederhametner who works with WP10 will present on *Using AI for Automatic Data Extraction and Classification in Official Statistics*. Giulio Massacci will also present in this session with a talk titled: *Who Works in the Green Transition? A Patent-Based Analysis of Occupational Change Using Large Language Models*. The session also includes Luis Sanguiao again, speaking on *High frequency time series imputation with auxiliary data: a deep learning approach*.
+- There will be two speakers from WP5 [Session 16](https://www.q2026.hr/programme/conference-programme/session-16/){target="_blank"}: Floian Dumpert will speak on *From the CoP to a quality concept for AI/ML in official statistics and back*, and Marco Puts has a talk entitled *The methodological view: current developments of the Total Machine Learning Error Model*.
+
+
+
+
+## Newsletters
 
 - <a href="https://cros.ec.europa.eu/system/files/2025-03/1.NEWSLETTER%20AIML4OS.pdf" target="_blank">Our first newsletter</a>, highlighting the project launch, upcoming datalab presentation, and planned participation at NTTS 2025.
 - <a href="https://cros.ec.europa.eu/system/files/2024-12/2.NEWSLETTER%20AIML4OS.pdf" target="_blank">The second newsletter</a> has info on three in-person meetings that took place, as well as more details on individual workpackages.
