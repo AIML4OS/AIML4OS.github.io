@@ -10,4 +10,4 @@ Project management techniques will be used to monitor the progress of the projec
 
 ## Resources
 
-- [AIML4OS on CSO Website](https://www.cso.ie/en/methods/researchatthecso/aiml4os/){target="_blank"}
+- [AIML4OS on CSO Website](https://www.cso.ie/en/methods/researchatthecso/aiandmachinelearningforofficialstatisticsaiml4os/){target="_blank"}
