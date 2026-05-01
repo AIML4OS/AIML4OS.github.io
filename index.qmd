@@ -117,8 +117,8 @@ gsbpm: "5.1" # See complete taxonomy: https://www.unescap.org/sites/default/d8fi
 
 # Latest News
 
-- We will be at the European Conference on Quality in Official Statistics (Q2026), which will take place from 3 to 5 June 2026 in Šibenik, Croatia. A full list of AIML4OS presentations at this conference is available on our [news page](chapters/news.qmd).
-- We have produced a [repository of useful resources](chapters/useful_links2.qmd){target="_blank"} which are related to the topics covered by AIML4OS. 
+- We will be at the **European Conference on Quality in Official Statistics** (Q2026), which will take place from 3 to 5 June 2026 in Šibenik, Croatia. A full list of AIML4OS presentations at this conference is available on our [news page](chapters/news.qmd).
+- We have produced a [**repository of useful resources***](chapters/useful_links2.qmd){target="_blank"} which are related to the topics covered by AIML4OS. 
 
 # Project Structure
 
