@@ -4,7 +4,12 @@ fomat:
     theme: cosmo
 ---
 
-## Deliverables
+## Completed deliverables
+
+- [**Deliverable 2.1**](resources/deliverables/deliverable_2.1.pdf){target="_blank"} - Exploration of AI-ML through citizen science approaches.
+- [**Deliverable 11.1**](resources/deliverables/deliverable_11.1.pdf){target="_blank"} - Report describing the training and test sets.
+
+## List of Project Deliverables
 
 ```{r , echo=F  }
 
@@ -35,7 +40,7 @@ DT::datatable(deliv ,
                 ))
 ```
 
-## Tasks
+## List of Project Tasks
 
 ```{r , echo=F  }
 
