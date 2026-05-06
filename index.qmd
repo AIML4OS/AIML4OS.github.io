@@ -118,8 +118,9 @@ gsbpm: "5.1" # See complete taxonomy: https://www.unescap.org/sites/default/d8fi
 # Latest News
 
 - We will be at the **European Conference on Quality in Official Statistics** (Q2026), which will take place from 3 to 5 June 2026 in Šibenik, Croatia. A full list of AIML4OS presentations at this conference is available on our [news page](chapters/news.qmd).
+- We will have a [**two-day funathon beginning on May 27th**](https://aiml4os.github.io/funathon-general-website/about.html){target="_blank"}. This is a non-competitive hackathon, which will provide ESS staff with an opportunity to learn and apply machine learning and AI methods in a collaborative and supportive environment.
 - We have produced a [**repository of useful resources**](chapters/useful_links2.qmd){target="_blank"} which are related to the topics covered by AIML4OS. 
-- Our [latest deliverable](resources/deliverables/deliverable_11.1.pdf){target="_blank"} is from our workpackage on modelling supply chain networks, and it documents the process of creating a training dataset for a machine learning model to reconstruct buyer–supplier networks among enterprises. Information on all other project deliverables is available on [our page for deliverables and tasks](chapters/deliverables_tasks.qmd).
+- Our [**latest deliverable**](resources/deliverables/deliverable_11.1.pdf){target="_blank"} is from our workpackage on modelling supply chain networks. It documents the process of creating a training dataset for a machine learning model to reconstruct buyer–supplier networks among enterprises. Information on all other project deliverables is available on [our page for deliverables and tasks](chapters/deliverables_tasks.qmd).
 
 # Project Structure
 
