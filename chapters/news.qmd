@@ -31,7 +31,7 @@ We will be at the [European Conference on Quality in Official Statistics (Q2026)
 - <a href="https://cros.ec.europa.eu/system/files/2025-11/5.NEWSLETTER%20AIML4OS.pdf" target="_blank">Our fifth newsletter</a> has details on a deliverable on citizen-in-the-loop, news on text classification, and progress on reconstruction of supply-chain networks.
 - <a href="/resources/newsletters/newsletter_6.pdf" target="_blank">The sixth newsletter</a> has details on a deliverable on citizen-in-the-loop, news on text classification, and progress on reconstruction of supply-chain networks.
 
-
+## LinkedIn Posts
 
 <br>
 
@@ -51,8 +51,6 @@ frameborder="0" allowfullscreen="" title="Embedded post">
 </iframe>
 </div>
 
-
-
 <div style="width:100%; max-width: 600px;" >
 <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7393689435994996736?collapsed=1" 
 height="567" 
@@ -60,8 +58,6 @@ width=100%
 frameborder="0" allowfullscreen="" title="Embedded post">
 </iframe>
 </div>
-
-
 
 <div style="width:100%; max-width: 600px;" >
 <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7380985427874328577?collapsed=1" 
