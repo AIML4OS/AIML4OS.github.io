@@ -12,3 +12,7 @@ Some countries already have such datasets, based on administrative data collecte
 This workpackage aims to do just that. The WP team will develop Machine Learning models for deriving supply chain networks and train them on a firmlevel network dataset for Portugal, that will be derived for this purpose using rich administrative  data sources. Also, a method will be developed for adding weights to the links and for linking the networks to the Input/output tables from National accounts. The quality of the models will be checked by applying the models for various countries and compare the results with ‘real’ network datasets. The resulting models should allow all EU National Statistical Institutes to produce firmlevel supply chain networks datasets with a basic quality.
 
 The Workpackage team consists of the NSI’s from Portugal, Poland, Netherlands and Italy and university participation from the Free University of Brussels and Oxford University Statistics who bring in their experience in deriving network datasets from VAT-data and developing ML-models for estimating networks.
+
+## Completed deliverables
+
+- [**Deliverable 11.1**](resources/deliverables/deliverable_11.1.pdf){target="_blank"} - Report describing the training and test sets.
