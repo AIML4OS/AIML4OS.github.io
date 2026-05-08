@@ -12,3 +12,7 @@ The planned activities are multifaceted and aimed at promoting collaboration, kn
 Furthermore, WP2 will explore the role of relevant stakeholders in improving AI/ML models, in line with citizen science approaches. 
 
 In essence, WP2 serves as the linchpin for communication, collaboration, and knowledge dissemination within the project, playing a pivotal role in maximizing the impact and benefits of AI/ML advancements for the statistical community and stakeholders.
+
+## Completed deliverables
+
+- [**Deliverable 2.1**](resources/deliverables/deliverable_2.1.pdf){target="_blank"} - Exploration of AI-ML through citizen science approaches.
