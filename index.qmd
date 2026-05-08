@@ -157,7 +157,7 @@ for(i in 1:nrow(wp_df)){
 
 ```
 
-# Links 
+# External Links 
 
 - [LinkedIn](https://www.linkedin.com/company/essnet-aiml4os/){target="_blank"}
 - [Eurostat CROS](https://cros.ec.europa.eu/dashboard/aiml4os){target="_blank"}
