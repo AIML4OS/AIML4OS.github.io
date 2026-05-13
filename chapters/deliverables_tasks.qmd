@@ -11,6 +11,8 @@ fomat:
 
 ## List of Project Deliverables
 
+[*See interactive deliverable tracker here*](https://aiml4os.shinyapps.io/project_tracker){target="_blank"}
+
 ```{r , echo=F  }
 
 deliv <- readRDS('resources/rds_files/deliv_data.rds')
