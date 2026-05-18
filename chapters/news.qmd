@@ -10,7 +10,8 @@ We will be at the [European Conference on Quality in Official Statistics (Q2026)
 #### Special sessions for AIML4OS at Q2026
 
 - [**Session 21, Thursday, 14:15**](https://www.q2026.hr/programme/conference-programme/session-21/){target="_blank"} - A session on the AIML4OS project, with presentations from Eimear Crowley (WP1, Coordination), Olivier Meslin (WP3, AI/ML Lab), Luis Sanguiao (WP5 and MLUtils), and Remco Paulussen (WP7).
-- [**Session 31, Friday, 09:00**](https://www.q2026.hr/programme/conference-programme/session-31/){target="_blank"} - This is a another special session, specifically for WP10, 'Text to Code'. The speakers on this session will be Ariane Lestrade, Yu-Lin Huang, Andrés Jurado Prieto and Ewelina Niewiadomska.
+- [**Session 16, Thursday, 11:00**](https://www.q2026.hr/programme/conference-programme/session-16/){target="_blank"} - This is a special session on our workpackage on 'Standards, Methodology & Implementation' (WP5). The speakers here will be Jean-Marc Museux (Eurostat), Florian Dumpert (Destatis), Jakob Engdahl (Statistics Sweden) and Marco Puts (Statistics Netherlands).
+- [**Session 31, Friday, 09:00**](https://www.q2026.hr/programme/conference-programme/session-31/){target="_blank"} - This special session focuses on our 'Text to Code' workpackage (WP10). The speakers on this session will be Ariane Lestrade (Destatis), Yu-Lin Huang (Université du Luxembourg), Andrés Jurado Prieto (Statistics Spain) and Ewelina Niewiadomska (Statistics Poland). 
 
 #### All other presentations from AIML4OS at Q2026
 
@@ -18,7 +19,6 @@ We will be at the [European Conference on Quality in Official Statistics (Q2026)
 - [**Speed Talk Session 3, Wednesday, 13:15**](https://www.q2026.hr/programme/conference-programme/speed-talk-session-3/){target="_blank"} - This session will have a number of presentations from members of AIML4OS, including Alexander Kowarik, Johannes Gussenbauer, Elena Rosa-Perez and Pedro Sousa.
 - [**Session 8, Wednesday, 14:15**](https://www.q2026.hr/programme/conference-programme/session-8/){target="_blank"} - Sónia Quaresma will present on the work of the Ecosystem Monitoring workpackage (WP4), with a talk titled *No one is without knowledge except he who asks no questions*. Klaudia Peszat will also present in this session with a talk on *The usefulness of good old ML models in real estate statistics*. 
 - [**Session 13, Wednesday, 16:30**](https://www.q2026.hr/programme/conference-programme/session-13/){target="_blank"} - Nina Niederhametner who works with WP10 will present on *Using AI for Automatic Data Extraction and Classification in Official Statistics*. Giulio Massacci will also present in this session with a talk titled: *Who Works in the Green Transition? A Patent-Based Analysis of Occupational Change Using Large Language Models*. The session also includes Luis Sanguiao again, speaking on *High frequency time series imputation with auxiliary data: a deep learning approach*.
-- [**Session 16, Thursday, 11:00**](https://www.q2026.hr/programme/conference-programme/session-16/){target="_blank"} - There will be two speakers from WP5 in this session. Florian Dumpert will speak on *From the CoP to a quality concept for AI/ML in official statistics and back*, and Marco Puts has a talk entitled *The methodological view: current developments of the Total Machine Learning Error Model*.
 
 
 
