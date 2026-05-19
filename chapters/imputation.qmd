@@ -12,3 +12,7 @@ The main objectives in this work package are to develop, test, and, if shown suc
 **Task 9.3 Quality aspects:** The impact of this use case on new statistical products is clear in the form of possible new experimental statistics but also in methodology terms in order to improve the quality of the process in the current statistical products in relation to timeliness, granularity and accuracy.  Quality will be taken into consideration all along the development of the use case.
 
 The duration of the whole work package is estimated in 48 months and with 12 countries participants: Spain (Work Package Leader), Germany, Netherlands, Poland, Portugal, Slovenia, Italy, Austria, Luxemburg, Denmark, Cyprus, Ireland (Coordinator of the project).
+
+## Completed Deliverables
+
+- [**Deliverable 9.1**](https://github.com/AIML4OS/WP9_D9.1/blob/main/main.pdf){target="_blank"} - Methodological aspects from use cases in Machine Learning techniques for early imputation in the production of official statistics
