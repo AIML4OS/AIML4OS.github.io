@@ -8,6 +8,7 @@ fomat:
 
 - [**Deliverable 2.1**](resources/deliverables/deliverable_2.1.pdf){target="_blank"} - Exploration of AI-ML through citizen science approaches.
 - [**Deliverable 11.1**](resources/deliverables/deliverable_11.1.pdf){target="_blank"} - Report describing the training and test sets.
+- [**Deliverable 9.1**](https://github.com/AIML4OS/WP9_D9.1/blob/main/main.pdf){target="_blank"} - Methodological aspects for early imputation in the production of official statistics
 
 ## List of Project Deliverables
 
