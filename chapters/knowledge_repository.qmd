@@ -10,9 +10,9 @@ We will collaborate closely with the other Work Packages. Training materials wil
 ## Resources
 
 - [A repository of useful resources](chapters/useful_links2.qmd) which are related to the topics covered by AIML4OS. 
-- [Link to funathon 1](https://aiml4os.github.io/funathon-project1/){target="_blank"}
-- [Link to funathon 2](https://aiml4os.github.io/funathon-project2/){target="_blank"}
-- [Link to funathon 3](https://aiml4os.github.io/funathon-project3/){target="_blank"}
+- [Link to funathon project 1 - Predicting Housing Prices](https://aiml4os.github.io/funathon-project1/){target="_blank"}
+- [Link to funathon project 2 - Automatic Coding for NACE Classification](https://aiml4os.github.io/funathon-project2/){target="_blank"}
+- [Link to funathon project 3 - Satellite Image Segmentation with Deep Learning](https://aiml4os.github.io/funathon-project3/){target="_blank"}
 - [Guide to creating resources for SSPCloud users](https://aiml4os.github.io/training-material-starting-pack/){target="_blank"}
 - [Guide for course creators in setting up effective courses that efficiently help participants learn new skills](https://github.com/AIML4OS/training-material-starting-pack/blob/main/course_guide.md){target="_blank"}
 - [Template for training material in Quarto for R users](https://aiml4os.github.io/AIML4OS-template-quarto-r/){target="_blank"}
