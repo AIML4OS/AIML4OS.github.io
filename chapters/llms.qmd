@@ -20,4 +20,4 @@ Overall, the work package is designed to ensure that the integration and utiliza
 
 ## Completed Deliverables 
 
-- [**Deliverable 12.1**](../resources/deliverables/deliverable_12.1.pdf){target="_blank"} - Three proof-of-concept prototypes based on pre-existing large language models (LLMs).
+- [**Deliverable 12.1**](resources/deliverables/deliverable_12.1.pdf){target="_blank"} - Three proof-of-concept prototypes based on pre-existing large language models (LLMs).
