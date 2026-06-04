@@ -17,3 +17,7 @@ The specific tasks are divided into three main areas:
 - **T12.3 Fine-tuning of Existing LLM for Specialized Statistical Applications:** This involves customizing pre-trained LLMs to generate statistical insights and reports efficiently. The task aims to produce a prototype that enhances at least one high-value area, potentially laying the groundwork for a European Statistical Language Model.
  
 Overall, the work package is designed to ensure that the integration and utilization of LLM technology are well-aligned with the evolving needs and standards of the official statistics community.
+
+## Completed Deliverables 
+
+- [**Deliverable 12.1**](../resources/deliverables/deliverable_12.1.pdf){target="_blank"} - Three proof-of-concept prototypes based on pre-existing large language models (LLMs).
