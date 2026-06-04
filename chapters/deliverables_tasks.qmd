@@ -8,7 +8,12 @@ fomat:
 
 - [**Deliverable 2.1**](../resources/deliverables/deliverable_2.1.pdf){target="_blank"} - Exploration of AI-ML through citizen science approaches.
 - [**Deliverable 11.1**](../resources/deliverables/deliverable_11.1.pdf){target="_blank"} - Report describing the training and test sets.
+- [**Deliverable 12.1**](../resources/deliverables/deliverable_12.1.pdf){target="_blank"} - Three proof-of-concept prototypes based on pre-existing large language models (LLMs).
 - [**Deliverable 9.1**](../resources/deliverables/deliverable_9.1.pdf){target="_blank"} - Methodological aspects for early imputation in the production of official statistics
+- [**Deliverable 4.1**](../resources/deliverables/deliverable_4.1.pdf){target="_blank"} - A comprehensive overview of the current situation of the use of AI/ML in the ESS.
+- [**Deliverable 7.1**](../resources/deliverables/deliverable_7.1.pdf){target="_blank"} - A report on two AI models using earth observation data, and an investigation of their generalisability to different countries and timeframes. 
+
+
 
 ## List of Project Deliverables
 
