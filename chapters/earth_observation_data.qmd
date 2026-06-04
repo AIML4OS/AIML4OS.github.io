@@ -10,6 +10,10 @@ The research question we would like to answer in this work package is: can these
 
 We want to apply those methods on other countries or other timeframes and compare the results. It would demonstrate what methods and tools to-date seem to work well and what methods lack in useful results, what data sources are needed (and on what level they are available), what kind of (pre)processing is needed, what sorts of infrastructure this (pre)processing requires and how to interpret the results. It also demonstrates if (at all) a generalized processing pipeline and infrastructure is possible and what the specifications of such a pipeline would be. If it proves to be feasible, we will develop methodological and implementation guidelines. And as a side-effect, we will have results in terms of (validated) predictions for other countries/timeframes than the original study.
 
+## Completed Deliverables 
+
+- [**Deliverable 7.1**](resources/deliverables/deliverable_7.1.pdf){target="_blank"} - A report on two AI models using earth observation data, and an investigation of their generalisability to different countries and timeframes. 
+
 ## Recent work
 
 ### Crop Type Mapping
