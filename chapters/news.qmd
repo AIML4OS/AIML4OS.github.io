@@ -31,9 +31,17 @@ We had over 20 presentations at the [European Conference on Quality in Official 
 - Measuring Quality of Real and Synthetic Generated Data for Training Statistical Classification Coders (WP10) - [Presentation](https://www.q2026.hr/media/h4nlf2gx/q2026_quality_v1-1.pptx) - [Paper](https://www.q2026.hr/media/disoord4/measuring-quality-of-real-and-synthetic-generated-data-for-training-statistical-classification-coders.pdf){target="_blank"} 
 - Using ML and LLMs for NACE Classification (WP10) - [Presentation](https://www.q2026.hr/media/qt2jw1j0/216_q-konf-26_31_using_ml_llms_nace.pptx)
 
+
+[**Speed Talk Session 3, Wednesday, 13:15**](https://www.q2026.hr/programme/conference-programme/speed-talk-session-3/){target="_blank"}
+
+- Flexible Machine-Learning-Based Imputation with Options for Sequential Imputation and Predictive Mean Matching - [Presentation](https://www.q2026.hr/media/fpaai5jt/q_vimpute_kowarik.pptx)
+- Assessing Error in Machine Learning-Based Mass Imputation for Small Area Estimation - [Presentation](https://www.q2026.hr/media/uhag0h1d/presentation_q2026_massimputation.pptx)
+- Standardization of Feature Engineering Implementation Using XML Files in the Imputation Process of Economic Early Estimates - [Presentation](https://www.q2026.hr/media/041ljw3n/standardization_feature_engineering.pptx) - [Paper](https://www.q2026.hr/media/xf5jsygh/standardization_feature_engineering.pdf){target="_blank"} 
+- Learning to Fill the Gaps - [Presentation](https://www.q2026.hr/media/dt4brghc/presentation_learning_to_fill_the_gaps.pptx)
+
 #### All other presentations from AIML4OS at Q2026
 
-- [**Session 3, Wednesday, 11:00**](https://www.q2026.hr/programme/conference-programme/session-3/){target="_blank"} - Luis Ferreira will be presenting on *Unlocking Legacy Statistics with Large Language Models*, based on work carried out by WP12.
+- [**Session 3, Wednesday, 11:00**](https://www.q2026.hr/programme/conference-programme/session-3/){target="_blank"} - Luis Ferreira will presented on *Unlocking Legacy Statistics with Large Language Models*, based on work carried out by WP12 - [Presentation](https://www.q2026.hr/media/0q5m2qmx/presentation_mlutils.pptx)
 - [**Speed Talk Session 3, Wednesday, 13:15**](https://www.q2026.hr/programme/conference-programme/speed-talk-session-3/){target="_blank"} - This session will have a number of presentations from members of AIML4OS, including Alexander Kowarik, Johannes Gussenbauer, Elena Rosa-Perez and Pedro Sousa.
 - [**Session 8, Wednesday, 14:15**](https://www.q2026.hr/programme/conference-programme/session-8/){target="_blank"} - Sónia Quaresma will present on the work of the Ecosystem Monitoring workpackage (WP4), with a talk titled *No one is without knowledge except he who asks no questions*. Klaudia Peszat will also present in this session with a talk on *The usefulness of good old ML models in real estate statistics*. 
 - [**Session 13, Wednesday, 16:30**](https://www.q2026.hr/programme/conference-programme/session-13/){target="_blank"} - Nina Niederhametner who works with WP10 will present on *Using AI for Automatic Data Extraction and Classification in Official Statistics*. Giulio Massacci will also present in this session with a talk titled: *Who Works in the Green Transition? A Patent-Based Analysis of Occupational Change Using Large Language Models*. The session also includes Luis Sanguiao again, speaking on *High frequency time series imputation with auxiliary data: a deep learning approach*.
