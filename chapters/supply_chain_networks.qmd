@@ -15,4 +15,4 @@ The Workpackage team consists of the NSI’s from Portugal, Poland, Netherlands 
 
 ## Completed deliverables
 
-- [**Deliverable 11.1**](resources/deliverables/deliverable_11.1.pdf){target="_blank"} - Report describing the training and test sets.
+- [**Deliverable 11.1**](../resources/deliverables/deliverable_11.1.pdf){target="_blank"} - Report describing the training and test sets.
