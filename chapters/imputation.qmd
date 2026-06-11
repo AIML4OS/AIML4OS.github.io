@@ -15,4 +15,4 @@ The duration of the whole work package is estimated in 48 months and with 12 cou
 
 ## Completed Deliverables
 
-- [**Deliverable 9.1**](https://github.com/AIML4OS/WP9_D9.1/blob/main/main.pdf){target="_blank"} - Methodological aspects from use cases in Machine Learning techniques for early imputation in the production of official statistics
+- [**Deliverable 9.1**](../resources/deliverables/deliverable_9.1.pdf){target="_blank"} - Methodological aspects from use cases in Machine Learning techniques for early imputation in the production of official statistics
