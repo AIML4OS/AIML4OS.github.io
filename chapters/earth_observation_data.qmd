@@ -12,7 +12,7 @@ We want to apply those methods on other countries or other timeframes and compar
 
 ## Completed Deliverables 
 
-- [**Deliverable 7.1**](resources/deliverables/deliverable_7.1.pdf){target="_blank"} - A report on two AI models using earth observation data, and an investigation of their generalisability to different countries and timeframes. 
+- [**Deliverable 7.1**](../resources/deliverables/deliverable_7.1.pdf){target="_blank"} - A report on two AI models using earth observation data, and an investigation of their generalisability to different countries and timeframes. 
 
 ## Recent work
 
