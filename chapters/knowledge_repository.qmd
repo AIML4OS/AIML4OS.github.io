@@ -9,7 +9,7 @@ We will collaborate closely with the other Work Packages. Training materials wil
 
 ## Resources
 
-- [A repository of useful resources](chapters/useful_links2.qmd) which are related to the topics covered by AIML4OS. 
+- [A repository of useful resources](../chapters/useful_links2.qmd) which are related to the topics covered by AIML4OS. 
 - [Link to funathon project 1 - Predicting Housing Prices](https://aiml4os.github.io/funathon-project1/){target="_blank"}
 - [Link to funathon project 2 - Automatic Coding for NACE Classification](https://aiml4os.github.io/funathon-project2/){target="_blank"}
 - [Link to funathon project 3 - Satellite Image Segmentation with Deep Learning](https://aiml4os.github.io/funathon-project3/){target="_blank"}
