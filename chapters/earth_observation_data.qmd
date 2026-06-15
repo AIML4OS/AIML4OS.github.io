@@ -18,7 +18,7 @@ We want to apply those methods on other countries or other timeframes and compar
 
 ### Crop Type Mapping
 
-We have rebuilt, optimized, and fully automated version 2.0 of our crop type mapping pipeline (Sentinel-1 OBIA & ANN/SAM). The code has been successfully pushed to a [dedicated branch on GitHub](https://github.com/AIML4OS/WP7-Crop-type-mapping/tree/AIML_CropMapper_Cloud_2.0){target="_blank"}. 
+We have rebuilt, optimized, and fully automated version 2.0 of our crop type mapping pipeline (Sentinel-1 OBIA & ANN/SAM). The code has been successfully pushed to a [dedicated branch on GitHub](https://github.com/AIML4OS/WP7-Crop-type-mapping/){target="_blank"}. 
 
 #### Key Improvements & Features in v2.0:
 
