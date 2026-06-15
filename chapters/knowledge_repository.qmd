@@ -9,6 +9,8 @@ We will collaborate closely with the other Work Packages. Training materials wil
 
 ## Resources
 
+
+- [Cross-Validation Possibilities Based on the Nature of Data](https://aiml4os.github.io/Cross-validation-possibilities-based-on-the-nature-of-the-data/){target="_blank"}. 
 - [A repository of useful resources](useful_links2.qmd) which are related to the topics covered by AIML4OS. 
 - [Link to funathon project 1 - Predicting Housing Prices](https://aiml4os.github.io/funathon-project1/){target="_blank"}
 - [Link to funathon project 2 - Automatic Coding for NACE Classification](https://aiml4os.github.io/funathon-project2/){target="_blank"}
