@@ -123,19 +123,23 @@ gsbpm: "5.1" # See complete taxonomy: https://www.unescap.org/sites/default/d8fi
 <div class="carousel-inner">
 
 <div class="carousel-item active">
-<img src="images/q2026/group_169.jpg" class="d-block w-100">
+<img src="images/q2026/in-person_news.jpg" class="d-block w-100">
 </div>
 
 <div class="carousel-item">
-<img src="images/q2026/two_imgs_169.jpg" class="d-block w-100">
+<a href="chapters/news.qmd"><img src="images/q2026/q2026_news.jpg" class="d-block w-100"></a>
 </div>
 
 <div class="carousel-item">
-<img src="images/q2026/talks_169.jpg" class="d-block w-100">
+<a href="/resources/newsletters/newsletter_6.pdf"><img src="images/q2026/newsletter_news.jpg" class="d-block w-100"></a>
 </div>
 
 <div class="carousel-item">
-<img src="images/q2026/pre-day_169.jpg" class="d-block w-100">
+<a href="https://aiml4os.github.io/funathon-general-website/about.html"><img src="images/q2026/funathon_news.jpg" class="d-block w-100"></a>
+</div>
+
+<div class="carousel-item">
+<a href="/resources/deliverables/deliverable_12.1.pdf"><img src="images/q2026/d121_news.jpg" class="d-block w-100"></a>
 </div>
 
 </div>
