@@ -127,19 +127,19 @@ gsbpm: "5.1" # See complete taxonomy: https://www.unescap.org/sites/default/d8fi
 </div>
 
 <div class="carousel-item">
-<a href="chapters/news.qmd"><img src="images/news/q2026_news.jpg" class="d-block w-100"></a>
+<a href="chapters/news.qmd" target="_blank"><img src="images/news/q2026_news.jpg" class="d-block w-100"></a>
 </div>
 
 <div class="carousel-item">
-<a href="/resources/newsletters/newsletter_6.pdf"><img src="images/news/newsletter_news.jpg" class="d-block w-100"></a>
+<a href="/resources/newsletters/newsletter_6.pdf" target="_blank"><img src="images/news/newsletter_news.jpg" class="d-block w-100"></a>
 </div>
 
 <div class="carousel-item">
-<a href="https://aiml4os.github.io/funathon-general-website/about.html"><img src="images/news/funathon_news.jpg" class="d-block w-100"></a>
+<a href="https://aiml4os.github.io/funathon-general-website/about.html" target="_blank"><img src="images/news/funathon_news.jpg" class="d-block w-100"></a>
 </div>
 
 <div class="carousel-item">
-<a href="/resources/deliverables/deliverable_12.1.pdf"><img src="images/news/d121_news.jpg" class="d-block w-100"></a>
+<a href="/resources/deliverables/deliverable_12.1.pdf" target="_blank"><img src="images/news/d121_news.jpg" class="d-block w-100"></a>
 </div>
 
 </div>
