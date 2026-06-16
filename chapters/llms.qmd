@@ -18,6 +18,8 @@ The specific tasks are divided into three main areas:
  
 Overall, the work package is designed to ensure that the integration and utilization of LLM technology are well-aligned with the evolving needs and standards of the official statistics community.
 
-## Completed Deliverables 
+## Deliverables and Resources
 
 - [**Deliverable 12.1**](../resources/deliverables/deliverable_12.1.pdf){target="_blank"} - Three proof-of-concept prototypes based on pre-existing large language models (LLMs).
+- [GitHub repository with documentation and tutorials for the prototypes.](https://github.com/AIML4OS/WP12/tree/main/wp12_hackathon){target="_blank"}
+
