@@ -123,19 +123,19 @@ gsbpm: "5.1" # See complete taxonomy: https://www.unescap.org/sites/default/d8fi
 <div class="carousel-inner">
 
 <div class="carousel-item active">
-<img src="images/q2026/group.png" class="d-block w-100">
+<img src="images/q2026/group_169.jpg" class="d-block w-100">
 </div>
 
 <div class="carousel-item">
-<img src="images/q2026/two_imgs.jpg" class="d-block w-100">
+<img src="images/q2026/two_imgs_169.jpg" class="d-block w-100">
 </div>
 
 <div class="carousel-item">
-<img src="images/q2026/talks.jpg" class="d-block w-100">
+<img src="images/q2026/talks_169.jpg" class="d-block w-100">
 </div>
 
 <div class="carousel-item">
-<img src="images/q2026/pre-day.png" class="d-block w-100">
+<img src="images/q2026/pre-day_169.jpg" class="d-block w-100">
 </div>
 
 </div>
