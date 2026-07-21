@@ -18,6 +18,7 @@ project:
     - chapters/news.qmd
     - chapters/deliverables_tasks.qmd
     - chapters/about_project.qmd
+    - chapters/project_structure.qmd
 
 
 website:
