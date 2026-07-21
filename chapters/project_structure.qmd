@@ -1,0 +1,34 @@
+
+# Project Structure
+
+
+The AIML4OS project is divided into 13 workpackages. Six of these are 'supporting' workpackages that provide cross-cutting insight and resources. The remaining seven are 'use case' workpackages, each of which explores a specific domain within AI/ML and its relevance to official statistics. 
+
+
+```{r, echo=FALSE, results='asis'}
+
+wp_df <- readRDS('resources/rds_files/wp_df.rds') 
+
+for(i in 1:nrow(wp_df)){
+  
+  if(i==1){
+    cat('<h3>Supporting Workpackages</h3>')
+  }
+  if(i==7){
+    cat('<h3>Use Case Workpackages</h3>')
+  }
+  
+  cat(glue::glue('
+  <div class="media-row" style = "display:flex; align-items:center; margin-bottom:0rem;">
+  <a href="{wp_df$link[i]}">
+    <img src="{wp_df$img[i]}" style="width:60px; height:60px; object-fit:cover; margin-right:1rem;">
+  </a>
+    <div>
+    <h4><a href="{wp_df$link[i]}">{wp_df$title[i]}</a></h3>
+    <p>{wp_df$desc[i]}</p>
+    </div>
+  </div>
+  '))
+}
+
+```
