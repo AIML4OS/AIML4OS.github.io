@@ -10,7 +10,7 @@ The AIML4OS project is divided into 13 workpackages. Six of these are 'supportin
 wp_df <- readRDS('resources/rds_files/wp_df.rds') 
 
 # adding this line since this code was moved into chapters
-wp_df$img = cat("../", wp_df$img)
+wp_df$img <- paste0("../", wp_df$img)
 
 for(i in 1:nrow(wp_df)){
   
