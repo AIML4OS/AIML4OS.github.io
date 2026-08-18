@@ -8,10 +8,9 @@ fomat:
 
 ```{r , echo=F  }
 
-library(tidyverse)
+library(dplyr)
 library(rnaturalearth)
 library(sf)
-library(plotly)
 library(leaflet)
 library(htmltools)
 library(htmlwidgets)
@@ -30,8 +29,8 @@ st_crs(eu_map_1)
 france_box <- st_bbox(c(xmin = -10,ymin =30, xmax= 12,ymax = 60), crs = st_crs(4326)) |> 
   st_as_sfc()
 
-ggplot(eu_map_1 |> filter(sovereignt=='France')) + geom_sf() + 
-  geom_sf(data = france_box , colour='red', fill=NA)
+# ggplot(eu_map_1 |> filter(sovereignt=='France')) + geom_sf() + 
+#   geom_sf(data = france_box , colour='red', fill=NA)
 
 # Fix France and names of some other countries
 eu_map_2 <- bind_rows(
@@ -64,9 +63,9 @@ hex_grid <- hex_grid |> filter(hex_num %in% st_intersects(europe_box ,hex_grid)[
 
 rm(europe_box)
 
-ggplot(eu_map_2|> st_transform(3035) ) + geom_sf() + 
-  geom_sf(data =hex_grid , colour = 'red', fill=NA) +
-  coord_sf(xlim = c(2200000, 6500000) , ylim = c(1380000, 5500000)) 
+# ggplot(eu_map_2|> st_transform(3035) ) + geom_sf() + 
+#   geom_sf(data =hex_grid , colour = 'red', fill=NA) +
+#   coord_sf(xlim = c(2200000, 6500000) , ylim = c(1380000, 5500000)) 
 
 
 
@@ -88,10 +87,10 @@ country_centres <- eu_map_2 |>
   select(sovereignt, name) |>
   filter(sovereignt %in% countries_of_interest) 
 
-ggplot(eu_map_2|> st_transform(3035) ) + geom_sf() + 
-  geom_sf(data =hex_grid , colour = 'red', fill=NA) +
-  geom_sf(data= country_centres, colour = 'blue') +
-  coord_sf(xlim = c(2200000, 6500000) , ylim = c(1380000, 5500000)) 
+# ggplot(eu_map_2|> st_transform(3035) ) + geom_sf() + 
+#   geom_sf(data =hex_grid , colour = 'red', fill=NA) +
+#   geom_sf(data= country_centres, colour = 'blue') +
+#   coord_sf(xlim = c(2200000, 6500000) , ylim = c(1380000, 5500000)) 
 
 
 
@@ -119,7 +118,7 @@ aiml_projects_1 <- country_centres %>%
   arrange(sovereignt) |> 
   mutate(proj_id = row_number()) |> 
   group_by(sovereignt) |> 
-  mutate(proj_title = str_c('Sample project ', proj_id),
+  mutate(proj_title = paste0('Sample project ', proj_id),
          category  = sample(c('LLM', 'Earth Observation', 'Classification'), size = n(), replace=T),
          proj_label = paste0('<h2>',proj_title , '</h2><br>' , 'This ', category,' project from ',sovereignt,' does x, y and z')) |> 
   ungroup()
@@ -136,7 +135,7 @@ for(i in 1:nrow(aiml_projects_1)){
     hex_gone_list <- c(1)
     hex_list <- list()
   }
-  print(str_c(i , ' of ', nrow(aiml_projects_1)))
+  # print(str_c(i , ' of ', nrow(aiml_projects_1)))
   org_hex_pair <- hex_centres %>%
     filter(! hex_num %in% hex_gone_list) %>%
     mutate(x0 = aiml_projects_1$x[i] , y0= aiml_projects_1$y[i], proj_id = aiml_projects_1$proj_id[i],
@@ -163,9 +162,9 @@ aiml_projects_2$proj_label <- sprintf('%s',aiml_projects_2$proj_label) %>% lappl
 
 aiml_projects_2 <- st_transform(aiml_projects_2 , crs= 4326)
 
-ggplot(eu_map_2|> st_transform(3035) ) + geom_sf() + 
-  geom_sf(data =aiml_projects_2 |> st_transform(3035) , aes(fill=category)) +
-  coord_sf(xlim = c(2200000, 6500000) , ylim = c(1380000, 5500000))
+# ggplot(eu_map_2|> st_transform(3035) ) + geom_sf() + 
+#   geom_sf(data =aiml_projects_2 |> st_transform(3035) , aes(fill=category)) +
+#   coord_sf(xlim = c(2200000, 6500000) , ylim = c(1380000, 5500000))
 
 labels_json <- jsonlite::toJSON(setNames(as.list(as.character(aiml_projects_2$proj_label)), aiml_projects_2$proj_id),auto_unbox = TRUE)
 
