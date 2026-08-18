@@ -1,0 +1,298 @@
+---
+fomat: 
+  html:
+    theme: cosmo
+---
+
+## AI/ML map of the ESS
+
+```{r , echo=F  }
+
+library(tidyverse)
+library(rnaturalearth)
+library(sf)
+library(plotly)
+library(leaflet)
+library(htmltools)
+library(htmlwidgets)
+
+
+####################### GET COUNTRY SHAPES
+
+# Import a map. This is actually the whole world, crop to Europe later
+eu_map_1 <- bind_rows(ne_countries( scale = 'medium', returnclass = 'sf') )
+
+# This is WGS 84, the right projection for leaflet
+st_crs(eu_map_1)
+
+# Define a bounding box for France to exclude territories that are far away, since these cause the 
+# centroid to fall outside the main part of France
+france_box <- st_bbox(c(xmin = -10,ymin =30, xmax= 12,ymax = 60), crs = st_crs(4326)) |> 
+  st_as_sfc()
+
+ggplot(eu_map_1 |> filter(sovereignt=='France')) + geom_sf() + 
+  geom_sf(data = france_box , colour='red', fill=NA)
+
+# Fix France and names of some other countries
+eu_map_2 <- bind_rows(
+  eu_map_1 |> filter(sovereignt!='France'),
+  eu_map_1 |> filter(sovereignt=='France') |> 
+    st_intersection(france_box)) |> 
+  mutate(sovereignt = case_when(
+    sovereignt=='Republic of Serbia' ~ 'Serbia',
+    admin=='Turkey' ~ 'Turkey',
+    admin=='Cyprus' ~ 'Cyprus',
+    T ~ sovereignt
+  ))
+
+rm(france_box)
+
+
+
+####################### MAKE HEX GRID
+
+# Make hexes in 3035, but project them in 4326
+
+hex_grid <- st_make_grid(eu_map_2|> st_transform(3035) , square = F, n = c(500,500)) 
+hex_grid <- st_sf(geometry = hex_grid) |> 
+  mutate(hex_num=row_number())
+
+europe_box <- st_bbox(c(xmin = 2200000,ymin =1380000, xmax= 6500000,ymax = 5500000), crs = st_crs(3035)) |> 
+  st_as_sfc()
+
+hex_grid <- hex_grid |> filter(hex_num %in% st_intersects(europe_box ,hex_grid)[[1]])
+
+rm(europe_box)
+
+ggplot(eu_map_2|> st_transform(3035) ) + geom_sf() + 
+  geom_sf(data =hex_grid , colour = 'red', fill=NA) +
+  coord_sf(xlim = c(2200000, 6500000) , ylim = c(1380000, 5500000)) 
+
+
+
+####################### GET CENTRE POINTS OF EACH COUNTRY
+
+
+countries_of_interest <- c("France","Estonia","Serbia","Hungary","Iceland","Lithuania","Belgium","Austria","Denmark","Portugal",
+"Sweden","Poland","Luxembourg","Liechtenstein","Netherlands","Slovenia","Italy","Czechia","Switzerland","Malta","Germany",
+"Norway","Turkey","Spain","Croatia","Cyprus","Ireland")
+
+# removing from above: "Canada",
+
+# Get coords for centre of each country. Needed for finding closest hexes to each country
+country_centres <- eu_map_2 |> 
+  st_transform(3035) |> 
+  arrange(sovereignt, scalerank, labelrank) |> 
+  slice(1, .by=sovereignt) |> 
+  st_centroid() |> 
+  select(sovereignt, name) |>
+  filter(sovereignt %in% countries_of_interest) 
+
+ggplot(eu_map_2|> st_transform(3035) ) + geom_sf() + 
+  geom_sf(data =hex_grid , colour = 'red', fill=NA) +
+  geom_sf(data= country_centres, colour = 'blue') +
+  coord_sf(xlim = c(2200000, 6500000) , ylim = c(1380000, 5500000)) 
+
+
+
+####################### GET CENTRE POINTS OF EACH HEX
+
+# Need to get centres of hexes too, so that we can check distance to centres of countries. 
+hex_centres <- hex_grid %>% 
+  st_centroid() %>%  
+  rename(coords=1) %>%
+  mutate(x = st_coordinates(.)[,1], y = st_coordinates(.)[,2]) %>%
+  st_drop_geometry()
+
+
+
+####################### CREATE DATASET OF PROJECTS
+
+
+# Now we create a dataset which represents 5 projects per country.
+# Normally this would be a CSV which would be attached to the centres dataset.
+# Note that this is based on country_centres which is 3035
+aiml_projects_1 <- country_centres %>% 
+  mutate(x = st_coordinates(.)[,1] , y = st_coordinates(.)[,2] ) %>% 
+  st_drop_geometry() %>% 
+  bind_rows(.,.,.,.,.) |> # this is where duplicates are made
+  arrange(sovereignt) |> 
+  mutate(proj_id = row_number()) |> 
+  group_by(sovereignt) |> 
+  mutate(proj_title = str_c('Sample project ', proj_id),
+         category  = sample(c('LLM', 'Earth Observation', 'Classification'), size = n(), replace=T),
+         proj_label = paste0('<h2>',proj_title , '</h2><br>' , 'This ', category,' project from ',sovereignt,' does x, y and z')) |> 
+  ungroup()
+
+
+
+####################### FIND NEAREST HEXES TO EACH COUNTRY
+
+
+# Now we have to find the hexes which will occupy each of the projects
+
+for(i in 1:nrow(aiml_projects_1)){  
+  if(i==1){
+    hex_gone_list <- c(1)
+    hex_list <- list()
+  }
+  print(str_c(i , ' of ', nrow(aiml_projects_1)))
+  org_hex_pair <- hex_centres %>%
+    filter(! hex_num %in% hex_gone_list) %>%
+    mutate(x0 = aiml_projects_1$x[i] , y0= aiml_projects_1$y[i], proj_id = aiml_projects_1$proj_id[i],
+           dist = sqrt(    ((x0-x)^2)   +    ((y0-y)^2)   ) ) %>%
+    filter(dist == min(dist)) 
+  hex_gone_list <- c(hex_gone_list , org_hex_pair$hex_num[1])
+  
+  hex_list[[i]] <- org_hex_pair
+  rm(org_hex_pair)
+}
+
+
+##################### PREPARE DATASET FOR PLOT
+
+# From bind_rows(hex_list) we get the hex_num.
+# From hex_grid we get the geometry of the hexes.
+# From aiml_projects_1 we get the project details. 
+
+aiml_projects_2 <- hex_grid |> 
+  inner_join(bind_rows(hex_list) |> select(hex_num, proj_id), by='hex_num') |> 
+  inner_join(aiml_projects_1 |> select(name, proj_title ,proj_label, proj_id, category), by='proj_id')
+
+aiml_projects_2$proj_label <- sprintf('%s',aiml_projects_2$proj_label) %>% lapply(htmltools::HTML)
+
+aiml_projects_2 <- st_transform(aiml_projects_2 , crs= 4326)
+
+ggplot(eu_map_2|> st_transform(3035) ) + geom_sf() + 
+  geom_sf(data =aiml_projects_2 |> st_transform(3035) , aes(fill=category)) +
+  coord_sf(xlim = c(2200000, 6500000) , ylim = c(1380000, 5500000))
+
+labels_json <- jsonlite::toJSON(setNames(as.list(as.character(aiml_projects_2$proj_label)), aiml_projects_2$proj_id),auto_unbox = TRUE)
+
+##################### MAKE PALETTE
+
+pal <- colorFactor(
+  palette = c(
+    `LLM` = "#89AAE6",
+    `Classification` = "#3685B5",
+    `Earth Observation` = "#AC80A0"
+  ),
+  domain = aiml_projects_2$category)
+
+
+
+##################### MAKE LEAFLET
+
+
+m <- leaflet(width = "100%", height = 800, options = 
+               leafletOptions(crs = leafletCRS(crsClass = "L.Proj.CRS",code = "EPSG:3035",
+                                               proj4def = paste("+proj=laea","+lat_0=52","+lon_0=10",
+                                                                "+x_0=4321000","+y_0=3210000","+ellps=GRS80",
+                                                                "+units=m","+no_defs"),
+                                               resolutions = 2^seq(14, 0, by = -0.5),
+                                               origin = c(0, 0)), 
+                              dragging = FALSE,
+                              zoomControl = FALSE,
+                              scrollWheelZoom = FALSE,
+                              doubleClickZoom = FALSE,
+                              boxZoom = FALSE,
+                              keyboard = FALSE,
+                              touchZoom = FALSE)) |>
+  addPolygons(data = eu_map_2,
+              # fillColor = "lightgrey",
+              fillColor = "#E9EEF2",
+              fillOpacity = 1,
+              color = "#F5F8FA",
+              weight = 2,
+              opacity=1) |>
+  addPolygons(
+    data = aiml_projects_2,
+    layerId = ~proj_id  ,
+    # fillColor = "steelblue",
+    # fillColor =  ~colour,  
+    fillColor =  ~pal(category),
+    fillOpacity = 1,
+    color = "white",
+    weight = 1,
+    highlightOptions = highlightOptions(weight = 3,
+                                        color = "yellow",
+                                        bringToFront = TRUE)) |>
+  addLegend(
+    position = "bottomleft",
+    pal = pal,
+    opacity = 1,
+    values = aiml_projects_2$category,
+    title = "Project Category") |>
+  
+  onRender(sprintf(
+    "
+function(el,x){
+var labels = %s;
+this.eachLayer(function(layer){
+if(layer.options && layer.options.layerId){
+layer.on('click', function(){
+var id = layer.options.layerId;
+document.getElementById('details-panel').innerHTML =
+labels[id];
+});
+}
+});
+}
+",labels_json)) |> 
+  # fitBounds(lng1 = -10,lat1 = 37,lng2 = 40,lat2 = 70)
+  setView(lng = 10,lat = 52.5,zoom = 2.5) |> 
+  
+  htmlwidgets::prependContent(
+    htmltools::tags$style(HTML("
+        .legend {
+        font-size: 16px !important;
+        }
+        .legend-title {
+        font-size: 16px !important;
+        font-weight: bold;
+        }
+        .leaflet-container {
+        background: #F5F8FA;
+        }
+        "))
+  )
+
+
+################################# MAKE PAGE
+
+page <- tagList(
+  
+  tags$div(
+    style = "
+display:flex;
+height:100%;
+",
+    
+    tags$div(
+      style = "width:70%;",
+      as.tags(m)
+    ),
+    
+    tags$div(
+      id = "details-panel",
+      style = "
+width:30%;
+padding:20px;
+border-left:1px solid #ccc;
+overflow-y:auto;
+height:100%;
+",
+      HTML("<h2>Project Details</h2><p>Click a polygon.</p>")
+    )
+  )
+)
+
+
+# htmltools::save_html(page,file = "html/test.html")
+
+page
+
+
+```
+
+<br>
