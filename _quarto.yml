@@ -19,6 +19,7 @@ project:
     - chapters/deliverables_tasks.qmd
     - chapters/about_project.qmd
     - chapters/project_structure.qmd
+    - chapters/aiml_map.qmd
 
 
 website:
