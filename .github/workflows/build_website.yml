@@ -32,10 +32,17 @@ jobs:
           r-version: '4.5.3'
           
       # Step 3.5: Magick
-      - name: 
+      # Edited by Brendan 19-8-26
+      - name: Install system dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y libmagick++-dev
+          sudo apt-get install -y \
+            libmagick++-dev \
+            gdal-bin \
+            libgdal-dev \
+            libudunits2-dev \
+            proj-bin \
+            libproj-dev
         
       # Step 4: Install R dependencies
       - name: Install R dependencies using renv
