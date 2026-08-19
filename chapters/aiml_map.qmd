@@ -217,7 +217,7 @@ m <- leaflet(width = "100%", height = "100%", options =
                                         color = "yellow",
                                         bringToFront = TRUE)) |>
   addLegend(
-    position = "bottomleft",
+    position = "topright",
     pal = pal,
     opacity = 1,
     values = aiml_projects_2$category,
@@ -239,7 +239,7 @@ labels[id];
 }
 ",labels_json)) |> 
   # fitBounds(lng1 = -10,lat1 = 37,lng2 = 40,lat2 = 70)
-  setView(lng = 10,lat = 52.5,zoom = 2.0) |> 
+  setView(lng = 10,lat = 52.5,zoom = 2.2) |> 
   
   htmlwidgets::prependContent(
     htmltools::tags$style(HTML("
