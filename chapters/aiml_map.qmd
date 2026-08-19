@@ -265,18 +265,18 @@ page <- tagList(
     style = "
 display:flex;
 flex-direction:column;
-height:100%;
+height:75vh;
 ",
     
     tags$div(
-      style = "height:80%;",
+      style = "height:85%;",
       as.tags(m)
     ),
     
     tags$div(
       id = "details-panel",
       style = "
-height:20%;
+height:15%;
 padding:20px;
 border-top:1px solid #ccc;
 overflow-y:auto;
