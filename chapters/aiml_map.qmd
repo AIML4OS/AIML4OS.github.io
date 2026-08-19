@@ -6,7 +6,7 @@ fomat:
 
 ## AI/ML map of the ESS
 
-```{r , echo=F  }
+```{r , echo=F, message=F, warning=F}
 
 library(dplyr)
 library(rnaturalearth)
@@ -22,7 +22,7 @@ library(htmlwidgets)
 eu_map_1 <- bind_rows(ne_countries( scale = 'medium', returnclass = 'sf') )
 
 # This is WGS 84, the right projection for leaflet
-st_crs(eu_map_1)
+# st_crs(eu_map_1)
 
 # Define a bounding box for France to exclude territories that are far away, since these cause the 
 # centroid to fall outside the main part of France
@@ -264,20 +264,21 @@ page <- tagList(
   tags$div(
     style = "
 display:flex;
+flex-direction:column;
 height:100%;
 ",
     
     tags$div(
-      style = "width:70%;",
+      style = "height:80%;",
       as.tags(m)
     ),
     
     tags$div(
       id = "details-panel",
       style = "
-width:30%;
+height:20%;
 padding:20px;
-border-left:1px solid #ccc;
+border-top:1px solid #ccc;
 overflow-y:auto;
 height:100%;
 ",
