@@ -41,6 +41,7 @@ eu_map_2 <- bind_rows(
     sovereignt=='Republic of Serbia' ~ 'Serbia',
     admin=='Turkey' ~ 'Turkey',
     admin=='Cyprus' ~ 'Cyprus',
+    admin=='Greenland' ~'Greenland',
     T ~ sovereignt
   ))
 
