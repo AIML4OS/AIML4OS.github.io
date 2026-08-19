@@ -120,6 +120,7 @@ aiml_projects_1 <- country_centres %>%
   mutate(proj_id = row_number()) |> 
   group_by(sovereignt) |> 
   mutate(proj_title = paste0('Sample project ', proj_id),
+         country_id = row_number(),
          category  = sample(c('LLM', 'Earth Observation', 'Classification'), size = n(), replace=T),
          proj_label = paste0('<b>',proj_title , '</b><br>' , 'This ', category,' project from ',sovereignt,' does x, y and z')) |> 
   ungroup()
