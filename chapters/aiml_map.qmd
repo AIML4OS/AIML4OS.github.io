@@ -52,7 +52,7 @@ rm(france_box)
 
 # Make hexes in 3035, but project them in 4326
 
-hex_grid <- st_make_grid(eu_map_2|> st_transform(3035) , square = F, n = c(500,500)) 
+hex_grid <- st_make_grid(eu_map_2|> st_transform(3035) , square = F, n = c(300,300)) 
 hex_grid <- st_sf(geometry = hex_grid) |> 
   mutate(hex_num=row_number())
 
