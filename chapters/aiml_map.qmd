@@ -136,7 +136,7 @@ real_projects <- tibble(sovereignt = 'Ireland',
                         the Vital Statistics division, have developed a classification assistant which provides manual coders
                         with suggested classifications for text from death certificates. The application uses a random forest
                         model which has been trained on three years of data.') |> 
-  mutate(proj_label = paste0('<h2>',proj_title , '</h2><br>' , proj_label))
+  mutate(proj_label = paste0('<b>',proj_title , '</b><br>' , proj_label))
 
 aiml_projects_1 <- aiml_projects_1 |> 
   rows_update(real_projects , by=c('sovereignt', 'country_id')) 
