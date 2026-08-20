@@ -132,7 +132,8 @@ real_projects <- real_projects |>
   mutate(proj_label = paste0('<b>',proj_title , '</b><br>' , proj_label))
 
 aiml_projects_1 <- aiml_projects_1 |> 
-  rows_update(real_projects , by=c('sovereignt', 'country_id')) 
+  rows_update(real_projects , by=c('sovereignt', 'country_id')) |> 
+  filter(!stringr::str_detect(proj_label, 'Ireland.*x, y and z'))
 
 
 ####################### FIND NEAREST HEXES TO EACH COUNTRY

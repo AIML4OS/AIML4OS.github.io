@@ -20,4 +20,12 @@ real_projects <- bind_rows(tibble(sovereignt = 'Ireland',
                                proj_title = 'SAS-R Transcompiler',
                                proj_label = 'A code translation tool developed to help users convert code between statistical programming 
                                languages through a simple web-based interface. Built using R and Shiny, with large language model (LLM) 
-                               functionality accessed through the OpenAI API, the tool produces translated code together with explanatory notes.'))
+                               functionality accessed through the OpenAI API, the tool produces translated code together with explanatory notes.'),
+                        tibble(sovereignt = 'Ireland', 
+                               category = 'Classification',
+                               country_id = 4,
+                               proj_title = 'NACE Classification Assistant',
+                               proj_label = 'This application provides suggested NACE codes for input text that describes activities of enterprises.
+                               It uses a machine learning model which has been trained on a collection of over 1 million descriptions of principal
+                               activity. It also uses string-matching to terms related to different NACE codes, which is particularly useful for 
+                               rarer NACE categories which do not appear frequently in the corpus of training data.'))
