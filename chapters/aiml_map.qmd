@@ -126,16 +126,9 @@ aiml_projects_1 <- country_centres %>%
   ungroup()
 
 
+source('resources/real_projects.R')
 
-real_projects <- tibble(sovereignt = 'Ireland', 
-                        category = 'Classification',
-                        country_id = 1,
-                        proj_title = 'Cause of Death Classification',
-                        proj_label = 'In Ireland, the production of statistics on mortality requires the manually classification 
-                        of many thousands of death certificates. The CSO Data Science divison, working in collaboration with 
-                        the Vital Statistics division, have developed a classification assistant which provides manual coders
-                        with suggested classifications for text from death certificates. The application uses a random forest
-                        model which has been trained on three years of data.') |> 
+real_projects <- real_projects |> 
   mutate(proj_label = paste0('<b>',proj_title , '</b><br>' , proj_label))
 
 aiml_projects_1 <- aiml_projects_1 |> 
