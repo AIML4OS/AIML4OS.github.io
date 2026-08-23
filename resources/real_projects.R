@@ -20,7 +20,8 @@ real_projects <- bind_rows(tibble(sovereignt = 'Ireland',
                                proj_title = 'SAS-R Transcompiler',
                                proj_label = 'A code translation tool developed to help users convert code between statistical programming 
                                languages through a simple web-based interface. Built using R and Shiny, with large language model (LLM) 
-                               functionality accessed through the OpenAI API, the tool produces translated code together with explanatory notes.'),
+                               functionality accessed through the OpenAI API, the tool produces translated code together with explanatory notes.
+                               It was featured in a <a href="https://unece.org/sites/default/files/2023-12/HLGMOS%20LLM%20Paper_Preprint_1.pdf">HLG-MOS white paper</a> on the use of LLMs in official statistics.'),
                         tibble(sovereignt = 'Ireland', 
                                category = 'Classification',
                                country_id = 4,
