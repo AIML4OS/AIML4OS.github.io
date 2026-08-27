@@ -205,17 +205,17 @@ wp_df <- readRDS('resources/rds_files/wp_df.rds')
 for(i in 1:nrow(wp_df)){
   
   if(i==1){
-    cat('<h3>Supporting Workpackages</h3>')
-  #   cat(glue::glue('
-  # <button type="button" class="collapsible">Show Supporting Workpackages</button>
-  # <div class="content">
-  # '))
+    # cat('<h3>Supporting Workpackages</h3>')
+    cat(glue::glue('
+  <button type="button" class="collapsible">Show Supporting Workpackages</button>
+  <div class="content">
+  '))
   }
   if(i==7){
     cat('<h3>Use Case Workpackages</h3>')
     
-  #   cat(glue::glue('
-  # </div>
+    cat(glue::glue('
+  </div>'))
   # <button type="button" class="collapsible">Show Use Case Workpackages</button>
   # <div class="content">
   # '))
