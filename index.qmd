@@ -132,12 +132,11 @@ gsbpm: "5.1" # See complete taxonomy: https://www.unescap.org/sites/default/d8fi
   content: "\2212";
 }
 .content {
-  padding: 0 18px;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
+  display: none;
 }
-
+.collapsible.active + .content {
+display: block;
+}
 </style>
 
 
