@@ -128,7 +128,7 @@ gsbpm: "5.1" # See complete taxonomy: https://www.unescap.org/sites/default/d8fi
   float: right;
   margin-left: 5px;
 }
-.media-active:after {
+.media-collapsible.active:after {
   content: "\2212";
 }
 .media-content {
@@ -213,7 +213,7 @@ for(i in 1:nrow(wp_df)){
     # cat('<h3>Supporting Workpackages</h3>')
     cat(glue::glue('
   <button type="button" class="media-collapsible">Show Supporting Workpackages</button>
-  <div class="content">
+  <div class="media-content">
   '))
   }
   if(i==7){
