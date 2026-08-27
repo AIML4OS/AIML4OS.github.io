@@ -277,7 +277,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 <style>
-.collapsible {
+.media-collapsible {
   cursor: pointer;
   padding: 18px;
   width: 100%;
@@ -286,19 +286,19 @@ ul.task-list li input[type="checkbox"] {
   outline: none;
   font-size: 15px;
 }
-.collapsible:after {
+.media-collapsible:after {
   content: '\002B';
   font-weight: bold;
   float: right;
   margin-left: 5px;
 }
-.active:after {
+.media-active:after {
   content: "\2212";
 }
-.content {
+.media-content {
   display: none;
 }
-.collapsible.active + .content {
+.media-collapsible.active + .media-content {
 display: block;
 }
 </style>
@@ -341,7 +341,7 @@ display: block;
 <section id="project-structure" class="level1">
 <h1>Project Structure</h1>
 <p>The AIML4OS project is divided into 13 workpackages. Six of these are ‘supporting’ workpackages that provide cross-cutting insight and resources. The remaining seven are ‘use case’ workpackages, each of which explores a specific domain within AI/ML and its relevance to official statistics.</p>
-<button type="button" class="collapsible">
+<button type="button" class="media-collapsible">
 Show Supporting Workpackages
 </button>
 <div class="content">
