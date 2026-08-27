@@ -212,10 +212,13 @@ for(i in 1:nrow(wp_df)){
   '))
   }
   if(i==7){
-    cat('<h3>Use Case Workpackages</h3>')
     
     cat(glue::glue('
   </div>'))
+    
+    cat('<h3>Use Case Workpackages</h3>')
+    
+    
   # <button type="button" class="collapsible">Show Use Case Workpackages</button>
   # <div class="content">
   # '))
