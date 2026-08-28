@@ -235,7 +235,7 @@ for(i in 1:nrow(wp_df)){
     <img src="{wp_df$img[i]}" style="width:60px; height:60px; object-fit:cover; margin-right:1rem;">
   </a>
     <div>
-    <h4><a href="{wp_df$link[i]}">{wp_df$title[i]}</a></h3>
+    <h4><a href="{wp_df$link[i]}">{wp_df$title[i]}</a></h4>
     <p>{wp_df$desc[i]}</p>
     </div>
   </div>
