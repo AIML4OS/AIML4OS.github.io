@@ -303,6 +303,15 @@ ul.task-list li input[type="checkbox"] {
 display: block;
 }
 </style>
+<script>
+document.addEventListener("DOMContentLoaded", function(){
+  document.querySelectorAll(".media-collapsible").forEach(function(button){
+    button.addEventListener("click", function(){
+      this.classList.toggle("active");
+    });
+  });
+});
+</script>
 <p><strong>AI and Machine Learning for Official Statistics (AIML4OS)</strong> is an ESSnet project aimed at delivering a comprehensive suite of resources, guidelines, methodologies and use cases for the implementation of AI/ML in Official Statistics. There are 15 funded countries in the consortium. The project is running from April 2024 to March 2028.</p>
 <p><a href="./chapters/about_project.html">Learn more about the project</a></p>
 <section id="latest-news" class="level1">
