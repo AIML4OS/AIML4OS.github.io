@@ -94,6 +94,9 @@ format:
       # removing this line as it doesn't appear in the one for WP10
     css: styles.css
     toc: true
+    include-in-header: 
+      text: |
+        <script src="collapsible.js"></script>
 
 filters:
   - export-metadata.lua

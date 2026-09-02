@@ -114,18 +114,6 @@ gsbpm: "5.1" # See complete taxonomy: https://www.unescap.org/sites/default/d8fi
 
 
 
-<script>
-document.addEventListener("DOMContentLoaded", function(){
-  document.querySelectorAll(".media-collapsible").forEach(function(button){
-    button.addEventListener("click", function(){
-      this.classList.toggle("active");
-    });
-  });
-});
-</script>
-
-
-
 **AI and Machine Learning for Official Statistics (AIML4OS)** is an ESSnet project aimed at delivering a comprehensive suite of resources, guidelines, methodologies and use cases for the implementation of AI/ML in Official Statistics. There are 15 funded countries in the consortium. The project is running from April 2024 to March 2028.
 
 [Learn more about the project](chapters/about_project.qmd)
