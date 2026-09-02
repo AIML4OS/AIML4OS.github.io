@@ -226,16 +226,13 @@ for(i in 1:nrow(wp_df)){
   '))
   }
   if(i==7){
-    
     cat(glue::glue('
   </div>'))
-    
     cat('<h3>Use Case Workpackages</h3>')
-    
-    
-  # <button type="button" class="collapsible">Show Use Case Workpackages</button>
-  # <div class="content">
-  # '))
+    cat(glue::glue('
+  <button type="button" class="media-collapsible">Show Use Case Workpackages</button>
+  <div class="media-content">
+  '))
   }
   
   cat(glue::glue('
@@ -248,14 +245,13 @@ for(i in 1:nrow(wp_df)){
     <p>{wp_df$desc[i]}</p>
     </div>
   </div>
+  '))  
+  
+  if(i==13){
+    cat(glue::glue('
+  </div> 
   '))
-  
-  
-  # if(i==13){
-  #   cat(glue::glue('
-  # </div> 
-  # '))
-  # }
+  }
   
 }
 
