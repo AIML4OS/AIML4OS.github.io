@@ -96,7 +96,7 @@ format:
     toc: true
     include-in-header: 
       text: |
-        <script src="collapsible.js"></script>
+        <script src="/AIML4OS.github.io/collapsible.js"></script>
 
 filters:
   - export-metadata.lua

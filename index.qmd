@@ -120,7 +120,6 @@ gsbpm: "5.1" # See complete taxonomy: https://www.unescap.org/sites/default/d8fi
 
 # Latest News
 
-
 <div id="photoCarousel" class="carousel slide" data-bs-ride="carousel">
 
 <div class="carousel-inner">
@@ -171,7 +170,6 @@ gsbpm: "5.1" # See complete taxonomy: https://www.unescap.org/sites/default/d8fi
 # Project Structure
 
 The AIML4OS project is divided into 13 workpackages. Six of these are 'supporting' workpackages that provide cross-cutting insight and resources. The remaining seven are 'use case' workpackages, each of which explores a specific domain within AI/ML and its relevance to official statistics. 
-
 
 
 
