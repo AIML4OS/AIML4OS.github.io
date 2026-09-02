@@ -41,6 +41,9 @@ The following links lead to external training materials, tutorials, projects, do
 <details>
 <summary>Show Programming Links</summary>
 
+<details>
+<summary>Show links on General Programming Guidelines and Information</summary>
+
 \[13\] <a href="https://inseefrlab.github.io/formation-bonnes-pratiques-git-R/" target="_blank">Insee - Best programming practices with Git and R</a>. Practical guide covering coding standards, reproducibility, and version control workflows using R and Git in collaborative data science projects.
 
 \[14\] <a href="https://pythonds.linogaliana.fr/en/" target="_blank">Lino Galiana from Insee - Data science with Python</a>. Structured introduction to data science in Python, covering core libraries, data manipulation, and foundational analytical techniques.
@@ -119,6 +122,8 @@ The following links lead to external training materials, tutorials, projects, do
 \[36\] <a href="https://waterdata.usgs.gov/blog/quarto-template-demo/" target="_blank">Duplicating Quarto elements with code templates to reduce copy and paste errors</a>. Use of Quarto templates to streamline document creation and improve reproducibility by reducing manual duplication and errors.
 
 \[37\] <a href="https://waterdata.usgs.gov/blog/tidycensus-viz/" target="_blank">Charting 'tidycensus' data with R</a>. Introduction to visualizing U.S. Census data in R using the tidycensus package and common data visualization workflows.
+
+</details>
 
 </details>
 
