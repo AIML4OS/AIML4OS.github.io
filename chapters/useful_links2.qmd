@@ -5,6 +5,9 @@ The following links lead to external training materials, tutorials, projects, do
 
 ### Earth Observation
 
+<details>
+<summary>Show Earth Observation Links</summary>
+
 \[1\] <a href="https://eo-college.org/courses/" target="_blank">Introduction to Machine Learning for Earth Observation</a>. Educational platform offering courses that combine machine learning methods with Earth Observation data. Focuses on practical applications of AI techniques in environmental and geospatial analysis.
 
 \[2\] <a href="https://cros.ec.europa.eu/group/earth-observation-statistics-eo4s/book-page/esas-newcomers-earth-observation-guide" target="_blank">ESA's Newcomers Earth Observation Guide \| Eurostat CROS</a>. Introductory guide explaining the basics of Earth Observation for new users. It presents key concepts, data types, and common applications in a structured and accessible way.
@@ -29,9 +32,14 @@ The following links lead to external training materials, tutorials, projects, do
 
 \[12\] <a href="https://eodatahub.com/index.php/eo-missions/" target="_blank">Earth Observation satellite’s data portals provided by ESA, NASA, CSA, JAXA, ISRO</a>. Overview platform linking to major Earth Observation data portals from international space agencies. It serves as a gateway for discovering satellite data sources worldwide.
 
+</details>
+
 ------------------------------------------------------------------------
 
 ### Programming
+
+<details>
+<summary>Show Programming Links</summary>
 
 \[13\] <a href="https://inseefrlab.github.io/formation-bonnes-pratiques-git-R/" target="_blank">Insee - Best programming practices with Git and R</a>. Practical guide covering coding standards, reproducibility, and version control workflows using R and Git in collaborative data science projects.
 
@@ -55,9 +63,14 @@ The following links lead to external training materials, tutorials, projects, do
 
 \[23\] Author(s): Zhang, C.; Ma, Y. (eds.). (2012). Machine Learning Refined: Foundations, Algorithms, and Applications. Cambridge University Press. \[online\] Available at: <a href="https://www.cambridge.org/core/books/machine-learning-refined/" target="_blank">link</a> (accessed: 2026-04-16). This book presents modern foundations of machine learning, including core algorithms and their practical applications. It bridges theoretical concepts with implementation-oriented perspectives, making it suitable for both researchers and practitioners. The publication emphasizes algorithmic understanding and real-world use cases.
 
-A selection of resources from the United States Geological Survey about use of R.
+</details>
 
 #### Beyond Basic R
+
+
+<details>
+
+<summary>Show a selection of resources from the United States Geological Survey on use of R.</summary>
 
 \[24\] <a href="https://waterdata.usgs.gov/blog/reproducibility/" target="_blank">The case for reproducibility</a>. Discussion of the importance of reproducible research practices in data science, emphasizing transparency, reliability, and replicability of analytical workflows.
 
@@ -73,9 +86,15 @@ A selection of resources from the United States Geological Survey about use of R
 
 \[30\] <a href="https://waterdata.usgs.gov/blog/beyond-basic-mapping/" target="_blank">Beyond Basic R - Data Munging</a>. Resource describing data wrangling and transformation techniques in R, focusing on preparing datasets for analysis.
 
+</details>
+
 ------------------------------------------------------------------------
 
 #### Reproducible Data Science in R
+
+<details>
+
+<summary>Show links on Reproducible Data Science in R</summary>
 
 \[31\] <a href="https://waterdata.usgs.gov/blog/rds-assertions/" target="_blank">Reproducible Data Science in R: Say the quiet part out loud with assertion tests</a>. Introduction to using assertion tests in R to validate data and ensure correctness and reproducibility of analytical workflows.
 
@@ -87,17 +106,29 @@ A selection of resources from the United States Geological Survey about use of R
 
 \[35\] <a href="https://waterdata.usgs.gov/blog/rds-iterate/" target="_blank">Reproducible Data Science in R: Iterate, don't duplicate</a>. Discussion of iterative programming strategies in R, emphasizing code reuse and reducing duplication in analytical workflows.
 
+</details>
+
 ------------------------------------------------------------------------
 
 #### Other topics
+
+<details>
+
+<summary>Show links on other topics</summary>
 
 \[36\] <a href="https://waterdata.usgs.gov/blog/quarto-template-demo/" target="_blank">Duplicating Quarto elements with code templates to reduce copy and paste errors</a>. Use of Quarto templates to streamline document creation and improve reproducibility by reducing manual duplication and errors.
 
 \[37\] <a href="https://waterdata.usgs.gov/blog/tidycensus-viz/" target="_blank">Charting 'tidycensus' data with R</a>. Introduction to visualizing U.S. Census data in R using the tidycensus package and common data visualization workflows.
 
+</details>
+
 ------------------------------------------------------------------------
 
 ### Quality
+
+<details>
+
+<summary>Show links on Quality</summary>
 
 \[38\] <a href="https://doi.org/10.1007/s11943-023-00330-0" target="_blank">Van Delden, A., J. Burger, and M. Puts. 2023. “Ten Propositions on Machine Learning in Official Statistics.”</a>. Discussion of key principles and recommendations for the application of machine learning in official statistics.
 
@@ -145,9 +176,15 @@ A selection of resources from the United States Geological Survey about use of R
 
 \[60\] <a href="https://www.fao.org/statistics/events/detail-events/en/c/1631683/" target="_blank">FAO Webinar Series: Earth observation data for agricultural statistics</a>. Webinar series presenting applications of Earth Observation in agricultural statistics. It demonstrates how satellite data can support monitoring and reporting in the agricultural sector.
 
+</details>
+
 ------------------------------------------------------------------------
 
 ### Papers and publications
+
+<details>
+
+<summary>Show papers and publications</summary>
 
 \[61\] Author(s): Dumpert, F. (2025). Foundations and Advances of Machine Learning in Official Statistics. Springer. \[online\] Available at: <a href="https://link.springer.com/book/10.1007/978-3-032-10004-7" target="_blank">link</a> (accessed: 2026-04-16). This book presents recent developments in the application of machine learning methods in official statistics. It covers methodological foundations as well as practical implementations in statistical production systems. The focus is on integrating modern ML techniques into official statistical workflows.
 
@@ -176,3 +213,6 @@ A selection of resources from the United States Geological Survey about use of R
 \[73\] Author(s): Vásquez, C. (2022). Automatic selective editing approach using machine learning: an application to VAT data. UNECE. \[online\] Available at: <a href="https://unece.org/sites/default/files/2022-10/SDE2022_S6_Chile_Vasquez_D.pdf" target="_blank">link</a> (accessed: 2026-04-16). The article describes an automatic selective editing approach applied to VAT data using machine learning techniques. It focuses on identifying influential records requiring manual review. The method improves efficiency in statistical data validation processes.
 
 \[74\] <a href="https://statswiki.unece.org/spaces/ML/pages/290358735/WP1+-+Theme+2+Edit+and+Imputation+Report" target="_blank">UNECE – HLG-MOS Machine Learning Project Edit and Imputation Theme Report</a>. Documentation of machine learning approaches for data editing and imputation in official statistical production pipelines.
+
+
+</details>
