@@ -9,6 +9,14 @@ The project is developed through 13 Work Packages (WPs), six of these are 'Suppo
 ![Members of the AIML4OS consortium at the project launch in Wiesbaden, April 2024](../images/launch_photo.jpg)
 
 
+### Other ESSnet Projects
+
+AIML4OS is one of a series of ESSnets. Here are some others.
+
+- [Mobile Network Operator Methods for Integrating New Data Sources (MNO-MINDS)](https://cros.ec.europa.eu/mno-minds){target="_blank"}
+- [Trusted Smart Surveys Implementation](https://cros.ec.europa.eu/dashboard/trusted-smart-surveys){target="_blank"}
+- [Web Intelligence Network (WIN)](https://cros.ec.europa.eu/book-page/web-intelligence-network-project-overview){target="_blank"}
+- [Privacy Enhancing Technologies for Official Statistics (PET4OS)](https://cros.ec.europa.eu/PET4OS){target="_blank"}
 
 
 ### Countries involved in AIML4OS
