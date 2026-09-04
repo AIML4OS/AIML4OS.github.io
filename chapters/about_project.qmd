@@ -11,7 +11,7 @@ The project is developed through 13 Work Packages (WPs), six of these are 'Suppo
 
 ### Other ESSnet Projects
 
-AIML4OS is one of a series of ESSnets, which are Eurostat-funded projects for the European Statistical System. Below are links to some other recent ESSnets.
+AIML4OS is one of a series of ESSnets, which are Eurostat-funded projects for the European Statistical System. Below are links to some other ongoing or recent ESSnets.
 
 - [Mobile Network Operator Methods for Integrating New Data Sources (MNO-MINDS)](https://cros.ec.europa.eu/mno-minds){target="_blank"}
 - [Trusted Smart Surveys Implementation](https://cros.ec.europa.eu/dashboard/trusted-smart-surveys){target="_blank"}
