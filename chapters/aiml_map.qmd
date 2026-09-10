@@ -116,7 +116,7 @@ hex_centres <- hex_grid %>%
 aiml_projects_1 <- country_centres %>% 
   mutate(x = st_coordinates(.)[,1] , y = st_coordinates(.)[,2] ) %>% 
   st_drop_geometry() %>% 
-  bind_rows(.,.,.,.,.) |> # this is where duplicates are made
+  bind_rows(.,.,.,.,.,.,.,.) |> # this is where duplicates are made
   arrange(country) |> 
   mutate(proj_id = row_number()) |> 
   group_by(country) |> 
