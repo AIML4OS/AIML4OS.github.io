@@ -45,7 +45,51 @@ real_projects <- bind_rows(
                                provides personalized guidance, while machine learning classifies user issues to link relevant knowledge base 
                                content. This approach streamlines operator work, speeds up responses, and lowers operational costs, improving 
                                overall user experience and internal efficiency.
-                               <a href="https://cros.ec.europa.eu/system/files/2025-02/Book%20of%20Abstracts%20-%20NTTS%202025%20-%2027.02.25.pdf" target="_blank">Link</a>')
+                               <a href="https://cros.ec.europa.eu/system/files/2025-02/Book%20of%20Abstracts%20-%20NTTS%202025%20-%2027.02.25.pdf" target="_blank">Link</a>'),
+                        tibble(country = 'Italy', 
+                               category = 'Classification',
+                               proj_title = 'Classification of nursing notes (FNOPI) using NLP models, clustering, and semantic search',
+                               proj_label = 'The FNOPI Classification project, developed by ISTAT’s Methodology team, uses NLP, clustering, 
+                               and semantic search to classify nursing-related documents. The repository includes resources for preprocessing 
+                               text data, assigning codes, and creating document clusters, with tools like CSV datasets, topic modeling 
+                               outputs, and NIC classifications to streamline analysis and enhance nursing data organization.
+                               <a href="https://github.com/istat-methodology/fnopi-classification" target="_blank">Link</a>'),
+                        tibble(country = 'Italy', 
+                               category = 'Dissemination',
+                               proj_title = 'From Text to GenAI: A Three-Stage Implementation of AI-Enhanced Search Engine for Statistical Communication at istat.it',
+                               proj_label = 'The FNOPI Classification project, developed by ISTAT’s Methodology team, uses NLP, clustering, 
+                               and semantic search to classify nursing-related documents. The repository includes resources for preprocessing 
+                               text data, assigning codes, and creating document clusters, with tools like CSV datasets, topic modeling 
+                               outputs, and NIC classifications to streamline analysis and enhance nursing data organization.
+                               <a href="https://unece.org/sites/default/files/2025-05/GenAI2025_S1_Italy_Troia_P.pdf" target="_blank">Link</a>'),
+                        tibble(country = 'Italy', 
+                               category = 'Web Intelligence',
+                               proj_title = 'From web to data: Winning Hackathon with Offline AI for E-Commerce Site Detection Strategies',
+                               proj_label = 'Istat presents a hybrid AI-powered procedure for analyzing URLs to detect e-commerce activities 
+                               and social media presence, emphasizing offline AI usage to enhance privacy and reduce latency. Using 
+                               asynchronous processing, LLaMA models, and structured methodologies, the approach ensures scalability, 
+                               cost-effectiveness, and ethical compliance. Recommendations include integrating online data sources, 
+                               training NSI staff in digital tools, and developing privacy-focused frameworks to adapt to evolving digital 
+                               landscapes and improve statistical accuracy.
+                               <a href="https://cros.ec.europa.eu/system/files/2025-02/Book%20of%20Abstracts%20-%20NTTS%202025%20-%2027.02.25.pdf" target="_blank">Link</a>'),
+                        tibble(country = 'Italy', 
+                               category = 'LLM',
+                               proj_title = 'Gemma 2 Large Language Models for Aspect-Based Sentiment Analysis on Italian Texts: A Use Case for Tourism Statistics',
+                               proj_label = 'Istat explores the potential of Aspect-Based Sentiment Analysis (ABSA) using Gemma 2 Large Language 
+                               Models (LLMs) to enhance tourism statistics from Italian accommodation reviews. By evaluating the 2B and 9B variants 
+                               of Gemma 2 models with varying prompts, the study demonstrates improvements in detecting and classifying sentiment 
+                               aspects. Future directions include broader applications in tourism activities and leveraging ABSA to enrich 
+                               statistical insights across domains.
+                               <a href="https://www.researchgate.net/publication/385737799_Gemma_2_Large_Language_Models_for_Aspect-Based_Sentiment_Analysis_on_Italian_Texts_A_Use_Case_for_Tourism_Statistics" target="_blank">Link</a>'),
+                        tibble(country = 'Italy', 
+                               category = 'LLM',
+                               proj_title = 'Transformer-based Models for Official Statistics: a Tutorial',
+                               proj_label = 'Transformer-based models offer National Statistical Institutes (NSIs) and NGOs powerful tools for 
+                               processing textual data, leveraging pre-trained or fine-tuned generative Transformers for tasks like social media 
+                               classification, economic activity estimation via RAG pipelines, and aspect-based data labeling. By presenting 
+                               streamlined pipelines and best practices, this approach facilitates the integration of these models into statistical 
+                               production, balancing flexibility with computational efficiency.
+                               <a href="https://unece.org/sites/default/files/2025-05/GenAI2025_S3_Italy_Ortame_D_0.pdf" target="_blank">Link</a>')
                         
                         
                         )
