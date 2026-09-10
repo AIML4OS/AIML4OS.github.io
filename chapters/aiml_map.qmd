@@ -19,7 +19,8 @@ library(htmlwidgets)
 ####################### GET COUNTRY SHAPES
 
 # Import a map. This is actually the whole world, crop to Europe later
-eu_map_1 <- bind_rows(ne_countries( scale = 'medium', returnclass = 'sf') )
+eu_map_1 <- bind_rows(ne_countries( scale = 'medium', returnclass = 'sf') ) |> 
+  rename(country=sovereignt)
 
 # This is WGS 84, the right projection for leaflet
 # st_crs(eu_map_1)
@@ -34,15 +35,15 @@ france_box <- st_bbox(c(xmin = -10,ymin =30, xmax= 12,ymax = 60), crs = st_crs(4
 
 # Fix France and names of some other countries
 eu_map_2 <- bind_rows(
-  eu_map_1 |> filter(sovereignt!='France'),
-  eu_map_1 |> filter(sovereignt=='France') |> 
+  eu_map_1 |> filter(country!='France'),
+  eu_map_1 |> filter(country=='France') |> 
     st_intersection(france_box)) |> 
-  mutate(sovereignt = case_when(
-    sovereignt=='Republic of Serbia' ~ 'Serbia',
+  mutate(country = case_when(
+    country=='Republic of Serbia' ~ 'Serbia',
     admin=='Turkey' ~ 'Turkey',
     admin=='Cyprus' ~ 'Cyprus',
     admin=='Greenland' ~'Greenland',
-    T ~ sovereignt
+    T ~ country
   ))
 
 rm(france_box)
@@ -82,11 +83,11 @@ countries_of_interest <- c("France","Estonia","Serbia","Hungary","Iceland","Lith
 # Get coords for centre of each country. Needed for finding closest hexes to each country
 country_centres <- eu_map_2 |> 
   st_transform(3035) |> 
-  arrange(sovereignt, scalerank, labelrank) |> 
-  slice(1, .by=sovereignt) |> 
+  arrange(country, scalerank, labelrank) |> 
+  slice(1, .by=country) |> 
   st_centroid() |> 
-  select(sovereignt, name) |>
-  filter(sovereignt %in% countries_of_interest) 
+  select(country, name) |>
+  filter(country %in% countries_of_interest) 
 
 # ggplot(eu_map_2|> st_transform(3035) ) + geom_sf() + 
 #   geom_sf(data =hex_grid , colour = 'red', fill=NA) +
@@ -116,24 +117,27 @@ aiml_projects_1 <- country_centres %>%
   mutate(x = st_coordinates(.)[,1] , y = st_coordinates(.)[,2] ) %>% 
   st_drop_geometry() %>% 
   bind_rows(.,.,.,.,.) |> # this is where duplicates are made
-  arrange(sovereignt) |> 
+  arrange(country) |> 
   mutate(proj_id = row_number()) |> 
-  group_by(sovereignt) |> 
+  group_by(country) |> 
   mutate(proj_title = paste0('Sample project ', proj_id),
          country_id = row_number(),
          category  = sample(c('LLM', 'Earth Observation', 'Classification'), size = n(), replace=T),
-         proj_label = paste0('<b>',proj_title , '</b><br>' , 'This ', category,' project from ',sovereignt,' does x, y and z')) |> 
+         proj_label = paste0('<b>',proj_title , '</b><br>' , 'This ', category,' project from ',country,' does x, y and z')) |> 
   ungroup()
 
 
 source('resources/real_projects.R')
 
 real_projects <- real_projects |> 
-  mutate(proj_label = paste0('<b>',proj_title , '</b><br>' , proj_label))
+  group_by(country) |> 
+  mutate(proj_label = paste0('<b>',proj_title , '</b><br>' , proj_label),
+         country_id = row_number()) |> 
+  ungroup()
 
 aiml_projects_1 <- aiml_projects_1 |> 
-  rows_update(real_projects , by=c('sovereignt', 'country_id')) |> 
-  filter(!stringr::str_detect(proj_label, 'Ireland.*x, y and z'))
+  rows_update(real_projects , by=c('country', 'country_id')) |> 
+  filter(!stringr::str_detect(proj_label, '(Ireland|Italy).*x, y and z'))
 
 
 ####################### FIND NEAREST HEXES TO EACH COUNTRY
