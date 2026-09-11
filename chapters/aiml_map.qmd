@@ -110,7 +110,7 @@ hex_centres <- hex_grid %>%
 ####################### CREATE DATASET OF PROJECTS
 
 
-source('code/real_projects.R')
+source('resources/real_projects.R')
 
 # Now we create a dataset which represents 5 projects per country.
 # Normally this would be a CSV which would be attached to the centres dataset.
