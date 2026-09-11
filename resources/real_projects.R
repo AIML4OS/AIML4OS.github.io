@@ -89,7 +89,45 @@ real_projects <- bind_rows(
                                classification, economic activity estimation via RAG pipelines, and aspect-based data labeling. By presenting 
                                streamlined pipelines and best practices, this approach facilitates the integration of these models into statistical 
                                production, balancing flexibility with computational efficiency.
-                               <a href="https://unece.org/sites/default/files/2025-05/GenAI2025_S3_Italy_Ortame_D_0.pdf" target="_blank">Link</a>')
+                               <a href="https://unece.org/sites/default/files/2025-05/GenAI2025_S3_Italy_Ortame_D_0.pdf" target="_blank">Link</a>'),
+                        tibble(country = 'Austria',
+                               category = 'Small area estimation',
+                               proj_title = 'Municipal-Level Estimation of Tourism Perception: A Machine Learning-Based Approach to Small Area Estimation',
+                               proj_label = 'Statistics Austria developed a machine learning-based small area estimation model to assess local 
+         perceptions of tourism across Austrian municipalities. Using an XGBoost classifier trained on survey responses 
+         and auxiliary administrative data (e.g. demographics, income, tourism metrics), the model predicts whether 
+         residents perceive tourist numbers as excessive. Initial findings show higher dissatisfaction in major cities 
+         and tourist-heavy rural areas, offering policymakers detailed regional insights to guide sustainable tourism 
+         planning. 
+         <a href="https://cros.ec.europa.eu/system/files/2025-02/Book%20of%20Abstracts%20-%20NTTS%202025%20-%2027.02.25.pdf">Link</a>'),
+                        tibble(country = 'Austria',
+                               category = 'Earth Observation',
+                               proj_title = 'Using Ortho-imagery and Neural Networks to detect the location of solar panels',
+                               proj_label = 'Statistics Austria is piloting the use of orthoimagery and deep learning models like MaskRCNN 
+         to detect solar panels on rooftops for enriching energy statistics. Early results highlight the need for 
+         fine-tuning pre-trained models with high-resolution datasets and incorporating additional data sources to 
+         improve detection accuracy. Next steps include refining workflows, collaborating with stakeholders, and 
+         scaling up the approach for national coverage. 
+         <a href="https://unstats.un.org/bigdata/events/2025/ai-data-science/webinar1/presentations/Stefan%20-%20Hofer%20-%20Solar%20panels.pdf">Link</a>'),
+                        tibble(country = 'Spain',
+                               category = 'Web Intelligence',
+                               proj_title = 'WebQA Project',
+                               proj_label = 'Eustat’s WebQA project integrates large language models and web crawling to classify companies 
+                               by NACE code and detect innovation activity using content from company websites. By leveraging WARC files, 
+                               embedding generation, and RAG-based modeling, Eustat achieves 72% accuracy at the 2-digit NACE level and 
+                               moderate innovation classification performance. The system forms a scalable foundation for answering future 
+                               business-related statistical questions from web data. 
+                               <a href="https://cros.ec.europa.eu/system/files/2025-02/Book%20of%20Abstracts%20-%20NTTS%202025%20-%2027.02.25.pdf">Link</a>'),
+                        tibble(country = 'Belgium',
+                               category = 'Classification',
+                               proj_title = 'AI-powered nomenclature codification',
+                               proj_label = 'AI and large language models (LLMs) are used to automate codification of free-text job 
+                               descriptions into international occupation nomenclatures like ISCO. The method combines semantic search 
+                               on a vectorized nomenclature database with LLM-based scoring to match descriptions to codes accurately, 
+                               handling multilingual inputs and errors without extensive retraining. Initial results show promising 
+                               accuracy and efficiency, with plans to refine the tool through user feedback for practical deployment. <br>
+                               <a href="https://cros.ec.europa.eu/system/files/2025-02/Book%20of%20Abstracts%20-%20NTTS%202025%20-%2027.02.25.pdf">Link</a>'),
+                        
                         
                         
                         )
