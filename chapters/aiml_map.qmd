@@ -110,34 +110,22 @@ hex_centres <- hex_grid %>%
 ####################### CREATE DATASET OF PROJECTS
 
 
+source('code/real_projects.R')
+
 # Now we create a dataset which represents 5 projects per country.
 # Normally this would be a CSV which would be attached to the centres dataset.
 # Note that this is based on country_centres which is 3035
+  
 aiml_projects_1 <- country_centres %>% 
   mutate(x = st_coordinates(.)[,1] , y = st_coordinates(.)[,2] ) %>% 
   st_drop_geometry() %>% 
-  bind_rows(.,.,.,.,.,.,.,.) |> # this is where duplicates are made
+  inner_join(real_projects) |> 
   arrange(country) |> 
   mutate(proj_id = row_number()) |> 
   group_by(country) |> 
-  mutate(proj_title = paste0('Sample project ', proj_id),
-         country_id = row_number(),
-         category  = sample(c('LLM', 'Earth Observation', 'Classification'), size = n(), replace=T),
-         proj_label = paste0('<b>',proj_title , '</b><br>' , 'This ', category,' project from ',country,' does x, y and z')) |> 
+  mutate(country_id = row_number(),
+         proj_label = paste0('<b>',proj_title , '</b><br>' , proj_label)) |> 
   ungroup()
-
-
-source('resources/real_projects.R')
-
-real_projects <- real_projects |> 
-  group_by(country) |> 
-  mutate(proj_label = paste0('<b>',proj_title , '</b><br>' , proj_label),
-         country_id = row_number()) |> 
-  ungroup()
-
-aiml_projects_1 <- aiml_projects_1 |> 
-  rows_update(real_projects , by=c('country', 'country_id')) |> 
-  filter(!stringr::str_detect(proj_label, '*x, y and z'))
 
 
 ####################### FIND NEAREST HEXES TO EACH COUNTRY
