@@ -99,7 +99,7 @@ real_projects <- bind_rows(
          residents perceive tourist numbers as excessive. Initial findings show higher dissatisfaction in major cities 
          and tourist-heavy rural areas, offering policymakers detailed regional insights to guide sustainable tourism 
          planning. 
-         <a href="https://cros.ec.europa.eu/system/files/2025-02/Book%20of%20Abstracts%20-%20NTTS%202025%20-%2027.02.25.pdf">Link</a>'),
+         <a href="https://cros.ec.europa.eu/system/files/2025-02/Book%20of%20Abstracts%20-%20NTTS%202025%20-%2027.02.25.pdf" target="_blank">Link</a>'),
                         tibble(country = 'Austria',
                                category = 'Earth Observation',
                                proj_title = 'Using Ortho-imagery and Neural Networks to detect the location of solar panels',
@@ -108,7 +108,7 @@ real_projects <- bind_rows(
          fine-tuning pre-trained models with high-resolution datasets and incorporating additional data sources to 
          improve detection accuracy. Next steps include refining workflows, collaborating with stakeholders, and 
          scaling up the approach for national coverage. 
-         <a href="https://unstats.un.org/bigdata/events/2025/ai-data-science/webinar1/presentations/Stefan%20-%20Hofer%20-%20Solar%20panels.pdf">Link</a>'),
+         <a href="https://unstats.un.org/bigdata/events/2025/ai-data-science/webinar1/presentations/Stefan%20-%20Hofer%20-%20Solar%20panels.pdf" target="_blank">Link</a>'),
                         tibble(country = 'Spain',
                                category = 'Web Intelligence',
                                proj_title = 'WebQA Project',
@@ -117,7 +117,7 @@ real_projects <- bind_rows(
                                embedding generation, and RAG-based modeling, Eustat achieves 72% accuracy at the 2-digit NACE level and 
                                moderate innovation classification performance. The system forms a scalable foundation for answering future 
                                business-related statistical questions from web data. 
-                               <a href="https://cros.ec.europa.eu/system/files/2025-02/Book%20of%20Abstracts%20-%20NTTS%202025%20-%2027.02.25.pdf">Link</a>'),
+                               <a href="https://cros.ec.europa.eu/system/files/2025-02/Book%20of%20Abstracts%20-%20NTTS%202025%20-%2027.02.25.pdf" target="_blank">Link</a>'),
                         tibble(country = 'Belgium',
                                category = 'Classification',
                                proj_title = 'AI-powered nomenclature codification',
@@ -126,7 +126,7 @@ real_projects <- bind_rows(
                                on a vectorized nomenclature database with LLM-based scoring to match descriptions to codes accurately, 
                                handling multilingual inputs and errors without extensive retraining. Initial results show promising 
                                accuracy and efficiency, with plans to refine the tool through user feedback for practical deployment. <br>
-                               <a href="https://cros.ec.europa.eu/system/files/2025-02/Book%20of%20Abstracts%20-%20NTTS%202025%20-%2027.02.25.pdf">Link</a>'),
+                               <a href="https://cros.ec.europa.eu/system/files/2025-02/Book%20of%20Abstracts%20-%20NTTS%202025%20-%2027.02.25.pdf" target="_blank">Link</a>'),
                         
                         tibble(country = 'France',
                                category = 'LLM',
@@ -136,7 +136,7 @@ real_projects <- bind_rows(
                                Language Model with a retrieval mechanism based on official publications and is evaluated using real 
                                user queries, expert answers, manual annotations, and AI-driven judgments to assess performance and 
                                challenges in deployment. 
-                               <a href="https://linogaliana.github.io/slides-workshopgenAI-unece2025/#/title-slide">Link</a>'),
+                               <a href="https://linogaliana.github.io/slides-workshopgenAI-unece2025/#/title-slide" target="_blank">Link</a>'),
                         
                         tibble(country = 'France',
                                category = 'LLM',
@@ -145,7 +145,7 @@ real_projects <- bind_rows(
                                verification, and processes the original PDF with Marker to extract structured JSON data using OCR 
                                and large language models. It securely integrates environment variables for LLM access and returns 
                                both the extracted data and image metadata, supporting efficient, automated document analysis. 
-                               <a href='https://github.com/InseeFrLab/extraction-comptes-sociaux-llm'>Link</a>"),
+                               <a href='https://github.com/InseeFrLab/extraction-comptes-sociaux-llm' target='_blank'>Link</a>"),
 
                         tibble(country = 'France',
                                category = 'LLM',
@@ -156,7 +156,7 @@ real_projects <- bind_rows(
                                and using LLMs for automation. The Context-Augmented Generation (CAG) approach achieved 90% 
                                accuracy, outperforming Retrieval-Augmented Generation (RAG), and enabled rapid, reliable 
                                reclassification while maintaining model stability. <br>
-                               <a href="https://inseefrlab.github.io/codif-ape-prez/slides/unece-2025/#/title-slide">Link</a>'),
+                               <a href="https://inseefrlab.github.io/codif-ape-prez/slides/unece-2025/#/title-slide" target="_blank">Link</a>'),
                         
                         tibble(country = 'France',
                                category = 'LLM',
@@ -166,7 +166,7 @@ real_projects <- bind_rows(
                                It includes tools to build the dataset from parquet files in S3, run evaluations with MLFlow for 
                                tracking model performance, and configure parameters flexibly via config files, environment 
                                variables, or command-line arguments. <br>
-                               <a href="https://github.com/InseeFrLab/llm-open-data-insee">Link</a>'),
+                               <a href="https://github.com/InseeFrLab/llm-open-data-insee" target="_blank">Link</a>'),
                         
                         tibble(country = 'France',
                                category = 'LLM',
@@ -176,7 +176,7 @@ real_projects <- bind_rows(
                                engineering, iterative feedback, and structured workflows, the team optimized ChatGPT's 
                                capabilities to handle diverse tasks, including data steps, descriptive statistics, and 
                                complex macros. <br>
-                               <a href='https://my.visme.co/v/z4nodvzv-qzoe99'>Link</a>"),
+                               <a href='https://my.visme.co/v/z4nodvzv-qzoe99' target='_blank'>Link</a>"),
                                                 
                         tibble(country = 'France',
                                category = 'LLM',
@@ -187,7 +187,7 @@ real_projects <- bind_rows(
                                validates it against a predefined schema to simulate data for model evaluation. This 
                                approach helps create controlled, diverse datasets to improve and assess ML model 
                                robustness. <br>
-                               <a href="https://github.com/InseeFrLab/codif-ape-llm-synthetic-data">Link</a>'),
+                               <a href="https://github.com/InseeFrLab/codif-ape-llm-synthetic-data" target="_blank">Link</a>'),
                         
                         tibble(country = 'Germany',
                                category = 'LLM',
@@ -198,6 +198,6 @@ real_projects <- bind_rows(
                                of confidential documents, with over 163 TIAs created as of June 2024, open to all 
                                employees with optional restricted access. Training is provided for effective prompt 
                                design, and collaboration is encouraged for shared resources and expertise. <br>
-                               <a href="https://unece.github.io/genAI/Resources/GermanCentralBank_2024_06_Comm.pdf">Link</a>'),
+                               <a href="https://unece.github.io/genAI/Resources/GermanCentralBank_2024_06_Comm.pdf" target="_blank">Link</a>'),
                         
                         )
