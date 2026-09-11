@@ -128,6 +128,76 @@ real_projects <- bind_rows(
                                accuracy and efficiency, with plans to refine the tool through user feedback for practical deployment. <br>
                                <a href="https://cros.ec.europa.eu/system/files/2025-02/Book%20of%20Abstracts%20-%20NTTS%202025%20-%2027.02.25.pdf">Link</a>'),
                         
+                        tibble(country = 'France',
+                               category = 'LLM',
+                               proj_title = 'Challenges and Insights in Developing and Evaluating a Retrieval Augmented Generation Agent for Official Statistics',
+                               proj_label = 'INSEE developed an experimental Retrieval Augmented Generation (RAG) system to accurately 
+                               retrieve official statistical information while reducing hallucinations. The system combines a Large 
+                               Language Model with a retrieval mechanism based on official publications and is evaluated using real 
+                               user queries, expert answers, manual annotations, and AI-driven judgments to assess performance and 
+                               challenges in deployment. 
+                               <a href="https://linogaliana.github.io/slides-workshopgenAI-unece2025/#/title-slide">Link</a>'),
                         
+                        tibble(country = 'France',
+                               category = 'LLM',
+                               proj_title = 'Extracting Information from PDFs with LLM',
+                               proj_label = "INSEE's API enables uploading single-page PDFs, converts them into images for visual 
+                               verification, and processes the original PDF with Marker to extract structured JSON data using OCR 
+                               and large language models. It securely integrates environment variables for LLM access and returns 
+                               both the extracted data and image metadata, supporting efficient, automated document analysis. 
+                               <a href='https://github.com/InseeFrLab/extraction-comptes-sociaux-llm'>Link</a>"),
+
+                        tibble(country = 'France',
+                               category = 'LLM',
+                               proj_title = 'From NACE 2008 to NACE 2025: Retraining an ML model in production using Large Language Models',
+                               proj_label = 'In 2022, a FastText-based ML model automated company classification in France’s SIRENE 
+                               registry under NACE 2008, reducing manual effort. Transitioning to NACE 2025 involved reclassifying 
+                               14 million companies through a three-step process: analyzing nomenclature, manual annotation, 
+                               and using LLMs for automation. The Context-Augmented Generation (CAG) approach achieved 90% 
+                               accuracy, outperforming Retrieval-Augmented Generation (RAG), and enabled rapid, reliable 
+                               reclassification while maintaining model stability. <br>
+                               <a href="https://inseefrlab.github.io/codif-ape-prez/slides/unece-2025/#/title-slide">Link</a>'),
+                        
+                        tibble(country = 'France',
+                               category = 'LLM',
+                               proj_title = 'LLM Open Data Chatbot',
+                               proj_label = 'The InseeFrLab repository "llm-open-data-insee" provides an open-source pipeline 
+                               for building and evaluating a vectorial database of INSEE data using large language models (LLMs). 
+                               It includes tools to build the dataset from parquet files in S3, run evaluations with MLFlow for 
+                               tracking model performance, and configure parameters flexibly via config files, environment 
+                               variables, or command-line arguments. <br>
+                               <a href="https://github.com/InseeFrLab/llm-open-data-insee">Link</a>'),
+                        
+                        tibble(country = 'France',
+                               category = 'LLM',
+                               proj_title = 'SAS to R conversion : The use of Large Language Models',
+                               proj_label = "The project aims to convert a SAS program chain for household surveys into R, 
+                               leveraging ChatGPT for efficient code translation and contextual guidance. By employing prompt 
+                               engineering, iterative feedback, and structured workflows, the team optimized ChatGPT's 
+                               capabilities to handle diverse tasks, including data steps, descriptive statistics, and 
+                               complex macros. <br>
+                               <a href='https://my.visme.co/v/z4nodvzv-qzoe99'>Link</a>"),
+                                                
+                        tibble(country = 'France',
+                               category = 'LLM',
+                               proj_title = 'Testing a ML model using synthetic data generated with LLMs',
+                               proj_label = 'The INSEE repository tests a machine learning model by generating synthetic 
+                               activity descriptions for a specific NACE code using a large language model (LLM). It 
+                               sends a prompt with bias instructions to the LLM, parses the structured response, and 
+                               validates it against a predefined schema to simulate data for model evaluation. This 
+                               approach helps create controlled, diverse datasets to improve and assess ML model 
+                               robustness. <br>
+                               <a href="https://github.com/InseeFrLab/codif-ape-llm-synthetic-data">Link</a>'),
+                        
+                        tibble(country = 'Germany',
+                               category = 'LLM',
+                               proj_title = 'Text based intelligent assistant: TIA',
+                               proj_label = 'The TIA Platform at Deutsche Bundesbank leverages generative AI models 
+                               (GPT-3.5/4) via Azure, supporting English and German text-based assistants for official 
+                               statistics and internal processes. It facilitates reliable responses and secure handling 
+                               of confidential documents, with over 163 TIAs created as of June 2024, open to all 
+                               employees with optional restricted access. Training is provided for effective prompt 
+                               design, and collaboration is encouraged for shared resources and expertise. <br>
+                               <a href="https://unece.github.io/genAI/Resources/GermanCentralBank_2024_06_Comm.pdf">Link</a>'),
                         
                         )
