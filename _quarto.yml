@@ -79,6 +79,8 @@ website:
 
       - file: chapters/useful_links2.qmd
         text: "Useful Links"
+      - file: chapters/aiml_map.qmd
+        text: "Map of AI/ML"
       - file: chapters/news.qmd
         text: "News"
       - file: chapters/deliverables_tasks.qmd
