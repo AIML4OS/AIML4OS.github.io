@@ -4,14 +4,20 @@
     "href": "chapters/aiml_map.html",
     "title": "AIML4OS",
     "section": "",
-    "text": "Project DetailsClick a polygon."
+    "text": "Project DetailsClick a polygon.",
+    "crumbs": [
+      "Map of AI/ML"
+    ]
   },
   {
-    "objectID": "chapters/aiml_map.html#aiml-map-of-the-ess",
-    "href": "chapters/aiml_map.html#aiml-map-of-the-ess",
+    "objectID": "chapters/aiml_map.html#aiml-map-of-the-ess-in-development",
+    "href": "chapters/aiml_map.html#aiml-map-of-the-ess-in-development",
     "title": "AIML4OS",
     "section": "",
-    "text": "Project DetailsClick a polygon."
+    "text": "Project DetailsClick a polygon.",
+    "crumbs": [
+      "Map of AI/ML"
+    ]
   },
   {
     "objectID": "chapters/about_project.html",
