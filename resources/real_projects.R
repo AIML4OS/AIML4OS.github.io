@@ -99,7 +99,7 @@ real_projects <- bind_rows(
                                surveys on health, environment, and inequality. Techniques like Random Forests, Transformers, and GANs show better 
                                performance and robustness than classical methods, improving data completeness and accuracy. This research supports 
                                more reliable official statistics for informed, equitable policy decisions. <br>
-                               <a href="https://unece.org/sites/default/files/2024-09/SDE2024_S3_Italy_Cafieri_D.pdf">Link</a>'),
+                               <a href="https://unece.org/sites/default/files/2024-09/SDE2024_S3_Italy_Cafieri_D.pdf" target="_blank">Link</a>'),
                         
                         
                         tibble(country = 'Austria',
@@ -138,7 +138,7 @@ real_projects <- bind_rows(
                                hybrid solution generates synthetic samples using LLMs, then trains a lightweight model such as fastText. 
                                This approach, applied to the national NACE classifier, shows promising results, and ongoing work 
                                suggests pre-trained BERT-like models may outperform fastText for purely synthetic datasets. <br>
-                               <a href="https://unece.org/sites/default/files/2025-05/GenAI2025_S3_Spain_P%C3%A9rez-Bote_P.pdf">Link</a>'),
+                               <a href="https://unece.org/sites/default/files/2025-05/GenAI2025_S3_Spain_P%C3%A9rez-Bote_P.pdf" target="_blank">Link</a>'),
                         
                         tibble(country = 'Belgium',
                                category = 'Classification',
@@ -228,7 +228,7 @@ real_projects <- bind_rows(
                                proj_label = 'Statistics Netherlands is exploring the use of Large Language Models (LLMs) to classify 
                                free text into statistical concepts. This research aims to understand the potential and risks of LLMs 
                                for responsible usage within the organization. <br>
-                               <a href="https://www.cbs.nl/-/media/_pdf/2025/51/large-language-models-at-cbs.pdf">Link</a>'),
+                               <a href="https://www.cbs.nl/-/media/_pdf/2025/51/large-language-models-at-cbs.pdf" target="_blank">Link</a>'),
                         
                         tibble(country = 'Netherlands',
                                category = 'Dissemination',
@@ -236,7 +236,7 @@ real_projects <- bind_rows(
                                proj_label = 'GECKO, a beta-stage statistical question-answering system uses a knowledge graph to retrieve 
                                precise statistical values from a vast database. It combines data augmentation, entity retrieval, and LLM-powered 
                                query generation, with user feedback mechanisms driving iterative enhancements. 
-                               <a href="https://ebooks.iospress.nl/pdf/doi/10.3233/FAIA241052">Link</a>'),
+                               <a href="https://ebooks.iospress.nl/pdf/doi/10.3233/FAIA241052" target="_blank">Link</a>'),
                         tibble(country = 'Netherlands',
                                category = 'Dissemination',
                                proj_title = 'On the Use of Large Language Models for Question Answering in Official Statistics',
@@ -245,7 +245,7 @@ real_projects <- bind_rows(
                                Netherlands explores Retrieval Augmented Generation (RAG) systems to improve factual accuracy by retrieving 
                                relevant data but acknowledges ongoing risks with large tabular datasets. The work reviews current approaches 
                                and future challenges in developing reliable AI-driven question answering systems for official statistics. <br>
-                               <a href="https://unece.org/sites/default/files/2025-05/GenAI2025_S1_Netherlands_Lageweg_D.pdf">Link</a>'),
+                               <a href="https://unece.org/sites/default/files/2025-05/GenAI2025_S1_Netherlands_Lageweg_D.pdf" target="_blank">Link</a>'),
                         tibble(country = 'Netherlands',
                                category = 'Earth Observation',
                                proj_title = 'Use of AI for built-up area land use mapping: A study on construction sites',
@@ -254,7 +254,7 @@ real_projects <- bind_rows(
                                and SAM for segmentation. The approach achieved ~86% validation accuracy and improved precision by 
                                excluding vegetated areas from misclassification. It offers a scalable, efficient solution for updating 
                                land use datasets in fast-changing urban environments. <br>
-                               <a href="https://cros.ec.europa.eu/system/files/2025-02/Book%20of%20Abstracts%20-%20NTTS%202025%20-%2027.02.25.pdf">Link</a>'),
+                               <a href="https://cros.ec.europa.eu/system/files/2025-02/Book%20of%20Abstracts%20-%20NTTS%202025%20-%2027.02.25.pdf" target="_blank">Link</a>'),
                         
                         tibble(country = 'Norway',
                                category = 'Classification',
@@ -264,7 +264,7 @@ real_projects <- bind_rows(
                                language challenges and OCR-related noise in scanned receipts. Initial results with ChatGPT-4 using a hierarchical 
                                prompting strategy show promising classification accuracy, with further improvements anticipated through richer 
                                data inputs and refined methodologies. <br>
-                               <a href="https://cros.ec.europa.eu/system/files/2025-02/Book%20of%20Abstracts%20-%20NTTS%202025%20-%2027.02.25.pdf">Link</a>'),
+                               <a href="https://cros.ec.europa.eu/system/files/2025-02/Book%20of%20Abstracts%20-%20NTTS%202025%20-%2027.02.25.pdf" target="_blank">Link</a>'),
                         
                         tibble(country = 'Norway',
                                category = 'LLM',
@@ -274,7 +274,7 @@ real_projects <- bind_rows(
                                resources. Use cases span chatbots for user interaction and classification with diverse coding schemes, highlighting 
                                streamlined workflows, cost savings, and strategies for adapting models to linguistic and cultural specifics. 
                                Results and trade-offs are discussed alongside demonstrations of each solution. <br>
-                               <a href="https://unece.org/sites/default/files/2025-05/GenAI2025_S4_Norway_Toth_D.pdf">Link</a>'),
+                               <a href="https://unece.org/sites/default/files/2025-05/GenAI2025_S4_Norway_Toth_D.pdf" target="_blank">Link</a>'),
                         
                         tibble(country = 'Slovenia',
                                category = 'Novel Data Sources',
@@ -284,7 +284,7 @@ real_projects <- bind_rows(
                                used a mix of logistic regression, decision tree, and multilayer perceptron with a Human-in-the-Loop 
                                step for low-confidence predictions. The process improved classification accuracy but revealed the 
                                need for better training data, particularly through manual annotation and class balancing. <br>
-                               <a href="https://cros.ec.europa.eu/system/files/2025-02/Book%20of%20Abstracts%20-%20NTTS%202025%20-%2027.02.25.pdf">Link</a>'),
+                               <a href="https://cros.ec.europa.eu/system/files/2025-02/Book%20of%20Abstracts%20-%20NTTS%202025%20-%2027.02.25.pdf" target="_blank">Link</a>'),
                         
                         tibble(country = 'Sweden',
                                category = 'LLM',
@@ -292,7 +292,7 @@ real_projects <- bind_rows(
                                proj_label = 'This use case explores the application of generative AI to enhance data understanding within 
                                statistical agencies. The objective is to leverage AI to accelerate the transition to new data processing 
                                and analysis methods. <br>
-                               <a href="https://www.scb.se/contentassets/0e274f9c94be42f684a85917508671fd/motessammandrag-maj-2026.pdf">Link</a>'),
+                               <a href="https://www.scb.se/contentassets/0e274f9c94be42f684a85917508671fd/motessammandrag-maj-2026.pdf" target="_blank">Link</a>'),
                         tibble(country = 'Switzerland',
                                category = 'Novel Data Sources',
                                proj_title = 'AI for Climate Finance: Agentic Retrieval and Multi-Step Reasoning for Early Warning System Investments',
@@ -301,7 +301,7 @@ real_projects <- bind_rows(
                                Applied to the CREWS Fund, this system achieved superior performance in multi-label classification and budget 
                                allocation tasks compared to baseline models, offering transparency and explainability. A benchmark dataset 
                                and expert-annotated corpus are also provided to advance AI-driven climate finance tracking research. <br>
-                               <a href="https://unece.org/sites/default/files/2025-05/GenAI2025_S3_Switzerland_Leippold_Vaghefi_D.pdf">Link</a>'),
+                               <a href="https://unece.org/sites/default/files/2025-05/GenAI2025_S3_Switzerland_Leippold_Vaghefi_D.pdf" target="_blank">Link</a>'),
                         tibble(country = 'Switzerland',
                                category = 'Dissemination',
                                proj_title = 'Inlook.ai: The search engine for statistical datasets',
@@ -309,7 +309,7 @@ real_projects <- bind_rows(
                                to deliver trusted, interactive charts, tables, and source references within seconds. It supports detailed 
                                and broad queries in any language, and its new “chart merge” feature enables instant comparison of trends 
                                across different datasets, enhancing data accessibility and user experience. <br>
-                               <a href="https://unece.org/sites/default/files/2025-05/GenAI2025_S1_Private_Inlook_Roznowicz_P.pdf">Link</a>'),
+                               <a href="https://unece.org/sites/default/files/2025-05/GenAI2025_S1_Private_Inlook_Roznowicz_P.pdf" target="_blank">Link</a>'),
                         tibble(country = 'Switzerland',
                                category = 'Dissemination',
                                proj_title = 'Leveraging the power of containerization for easy deployment of LLM-based services',
@@ -318,7 +318,7 @@ real_projects <- bind_rows(
                                utilizing containerized deployments with vLLM and Kubernetes, the project simplifies LLM integration through 
                                Helm charts, exemplified in Onyxia datalab. Open-source resources on GitHub ensure scalability and inclusivity 
                                for organizations adopting generative AI solutions. <br>
-                               <a href="https://unece.org/sites/default/files/2025-05/GenAI2025_S3_Switzerland_Morin_P.pdf">Link</a>'),
+                               <a href="https://unece.org/sites/default/files/2025-05/GenAI2025_S3_Switzerland_Morin_P.pdf" target="_blank">Link</a>'),
                         tibble(country = 'Switzerland',
                                category = 'Classification',
                                proj_title = 'NOGAuto : Implementation and use of a decision support tool for the classification of business activities',
@@ -326,7 +326,7 @@ real_projects <- bind_rows(
                                advanced neural networks and multilingual sentence embeddings. The project tackles language diversity 
                                with translation and data augmentation to improve accuracy and reliability. Performance metrics ensure 
                                trusted use alongside coding experts in production. <br>
-                               <a href="https://unece.org/sites/default/files/2025-04/GenAI2025_Poster_Switzerland_Sulkowski_A.pdf">Link</a>'),
+                               <a href="https://unece.org/sites/default/files/2025-04/GenAI2025_Poster_Switzerland_Sulkowski_A.pdf" target="_blank">Link</a>'),
                         tibble(country = 'Switzerland',
                                category = 'Novel Data Sources',
                                proj_title = 'Project Neo: gaining new economic insights with AI and novel data sources',
@@ -335,7 +335,7 @@ real_projects <- bind_rows(
                                central bank decision-making. By integrating unconventional datasets with traditional macroeconomic 
                                indicators, the project aims to generate innovative insights and forecasts while piloting a framework 
                                adaptable to other countries. <br>
-                               <a href="https://www.bis.org/about/bisih/topics/suptech_regtech/neo.htm">Link</a>'),
+                               <a href="https://www.bis.org/about/bisih/topics/suptech_regtech/neo.htm" target="_blank">Link</a>'),
                         tibble(country = 'Switzerland',
                                category = 'Dissemination',
                                proj_title = 'StatBot.Swiss: Bilingual Open Data Exploration in Natural Language',
@@ -343,7 +343,7 @@ real_projects <- bind_rows(
                                more accessible by converting natural language queries into SQL to retrieve structured responses. 
                                Challenges include handling multilingualism, creating reliable NL-to-SQL datasets, and adapting to 
                                rapidly evolving AI technologies. <br>
-                               <a href="https://arxiv.org/pdf/2406.03170">Link</a>'),
+                               <a href="https://arxiv.org/pdf/2406.03170" target="_blank">Link</a>'),
                         tibble(country = 'United Kingdom',
                                category = 'Classification',
                                proj_title = 'ClassifAI – Exploring the use of Large Language Models (LLMs) to assign free text to commonly used classifications',
@@ -354,7 +354,7 @@ real_projects <- bind_rows(
                                improved flexibility and accuracy. Results show marginal accuracy gains over traditional methods, 
                                especially for nuanced or jargon-heavy text, though practical challenges remain for production 
                                deployment. <br>
-                               <a href='https://datasciencecampus.ons.gov.uk/classifai-exploring-the-use-of-large-language-models-llms-to-assign-free-text-to-commonly-used-classifications/'>Link</a>"),
+                               <a href='https://datasciencecampus.ons.gov.uk/classifai-exploring-the-use-of-large-language-models-llms-to-assign-free-text-to-commonly-used-classifications/' target='_blank'>Link</a>"),
                         tibble(country = 'United Kingdom',
                                category = 'LLM',
                                proj_title = 'How ONS is developing Generative AI to improve quality of survey data for classification purposes',
@@ -364,7 +364,7 @@ real_projects <- bind_rows(
                                suggest follow-up questions for better classification confidence. The tool aims to increase codable responses 
                                and accuracy, with discussions focusing on GenAI implementation, comparability challenges, and quality 
                                assessment in statistical production. <br>
-                               <a href="https://unece.org/sites/default/files/2025-05/GenAI2025_S3_UK_Banks_P.pdf">Link</a>'),
+                               <a href="https://unece.org/sites/default/files/2025-05/GenAI2025_S3_UK_Banks_P.pdf" target="_blank">Link</a>'),
                         tibble(country = 'United Kingdom',
                                category = 'LLM',
                                proj_title = 'Office for National Statistics Embraces Gemini AI to Lead in Ethical and Effective Data Use',
@@ -372,7 +372,7 @@ real_projects <- bind_rows(
                                language model for AI development. This initiative aims to leverage generative AI to enhance productivity, 
                                improve data accuracy, and build public trust in national statistics. A key application is the 'ClassifAI' 
                                tool, which uses Gemini Pro to classify free-text survey responses. <br>
-                               <a href='https://www.techjournal.uk/p/office-for-national-statistics-embraces'>Link</a>"),
+                               <a href='https://www.techjournal.uk/p/office-for-national-statistics-embraces' target='_blank'>Link</a>"),
 
                         tibble(country = 'United Kingdom',
                                category = 'LLM',
@@ -382,7 +382,7 @@ real_projects <- bind_rows(
                                it employs string-matching and LLMs for precise, context-aware extraction of relevant references. This 
                                improves coverage and relevance compared to manual or earlier automated approaches, providing daily reports 
                                to stakeholders for better visibility and use of political discourse. <br>
-                               <a href="https://datasciencecampus.ons.gov.uk/parliai-using-ai-tools-to-monitor-parliamentary-coverage-of-the-ons-across-the-uk/">Link</a>'),
+                               <a href="https://datasciencecampus.ons.gov.uk/parliai-using-ai-tools-to-monitor-parliamentary-coverage-of-the-ons-across-the-uk/" target="_blank">Link</a>'),
                         
                         tibble(country = 'United Kingdom',
                                category = 'Prediction',
@@ -392,7 +392,7 @@ real_projects <- bind_rows(
                                traditional benchmarks, emphasizing the role of macroeconomic predictors during uncertain periods. The 
                                approach leverages advanced architectures, sensitivity analysis, and fine-tuning methods to improve prediction
                                robustness and adapt to the nonlinearities in inflation trends. 
-                               <a href="https://www.bankofengland.co.uk/-/media/boe/files/events/2020/november/modelling-with-big-data-event-livia-paranhos-presentation.pdf">Link</a>'),
+                               <a href="https://www.bankofengland.co.uk/-/media/boe/files/events/2020/november/modelling-with-big-data-event-livia-paranhos-presentation.pdf" target="_blank">Link</a>'),
                         
                         tibble(country = 'United Kingdom',
                                category = 'Dissemination',
@@ -402,6 +402,6 @@ real_projects <- bind_rows(
                                and integrating a generative question-answering (GQA) step, StatsChat retrieves precise responses to user 
                                queries from historical ONS bulletins. The system prioritizes transparency, data security, and ethical 
                                considerations, ensuring it provides paraphrased answers solely from trusted sources. <br>
-                               <a href="https://datasciencecampus.ons.gov.uk/using-large-language-models-llms-to-improve-website-search-experience-with-statschat/">Link</a>'),
+                               <a href="https://datasciencecampus.ons.gov.uk/using-large-language-models-llms-to-improve-website-search-experience-with-statschat/" target="_blank">Link</a>'),
                                                                         
                                                 )
