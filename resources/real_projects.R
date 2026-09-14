@@ -344,7 +344,7 @@ real_projects <- bind_rows(
                                Challenges include handling multilingualism, creating reliable NL-to-SQL datasets, and adapting to 
                                rapidly evolving AI technologies. <br>
                                <a href="https://arxiv.org/pdf/2406.03170">Link</a>'),
-                        tibble(country = 'UK',
+                        tibble(country = 'United Kingdom',
                                category = 'Classification',
                                proj_title = 'ClassifAI – Exploring the use of Large Language Models (LLMs) to assign free text to commonly used classifications',
                                proj_label = "The ClassifAI project explores the application of Retrieval Augmented Generation 
@@ -355,7 +355,7 @@ real_projects <- bind_rows(
                                especially for nuanced or jargon-heavy text, though practical challenges remain for production 
                                deployment. <br>
                                <a href='https://datasciencecampus.ons.gov.uk/classifai-exploring-the-use-of-large-language-models-llms-to-assign-free-text-to-commonly-used-classifications/'>Link</a>"),
-                        tibble(country = 'UK',
+                        tibble(country = 'United Kingdom',
                                category = 'LLM',
                                proj_title = 'How ONS is developing Generative AI to improve quality of survey data for classification purposes',
                                proj_label = 'The Office for National Statistics (ONS) is developing SurveyAssist, an experimental tool 
@@ -365,7 +365,7 @@ real_projects <- bind_rows(
                                and accuracy, with discussions focusing on GenAI implementation, comparability challenges, and quality 
                                assessment in statistical production. <br>
                                <a href="https://unece.org/sites/default/files/2025-05/GenAI2025_S3_UK_Banks_P.pdf">Link</a>'),
-                        tibble(country = 'UK',
+                        tibble(country = 'United Kingdom',
                                category = 'LLM',
                                proj_title = 'Office for National Statistics Embraces Gemini AI to Lead in Ethical and Effective Data Use',
                                proj_label = "The Office for National Statistics (ONS) in the UK is adopting Google's Gemini large 
@@ -374,7 +374,7 @@ real_projects <- bind_rows(
                                tool, which uses Gemini Pro to classify free-text survey responses. <br>
                                <a href='https://www.techjournal.uk/p/office-for-national-statistics-embraces'>Link</a>"),
 
-                        tibble(country = 'UK',
+                        tibble(country = 'United Kingdom',
                                category = 'LLM',
                                proj_title = 'ParliAI – using AI tools to monitor parliamentary coverage of the ONS across the UK',
                                proj_label = 'ParliAI is an AI tool developed by the Data Science Campus to monitor and report parliamentary 
@@ -384,7 +384,7 @@ real_projects <- bind_rows(
                                to stakeholders for better visibility and use of political discourse. <br>
                                <a href="https://datasciencecampus.ons.gov.uk/parliai-using-ai-tools-to-monitor-parliamentary-coverage-of-the-ons-across-the-uk/">Link</a>'),
                         
-                        tibble(country = 'UK',
+                        tibble(country = 'United Kingdom',
                                category = 'Prediction',
                                proj_title = 'Predicting Inflation with Neural Networks',
                                proj_label = 'The study explores forecasting inflation using neural networks, focusing on recurrent models 
@@ -394,7 +394,7 @@ real_projects <- bind_rows(
                                robustness and adapt to the nonlinearities in inflation trends. 
                                <a href="https://www.bankofengland.co.uk/-/media/boe/files/events/2020/november/modelling-with-big-data-event-livia-paranhos-presentation.pdf">Link</a>'),
                         
-                        tibble(country = 'UK',
+                        tibble(country = 'United Kingdom',
                                category = 'Dissemination',
                                proj_title = 'Using large language models (LLMs) to improve website search experience with StatsChat',
                                proj_label = 'StatsChat, developed by the ONS Data Science Campus, uses Large Language Models (LLMs) and 
