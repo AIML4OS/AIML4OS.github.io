@@ -176,13 +176,21 @@ labels_json <- jsonlite::toJSON(setNames(as.list(as.character(aiml_projects_2$pr
 
 pal <- colorFactor(
   palette = c(
-    `LLM` = "#89AAE6",
-    `Classification` = "#3685B5",
-    `Earth Observation` = "#AC80A0"
+    `Classification` = "#669900",
+    `Dissemination`  = "#99cc33",
+    `Earth Observation`  = "#ccee66",
+    `Imputation`  = "#006699",
+    `LLM`  = "#3399cc",
+    `Novel Data Sources` = "#990066",
+    `Prediction` = "#cc3399",
+    `Small area estimation` = "#ff6600",
+    `Web Intelligence`  = "#ff9900",
   ),
   domain = aiml_projects_2$category)
 
 
+
+# #669900, #99cc33, #ccee66, #006699, #3399cc, #990066, #cc3399, #ff6600, #ff9900, #ffcc00
 
 ##################### MAKE LEAFLET
 
