@@ -77,7 +77,7 @@ rm(europe_box)
 
 countries_of_interest <- c("France","Estonia","Serbia","Hungary","Iceland","Lithuania","Belgium","Austria","Denmark","Portugal",
 "Sweden","Poland","Luxembourg","Liechtenstein","Netherlands","Slovenia","Italy","Czechia","Switzerland","Malta","Germany",
-"Norway","Turkey","Spain","Croatia","Cyprus","Ireland")
+"Norway","Turkey","Spain","Croatia","Cyprus","Ireland", "United Kingdom")
 
 # removing from above: "Canada",
 
