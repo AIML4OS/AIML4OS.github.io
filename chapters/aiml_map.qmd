@@ -184,11 +184,9 @@ pal <- colorFactor(
     `Novel Data Sources` = "#990066",
     `Prediction` = "#cc3399",
     `Small area estimation` = "#ff6600",
-    `Web Intelligence`  = "#ff9900",
+    `Web Intelligence`  = "#ff9900"
   ),
   domain = aiml_projects_2$category)
-
-
 
 # #669900, #99cc33, #ccee66, #006699, #3399cc, #990066, #cc3399, #ff6600, #ff9900, #ffcc00
 
