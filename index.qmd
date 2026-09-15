@@ -140,10 +140,6 @@ gsbpm: "5.1" # See complete taxonomy: https://www.unescap.org/sites/default/d8fi
 <a href="https://aiml4os.github.io/funathon-general-website/about.html" target="_blank"><img src="images/news/funathon_news.jpg" class="d-block w-100"></a>
 </div>
 
-<div class="carousel-item">
-<a href="/resources/deliverables/deliverable_12.1.pdf" target="_blank"><img src="images/news/d121_news.jpg" class="d-block w-100"></a>
-</div>
-
 </div>
 
 <button class="carousel-control-prev" type="button"
