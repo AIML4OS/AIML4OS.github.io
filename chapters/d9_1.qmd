@@ -1,0 +1,27 @@
+---
+fomat: 
+  html:
+    theme: cosmo
+---
+
+#  Early Imputation
+
+
+
+This document addresses the methodological outcomes in relation to the final aim of carrying out early estimation by completing the whole set of microdata through imputation. This imputation could be done with different techniques, here we evaluate the use of machine learning techniques. Different projects carried out by the different participants on this WP9 in relation to the research line about early imputation are shown as particular cases.
+
+This document is divided in six chapters. The Chapter~\ref{cha:intro} includes the introduction with a brief background on the used techniques can be read. The Chapter~\ref{cha:projectsDescription} has the descriptions of of the four projects related to early imputation in WP9 (Italy, Germany, Spain and Poland). The Chapter~\ref{cha:prepro} contains all the information and suggestions about the preprocessing of the data including cleaning and feature engineering. The Chapter~\ref{cha:MLprocess} consists of the issues related to model selection: algorithms and hyperparameters to select the best model, train and test steps and model evaluation at micro and macro levels. In the Chapter~\ref{cha:results} the results of each project are included. Finally in the Chapter~\ref{cha:conclusions} and last chapter some conclusions can be found regarding methodological outputs, the production focused strategy and some final remarks. At the end of the document, Appendix~\ref{cha:Appendix} contains the information about the specific regressors built in each project and in Appendix~\ref{cha:AppendixResults} some additional tables with results.
+
+
+## [Introduction](d9_1_intro.qmd)
+
+## Projects Description
+
+## Data preprocessing
+
+## Model Selection Process
+
+## Results 
+
+## Conclusions
+

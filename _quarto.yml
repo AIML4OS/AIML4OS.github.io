@@ -20,6 +20,8 @@ project:
     - chapters/about_project.qmd
     - chapters/project_structure.qmd
     - chapters/aiml_map.qmd
+    - chapters/d9_1.qmd
+    - chapters/d9_1_intro.qmd
 
 
 website:
