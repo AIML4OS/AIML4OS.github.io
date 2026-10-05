@@ -152,6 +152,14 @@ real_projects <- bind_rows(
                                This approach, applied to the national NACE classifier, shows promising results, and ongoing work 
                                suggests pre-trained BERT-like models may outperform fastText for purely synthetic datasets. <br>
                                <a href="https://unece.org/sites/default/files/2025-05/GenAI2025_S3_Spain_P%C3%A9rez-Bote_P.pdf" target="_blank">Link</a>'),
+                        tibble(country = 'Spain',
+                               category = 'Imputation',
+                               proj_title = 'Synthetic LLM-generated texts to train small models for automatic coding',
+                               proj_label = 'The aim of this project is to impute, daily, using the data of the responding units, the whole
+                              sample of the Industrial Turnover Index (ITI) using Statistical Learning Algorithms. The final
+                              objective is to calculate a daily index for the dissemination plan using both the data from the
+                              questionnaires received and the imputations of the non-respondents calculated with ML. <br>
+                               <a href="https://aiml4os.github.io/resources/deliverables/deliverable_9.1.pdf" target="_blank">Link</a>'),
                         
                         tibble(country = 'Belgium',
                                category = 'Classification',
@@ -181,7 +189,6 @@ real_projects <- bind_rows(
                                and large language models. It securely integrates environment variables for LLM access and returns 
                                both the extracted data and image metadata, supporting efficient, automated document analysis. 
                                <a href='https://github.com/InseeFrLab/extraction-comptes-sociaux-llm' target='_blank'>Link</a>"),
-
                         tibble(country = 'France',
                                category = 'LLM',
                                proj_title = 'From NACE 2008 to NACE 2025: Retraining an ML model in production using Large Language Models',
@@ -192,7 +199,6 @@ real_projects <- bind_rows(
                                accuracy, outperforming Retrieval-Augmented Generation (RAG), and enabled rapid, reliable 
                                reclassification while maintaining model stability. <br>
                                <a href="https://inseefrlab.github.io/codif-ape-prez/slides/unece-2025/#/title-slide" target="_blank">Link</a>'),
-                        
                         tibble(country = 'France',
                                category = 'LLM',
                                proj_title = 'LLM Open Data Chatbot',
@@ -211,8 +217,7 @@ real_projects <- bind_rows(
                                engineering, iterative feedback, and structured workflows, the team optimized ChatGPT's 
                                capabilities to handle diverse tasks, including data steps, descriptive statistics, and 
                                complex macros. <br>
-                               <a href='https://my.visme.co/v/z4nodvzv-qzoe99' target='_blank'>Link</a>"),
-                                                
+                               <a href='https://my.visme.co/v/z4nodvzv-qzoe99' target='_blank'>Link</a>"),                
                         tibble(country = 'France',
                                category = 'LLM',
                                proj_title = 'Testing a ML model using synthetic data generated with LLMs',
@@ -255,7 +260,6 @@ real_projects <- bind_rows(
                                free text into statistical concepts. This research aims to understand the potential and risks of LLMs 
                                for responsible usage within the organization. <br>
                                <a href="https://www.cbs.nl/-/media/_pdf/2025/51/large-language-models-at-cbs.pdf" target="_blank">Link</a>'),
-                        
                         tibble(country = 'Netherlands',
                                category = 'Dissemination',
                                proj_title = 'Constrained LLM-Based Query Generation for Question Answering on Official Statistics',
@@ -291,7 +295,6 @@ real_projects <- bind_rows(
                                prompting strategy show promising classification accuracy, with further improvements anticipated through richer 
                                data inputs and refined methodologies. <br>
                                <a href="https://cros.ec.europa.eu/system/files/2025-02/Book%20of%20Abstracts%20-%20NTTS%202025%20-%2027.02.25.pdf" target="_blank">Link</a>'),
-                        
                         tibble(country = 'Norway',
                                category = 'LLM',
                                proj_title = 'Use cases of generative AI at Statistics Norway- solutions, lessons, and organizational impact',
@@ -319,6 +322,16 @@ real_projects <- bind_rows(
                                statistical agencies. The objective is to leverage AI to accelerate the transition to new data processing 
                                and analysis methods. <br>
                                <a href="https://www.scb.se/contentassets/0e274f9c94be42f684a85917508671fd/motessammandrag-maj-2026.pdf" target="_blank">Link</a>'),
+
+                        tibble(country = 'Poland',
+                               category = 'Imputation',
+                               proj_title = 'Early imputation in accommodation establishments',
+                               proj_label = 'The aim of this project is to address challenges in producing reliable statistics for accommodation establishments. 
+                              The focus is on developing flash estimates based on data collected
+                              with varying levels of timeliness. The ultimate goal is to improve the quality of data imputation
+                              models for accommodation establishments. <br>
+                               <a href="https://aiml4os.github.io/resources/deliverables/deliverable_9.1.pdf" target="_blank">Link</a>'),
+  
                         tibble(country = 'Switzerland',
                                category = 'Novel Data Sources',
                                proj_title = 'AI for Climate Finance: Agentic Retrieval and Multi-Step Reasoning for Early Warning System Investments',
