@@ -288,7 +288,7 @@ real_projects <- bind_rows(
                         tibble(country = 'Netherlands',
                                category = 'Novel Data Sources',
                                proj_title = 'Exploration of AI-ML through citizen science approaches',
-                               proj_label = 'The purpose of this deliverable is to explore the impact that recruiting 'citizens' and/or survey participants
+                               proj_label = 'The purpose of this deliverable is to explore the impact that recruiting "citizens" and/or survey participants
                               (human-in-the-loop) can have on increasing the accuracy of AI/ML models. Based on this
                               assumption, we describe and outline strategies to sample and invite citizens in assisting the
                               creation of AI/ML methods. <br>
