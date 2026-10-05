@@ -100,6 +100,19 @@ real_projects <- bind_rows(
                                performance and robustness than classical methods, improving data completeness and accuracy. This research supports 
                                more reliable official statistics for informed, equitable policy decisions. <br>
                                <a href="https://unece.org/sites/default/files/2024-09/SDE2024_S3_Italy_Cafieri_D.pdf" target="_blank">Link</a>'),
+                        tibble(country = 'Italy',
+                               category = 'Imputation',
+                               proj_title = 'Early imputation in school enrollment',
+                               proj_label = 'A high amount of information on education (such as school enrollment and educational
+                                attainment) is available from administrative sources. However, these sources often present
+                                critical aspects related to coverage and timeliness. Regarding the educational level, a procedure
+                                has already been developed, based on the integration of administrative and survey data. The
+                                procedure is currently used for producing census outputs. In this project the production
+                                of estimates on school enrollment, based on the use of administrative sources is studied. In
+                                particular, the case study addresses the issue of timeliness by aiming to predict school enrollment
+                                for year t based on demographic characteristics and longitudinal data on education available
+                                from administrative sources up to year t-1 <br>
+                               <a href="https://aiml4os.github.io/resources/deliverables/deliverable_9.1.pdf" target="_blank">Link</a>'),
                         
                         
                         tibble(country = 'Austria',
@@ -221,6 +234,19 @@ real_projects <- bind_rows(
                                employees with optional restricted access. Training is provided for effective prompt 
                                design, and collaboration is encouraged for shared resources and expertise. <br>
                                <a href="https://unece.github.io/genAI/Resources/GermanCentralBank_2024_06_Comm.pdf" target="_blank">Link</a>'),
+                        tibble(country = 'Germany',
+                               category = 'Imputation',
+                               proj_title = 'Early imputation in the industrial turnover index in Germany',
+                               proj_label = 'The m + 20d project on early imputation in the industrial turnover index, conducted by the
+                              Federal Statistical Office of Germany, aims to accelerate the availability of short-term economic
+                              indicators for the manufacturing sector. To achieve this, microdata-based models are developed,
+                              including statistical imputation techniques as well as machine learning approaches, with the
+                              objective of producing reliable estimates within 15 to 20 days after the end of the reference month.
+                              A major challenge in this context is the high proportion of missing reports at early stages of
+                              data collection: around 50% of reports are not yet available at time m + 15d, and approximately
+                              35% remain missing at m + 20d. Consequently, model-based imputation is essential to compensate 
+                              for incomplete data and to ensure the quality of early estimates.  <br>
+                               <a href="https://aiml4os.github.io/resources/deliverables/deliverable_9.1.pdf" target="_blank">Link</a>'),
                         
                         tibble(country = 'Netherlands',
                                category = 'Classification',
