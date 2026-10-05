@@ -285,6 +285,14 @@ real_projects <- bind_rows(
                                excluding vegetated areas from misclassification. It offers a scalable, efficient solution for updating 
                                land use datasets in fast-changing urban environments. <br>
                                <a href="https://cros.ec.europa.eu/system/files/2025-02/Book%20of%20Abstracts%20-%20NTTS%202025%20-%2027.02.25.pdf" target="_blank">Link</a>'),
+                        tibble(country = 'Netherlands',
+                               category = 'Novel Data Sources',
+                               proj_title = 'Exploration of AI-ML through citizen science approaches',
+                               proj_label = 'The purpose of this deliverable is to explore the impact that recruiting 'citizens' and/or survey participants
+                              (human-in-the-loop) can have on increasing the accuracy of AI/ML models. Based on this
+                              assumption, we describe and outline strategies to sample and invite citizens in assisting the
+                              creation of AI/ML methods. <br>
+                               <a href="https://aiml4os.github.io/resources/deliverables/deliverable_2.1.pdf" target="_blank">Link</a>'),
                         
                         tibble(country = 'Norway',
                                category = 'Classification',
