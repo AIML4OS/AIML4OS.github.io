@@ -339,6 +339,13 @@ real_projects <- bind_rows(
                               with varying levels of timeliness. The ultimate goal is to improve the quality of data imputation
                               models for accommodation establishments. <br>
                                <a href="https://aiml4os.github.io/resources/deliverables/deliverable_9.1.pdf" target="_blank">Link</a>'),
+
+                        tibble(country = 'Portugal',
+                               category = 'Supply Chain Networks',
+                               proj_title = 'Reconstructing firm-level supply chain networks',
+                               proj_label = 'The main outcomes of this WP are AIML-based models and software that each EU NSI could use to derive a firm-level supply chain
+                              network for their national economy, allowing for a range of economic and policy analyses. <br>
+                               <a href="/chapters/supply_chain_networks.qmd" target="_blank">Link</a>'),
   
                         tibble(country = 'Switzerland',
                                category = 'Novel Data Sources',
