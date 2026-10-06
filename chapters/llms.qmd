@@ -21,5 +21,6 @@ Overall, the work package is designed to ensure that the integration and utiliza
 ## Deliverables and Resources
 
 - [**Deliverable 12.1**](../resources/deliverables/deliverable_12.1.pdf){target="_blank"} - Three proof-of-concept prototypes based on pre-existing large language models (LLMs).
-- [GitHub repository with documentation and tutorials for the prototypes.](https://github.com/AIML4OS/WP12/tree/main/wp12_hackathon){target="_blank"}
+- The first hacakthon was held in Lisbon in June 2025. It resulted in three prototypes, with [documentation and tutorials for the prototypes available on this GitHub repository](https://github.com/AIML4OS/WP12/tree/main/wp12_hackathon){target="_blank"}.
+- The second hacakthon was held in Stockholm in June 2026. It also resulted in three prototypes, with [documentation and tutorials for the prototypes available on this GitHub repository](https://github.com/AIML4OS/WP12/tree/main/stockholm_sprint_2026){target="_blank"}.
 
