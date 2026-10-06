@@ -7,6 +7,10 @@ Training will be carried out on the technical aspects of using the platform. In 
 
 We will collaborate closely with the other Work Packages. Training materials will range from topics for beginners to state-of-the-art solutions, following best practices and standards. This work package will promote use cases by arranging workshops and other training as required.
 
+## Funathon
+
+In May 2026, workpackage 6 facilitated a non-competitive hackathon (funathon), which gave statisticians an opportunity to learn and apply AI/ML methods in a collaborative and supportive environment. A [dedicated website](https://aiml4os.github.io/funathon-general-website/){target="_blank"} was developed to guide participants through the setup and running of the event. 
+
 ## Resources
 
 
