@@ -70,6 +70,8 @@ We produce a regular newsletter with updates on the AIML4OS project, including e
 - <a href="https://cros.ec.europa.eu/system/files/2025-07/4.NEWSLETTER%20AIML4OS.pdf" target="_blank">Newsletter number four</a> reports on an in-person meeting of WP12, more details on WP10, as well as a template for training materials.
 - <a href="https://cros.ec.europa.eu/system/files/2025-11/5.NEWSLETTER%20AIML4OS.pdf" target="_blank">Our fifth newsletter</a> has details on a deliverable on citizen-in-the-loop, news on text classification, and progress on reconstruction of supply-chain networks.
 - <a href="/resources/newsletters/newsletter_6.pdf" target="_blank">The sixth newsletter</a> has details on a deliverable on citizen-in-the-loop, news on text classification, and progress on reconstruction of supply-chain networks.
+- <a href=https://cros.ec.europa.eu/system/files/2026-09/7.NEWSLETTER%20AIML4OS%20SEPT%202026.pdf" target="_blank">Our seventh newsletter</a> covers our in-person meeting in Sibenik, the Funathon held in May, and an in-person meeting of WP12.
+
 
 </details>
 <!-- </div> -->
