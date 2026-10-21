@@ -64,11 +64,11 @@ We produce a regular newsletter with updates on the AIML4OS project, including e
 <!-- <button type="button" class="media-collapsible">Show list of AIML4OS Newsletters</button> -->
 <!--   <div class="media-content"> -->
 
-- <a href="https://cros.ec.europa.eu/system/files/2025-03/1.NEWSLETTER%20AIML4OS.pdf" target="_blank">Our first newsletter</a>, highlighting the project launch, upcoming datalab presentation, and planned participation at NTTS 2025.
-- <a href="https://cros.ec.europa.eu/system/files/2024-12/2.NEWSLETTER%20AIML4OS.pdf" target="_blank">The second newsletter</a> has info on three in-person meetings that took place, as well as more details on individual workpackages.
-- <a href="https://cros.ec.europa.eu/system/files/2025-05/3.NEWSLETTER%20AIML4OS.pdf" target="_blank">Our third newsletter</a> was released after the first year of the project. It looked at plans across all of the workpackages, as well as an update following NTTS 2025.
-- <a href="https://cros.ec.europa.eu/system/files/2025-07/4.NEWSLETTER%20AIML4OS.pdf" target="_blank">Newsletter number four</a> reports on an in-person meeting of WP12, more details on WP10, as well as a template for training materials.
-- <a href="https://cros.ec.europa.eu/system/files/2025-11/5.NEWSLETTER%20AIML4OS.pdf" target="_blank">Our fifth newsletter</a> has details on a deliverable on citizen-in-the-loop, news on text classification, and progress on reconstruction of supply-chain networks.
+- <a href="/resources/newsletters/newsletter_1.pdf" target="_blank">Our first newsletter</a>, highlighting the project launch, upcoming datalab presentation, and planned participation at NTTS 2025.
+- <a href="/resources/newsletters/newsletter_2.pdf" target="_blank">The second newsletter</a> has info on three in-person meetings that took place, as well as more details on individual workpackages.
+- <a href="/resources/newsletters/newsletter_3.pdf" target="_blank">Our third newsletter</a> was released after the first year of the project. It looked at plans across all of the workpackages, as well as an update following NTTS 2025.
+- <a href="/resources/newsletters/newsletter_4.pdf" target="_blank">Newsletter number four</a> reports on an in-person meeting of WP12, more details on WP10, as well as a template for training materials.
+- <a href="/resources/newsletters/newsletter_5.pdf" target="_blank">Our fifth newsletter</a> has details on a deliverable on citizen-in-the-loop, news on text classification, and progress on reconstruction of supply-chain networks.
 - <a href="/resources/newsletters/newsletter_6.pdf" target="_blank">The sixth newsletter</a> has details on a deliverable on citizen-in-the-loop, news on text classification, and progress on reconstruction of supply-chain networks.
 - <a href="/resources/newsletters/newsletter_7.pdf" target="_blank">Our seventh newsletter</a> covers our in-person meeting in Sibenik, the Funathon held in May, and an in-person meeting of WP12.
 
