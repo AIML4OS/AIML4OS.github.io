@@ -12,3 +12,7 @@ We are committed to fostering a collaborative environment where team members wit
 As we conclude our efforts in WP13, we aim to synthesize our findings and provide insights into the practicality and effectiveness of synthetic data in enhancing the privacy and security of statistical outputs. This will be crucial in determining the viability of synthetic data techniques in the broader context of official statistics.
 
 The main results of the WP will be shared through publications and conference presentations to disseminate the knowledge gained and encourage further research and development.
+
+## Completed deliverables
+
+- [**Deliverable 13.1**](../resources/deliverables/deliverable_13.1.pdf){target="_blank"} - Proof of concept projects demonstrating use of AI for generating synthetic datasets.
