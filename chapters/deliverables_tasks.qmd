@@ -13,7 +13,7 @@ fomat:
 - [**Deliverable 4.1**](../resources/deliverables/deliverable_4.1.pdf){target="_blank"} - A comprehensive overview of the current situation of the use of AI/ML in the ESS.
 - [**Deliverable 7.1**](../resources/deliverables/deliverable_7.1.pdf){target="_blank"} - A report on two AI models using earth observation data, and an investigation of their generalisability to different countries and timeframes. 
 - [**Deliverable 11.2**](../resources/deliverables/deliverable_11.2.pdf){target="_blank"} - Report describing the model specifications for reconstructing firm-level supply chain networks.
-
+- [**Deliverable 13.1*](../resources/deliverables/deliverable_13.1.pdf){target="_blank"} - Proof of concept projects demonstrating use of AI for generating synthetic datasets.
 
 
 ## List of Project Deliverables
