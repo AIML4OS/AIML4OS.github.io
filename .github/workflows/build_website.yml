@@ -42,7 +42,10 @@ jobs:
             libgdal-dev \
             libudunits2-dev \
             proj-bin \
-            libproj-dev
+            libproj-dev \
+            libgeos-dev \
+            libsqlite3-dev \
+            libtbb-dev
         
       # Step 4: Install R dependencies
       - name: Install R dependencies using renv
