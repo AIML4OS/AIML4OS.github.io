@@ -31,10 +31,10 @@ We had over 20 presentations at the [European Conference on Quality in Official 
 
 [**Session 31, Friday, 09:00**](https://www.q2026.hr/programme/conference-programme/session-31/){target="_blank"} 
 
-- Landscape of Text Classification with Machine Learning in Official Statistics: Experiences from the AIML4OS Project (WP10) - [Slides]("/resources/q2026/q2026-31-1.pdf") - [Paper](https://www.q2026.hr/media/in5d1qb3/paper_landscape_text_classification_88.pdf){target="_blank"}
-- Automatic Coding in Official Statistics: Enhancing Quality Assurance of the Machine Learning Workflow (WP10) - [Slides]("/resources/q2026/q2026-31-2.pdf") - [Paper](https://www.q2026.hr/media/4jilcpgw/103_q2026_automatic_coding.pdf){target="_blank"}
-- Measuring Quality of Real and Synthetic Generated Data for Training Statistical Classification Coders (WP10) - [Slides]("/resources/q2026/q2026-31-3.pdf") - [Paper](https://www.q2026.hr/media/disoord4/measuring-quality-of-real-and-synthetic-generated-data-for-training-statistical-classification-coders.pdf){target="_blank"} 
-- Using ML and LLMs for NACE Classification (WP10) - [Slides]("/resources/q2026/q2026-31-4.pdf")
+- Landscape of Text Classification with Machine Learning in Official Statistics: Experiences from the AIML4OS Project (WP10) - [Slides](/resources/q2026/q2026-31-1.pdf) - [Paper](https://www.q2026.hr/media/in5d1qb3/paper_landscape_text_classification_88.pdf){target="_blank"}
+- Automatic Coding in Official Statistics: Enhancing Quality Assurance of the Machine Learning Workflow (WP10) - [Slides](/resources/q2026/q2026-31-2.pdf) - [Paper](https://www.q2026.hr/media/4jilcpgw/103_q2026_automatic_coding.pdf){target="_blank"}
+- Measuring Quality of Real and Synthetic Generated Data for Training Statistical Classification Coders (WP10) - [Slides](/resources/q2026/q2026-31-3.pdf) - [Paper](https://www.q2026.hr/media/disoord4/measuring-quality-of-real-and-synthetic-generated-data-for-training-statistical-classification-coders.pdf){target="_blank"} 
+- Using ML and LLMs for NACE Classification (WP10) - [Slides](/resources/q2026/q2026-31-4.pdf)
 
 
 [**Speed Talk Session 3, Wednesday, 13:15**](https://www.q2026.hr/programme/conference-programme/speed-talk-session-3/){target="_blank"}
