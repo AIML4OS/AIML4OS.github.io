@@ -332,7 +332,7 @@
     "href": "chapters/deliverables_tasks.html",
     "title": "AIML4OS",
     "section": "",
-    "text": "Communication D2.1 - Exploration of AI-ML through citizen science approaches.\nSupply Chain Networks D11.1 - Report describing the training and test sets.\nLLMs D12.1 - Three proof-of-concept prototypes based on pre-existing large language models (LLMs).\nImputation D9.1 - Methodological aspects for early imputation in the production of official statistics.\nEcosystem Monitoring D4.1 - A comprehensive overview of the current situation of the use of AI/ML in the ESS.\nEarth Observation D7.1 - A report on two AI models using earth observation data, and an investigation of their generalisability to different countries and timeframes.\nSupply Chain Networks D11.2 - Report describing the model specifications for reconstructing firm-level supply chain networks.\nSynthetic Data D13.1 - Proof of concept projects demonstrating use of AI for generating synthetic datasets.\nCommunication D2.2 - Recommendations for implementing human-in-the-loop for smart survey AI/ML.\nImputation D9.2 - Methodological aspects from use cases in Machine Learning techniques for post-collection imputation in the production of official statistics.\nLLMs D12.2 - Three more proof-of-concept prototypes based on pre-existing large language models (LLMs).",
+    "text": "Communication D2.1 - Exploration of AI-ML through citizen science approaches.\nCommunication D2.2 - Recommendations for implementing human-in-the-loop for smart survey AI/ML.\n\n\n\n\n\nEcosystem Monitoring D4.1 - A comprehensive overview of the current situation of the use of AI/ML in the ESS.\n\n\n\n\n\nEarth Observation D7.1 - A report on two AI models using earth observation data, and an investigation of their generalisability to different countries and timeframes.\n\n\n\n\n\nImputation D9.1 - Methodological aspects for early imputation in the production of official statistics.\nImputation D9.2 - Methodological aspects from use cases in Machine Learning techniques for post-collection imputation in the production of official statistics.\n\n\n\n\n\nSupply Chain Networks D11.1 - Report describing the training and test sets.\nSupply Chain Networks D11.2 - Report describing the model specifications for reconstructing firm-level supply chain networks.\n\n\n\n\n\nLLMs D12.1 - Three proof-of-concept prototypes based on pre-existing large language models (LLMs).\nLLMs D12.2 - Three more proof-of-concept prototypes based on pre-existing large language models (LLMs).\n\n\n\n\n\nSynthetic Data D13.1 - Proof of concept projects demonstrating use of AI for generating synthetic datasets.",
     "crumbs": [
       "Deliverables & Tasks"
     ]
@@ -342,17 +342,17 @@
     "href": "chapters/deliverables_tasks.html#completed-deliverables",
     "title": "AIML4OS",
     "section": "",
-    "text": "Communication D2.1 - Exploration of AI-ML through citizen science approaches.\nSupply Chain Networks D11.1 - Report describing the training and test sets.\nLLMs D12.1 - Three proof-of-concept prototypes based on pre-existing large language models (LLMs).\nImputation D9.1 - Methodological aspects for early imputation in the production of official statistics.\nEcosystem Monitoring D4.1 - A comprehensive overview of the current situation of the use of AI/ML in the ESS.\nEarth Observation D7.1 - A report on two AI models using earth observation data, and an investigation of their generalisability to different countries and timeframes.\nSupply Chain Networks D11.2 - Report describing the model specifications for reconstructing firm-level supply chain networks.\nSynthetic Data D13.1 - Proof of concept projects demonstrating use of AI for generating synthetic datasets.\nCommunication D2.2 - Recommendations for implementing human-in-the-loop for smart survey AI/ML.\nImputation D9.2 - Methodological aspects from use cases in Machine Learning techniques for post-collection imputation in the production of official statistics.\nLLMs D12.2 - Three more proof-of-concept prototypes based on pre-existing large language models (LLMs).",
+    "text": "Communication D2.1 - Exploration of AI-ML through citizen science approaches.\nCommunication D2.2 - Recommendations for implementing human-in-the-loop for smart survey AI/ML.\n\n\n\n\n\nEcosystem Monitoring D4.1 - A comprehensive overview of the current situation of the use of AI/ML in the ESS.\n\n\n\n\n\nEarth Observation D7.1 - A report on two AI models using earth observation data, and an investigation of their generalisability to different countries and timeframes.\n\n\n\n\n\nImputation D9.1 - Methodological aspects for early imputation in the production of official statistics.\nImputation D9.2 - Methodological aspects from use cases in Machine Learning techniques for post-collection imputation in the production of official statistics.\n\n\n\n\n\nSupply Chain Networks D11.1 - Report describing the training and test sets.\nSupply Chain Networks D11.2 - Report describing the model specifications for reconstructing firm-level supply chain networks.\n\n\n\n\n\nLLMs D12.1 - Three proof-of-concept prototypes based on pre-existing large language models (LLMs).\nLLMs D12.2 - Three more proof-of-concept prototypes based on pre-existing large language models (LLMs).\n\n\n\n\n\nSynthetic Data D13.1 - Proof of concept projects demonstrating use of AI for generating synthetic datasets.",
     "crumbs": [
       "Deliverables & Tasks"
     ]
   },
   {
-    "objectID": "chapters/deliverables_tasks.html#list-of-project-deliverables",
-    "href": "chapters/deliverables_tasks.html#list-of-project-deliverables",
+    "objectID": "chapters/deliverables_tasks.html#full-list-of-project-deliverables",
+    "href": "chapters/deliverables_tasks.html#full-list-of-project-deliverables",
     "title": "AIML4OS",
-    "section": "List of Project Deliverables",
-    "text": "List of Project Deliverables\nSee interactive deliverable tracker here",
+    "section": "Full List of Project Deliverables",
+    "text": "Full List of Project Deliverables\nSee interactive deliverable tracker here",
     "crumbs": [
       "Deliverables & Tasks"
     ]
