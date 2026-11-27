@@ -16,3 +16,4 @@ In essence, WP2 serves as the linchpin for communication, collaboration, and kno
 ## Completed deliverables
 
 - [**Deliverable 2.1**](../resources/deliverables/deliverable_2.1.pdf){target="_blank"} - Exploration of AI-ML through citizen science approaches.
+- [**Deliverable 2.2**](../resources/deliverables/deliverable_2.2.pdf){target="_blank"} - Recommendations for implementing human-in-the-loop for smart survey AI/ML.
